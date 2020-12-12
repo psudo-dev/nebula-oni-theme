@@ -83,7 +83,7 @@ _<div align="left"> (Main Color: Sakura / Background: Glacial Blue) </div>_
 
 There are a lot of small details and **visual hints** that can make your life a lot easier when interacting with an interface. So I've tried my best to combine them together and enhance the **UX/UI** of the **Visual Studio Code**.
 
-I hope you like it and give it a try! For more info, check [Oni UI's page](https://github.com/psudo-dev/nebula-oni-theme/blob/main/README/ONI-UI.md)
+I hope you like it and give it a try! For more info, check [Oni UI's page](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/ONI-UI.md)
 
 ### Main Colors <!-- omit in toc -->
 
@@ -209,7 +209,7 @@ _<div align="left"> (Main Color: Mint / Background: Dark Grey) </div>_
 
 I tried to select colors that are easy to read but it's still compatible with terminal customizations like **ZSH shell**.
 
-For more information on how to customized it, check [VSCode Customization's page](https://github.com/psudo-dev/nebula-oni-theme/blob/main/README/CUSTOMIZATION.md).
+For more information on how to customized it, check [VSCode Customization's page](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/CUSTOMIZATION.md).
 
 ![Terminal](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/terminal.png)
 
@@ -217,7 +217,7 @@ For more information on how to customized it, check [VSCode Customization's page
 
 ## Extensions
 
-I've customized extensions that are color-related, so if someone would like colors that match the `Nebula Syntax` colors, I'm sharing my settings for these **[Extensions](https://github.com/psudo-dev/nebula-oni-theme/blob/main/README/EXTENSIONS.md)**.
+I've customized extensions that are color-related, so if someone would like colors that match the `Nebula Syntax` colors, I'm sharing my settings for these **[Extensions](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/EXTENSIONS.md)**.
 
 ### Better Comments <!-- omit in toc -->
 
@@ -231,16 +231,16 @@ I've customized extensions that are color-related, so if someone would like colo
 
 ## VSCode Customization
 
-If you want more information on how to customize your **Oni UI** and **Nebula Syntax**, I made this [quick guide](https://github.com/psudo-dev/nebula-oni-theme/blob/main/README/CUSTOMIZATION.md) with the basics to customize the workbench and the syntax.
+If you want more information on how to customize your **Oni UI** and **Nebula Syntax**, I made this [quick guide](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/CUSTOMIZATION.md) with the basics to customize the workbench and the syntax.
 
 [<div align="right">⬆</div>](#table-of-contents)
 
 ## More Info <!-- omit in toc -->
 
--  [Oni UI](https://github.com/psudo-dev/nebula-oni-theme/blob/main/README/ONI-UI.md)
--  [Nebula Syntax](https://github.com/psudo-dev/nebula-oni-theme/blob/main/README/SYNTAX.md)
--  [Extensions](https://github.com/psudo-dev/nebula-oni-theme/blob/main/README/EXTENSIONS.md)
--  [VSCode Customization](https://github.com/psudo-dev/nebula-oni-theme/blob/main/README/CUSTOMIZATION.md)
+-  [Oni UI](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/ONI-UI.md)
+-  [Nebula Syntax](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/SYNTAX.md)
+-  [Extensions](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/EXTENSIONS.md)
+-  [VSCode Customization](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/CUSTOMIZATION.md)
 
 ## Release History
 
