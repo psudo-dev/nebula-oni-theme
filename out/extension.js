@@ -7,6 +7,7 @@ const {
 } = require("../src/_make-theme/_make-theme")
 
 const {
+	markdownFile,
 	themeMenuName
 } = require("../data/theme-names")
 
@@ -37,7 +38,6 @@ const {
 	dataDir,
 	dataFileName,
 	fileMessage,
-	markdownFile,
 	noFile,
 } = require("../src/vscode/theme-control")
 
