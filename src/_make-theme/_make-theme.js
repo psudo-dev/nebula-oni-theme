@@ -78,25 +78,25 @@ module.exports = {
 }
 
 // < Theme
-	// const nebulaTheme = {
-	// 	background: "Grey",
-	// 	main: "Bumblebee",
-	// 	highlight: "Ultra Violet",
-	// 	focusBorder: "OFF",
-	// 	fontStyle: "Italic",
-	// 	comments: "Dark Violet",
-	// 	favorite: `${themeTextName} (${nameOptions.option_2})`
-	// }
-	// new Theme(nebulaTheme).allThemes()
+// const nebulaTheme = {
+// 	background: "Grey",
+// 	main: "Bumblebee",
+// 	highlight: "Ultra Violet",
+// 	focusBorder: "ON",
+// 	fontStyle: "Italic",
+// 	comments: "Dark Violet",
+// 	favorite: "OFF",
+// }
+// new Theme(nebulaTheme).allThemes()
 
 // const nebulaFav = {
 // 	background: "Glacial Blue",
 // 	main: "Sakura",
 // 	highlight: "Ultra Violet",
-// 	focusBorder: "OFF",
+// 	focusBorder: "ON",
 // 	fontStyle: "Italic",
 // 	comments: "Dark Magenta",
-// 	favorite: `${themeTextName} (${nameOptions.option_2})`
+// 	favorite: `${themeTextName} (${nameOptions.option_2})`,
 // }
 // new Theme(nebulaFav).favoriteTheme()
 
