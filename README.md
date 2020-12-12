@@ -280,4 +280,4 @@ Thanks,
 
 ## License
 
--  [Apache 2.0](./LICENSE.md)
+-  [Apache 2.0](https://github.com/psudo-dev/nebula-oni-theme/blob/main/LICENSE.md)
