@@ -221,11 +221,11 @@ I've customized extensions that are color-related, so if someone would like colo
 
 ### Better Comments <!-- omit in toc -->
 
-![Better Comments Customization](./doc/extra/extensions-better_comments.png)
+![Better Comments Customization](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/extra/extensions-better_comments.png)
 
 ### Bracket Pair Colorizer and Indent Rainbow <!-- omit in toc -->
 
-![Bracket Pair Colorizer Customization](./doc/extra/extensions-bracket_pair-indent_rainbow.png)
+![Bracket Pair Colorizer Customization](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/extra/extensions-bracket_pair-indent_rainbow.png)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
