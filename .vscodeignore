@@ -5,8 +5,6 @@
 **/.eslintrc.json
 **/*.map
 **/jsconfig.json
-doc/extra/**
-doc/oni-ui/**
-doc/syntax/**
+doc/**
 node_modules/**
 test/**
