@@ -53,7 +53,7 @@ This started as a simple Atom's [One Dark Syntax](https://github.com/atom/one-da
 
 > A completely different theme with **multiple UI options** and a **new Syntax** that has nothing to do with the original project.
 
-### Spread Nebula Oni across the Outer Space <!-- omit in toc -->
+### Spread Nebula Oni Theme across the Outer Space <!-- omit in toc -->
 
 If you liked this theme and you want to support it, you can do simple things like:
 
