@@ -1,19 +1,19 @@
-![Nebula Oni Logo](./README/nebula_oni_logo.png)
+![Nebula Oni Logo](./doc/nebula_oni_logo.png)
 
 ### Table of Contents
 
-- [Nebula Oni Theme](#nebula-oni-theme)
-- [Nebula Oni » Theme Options](#nebula-oni--theme-options)
-- [Oni UI](#oni-ui)
-- [Nebula Syntax](#nebula-syntax)
-- [Theme Features](#theme-features)
-- [Extensions](#extensions)
-- [VSCode Customization](#vscode-customization)
-- [Release History](#release-history)
-- [Issues and Suggestions](#issues-and-suggestions)
-- [References and Links](#references-and-links)
-- [Author](#author)
-- [License](#license)
+-  [Nebula Oni Theme](#nebula-oni-theme)
+-  [Nebula Oni » Theme Options](#nebula-oni--theme-options)
+-  [Oni UI](#oni-ui)
+-  [Nebula Syntax](#nebula-syntax)
+-  [Theme Features](#theme-features)
+-  [Extensions](#extensions)
+-  [VSCode Customization](#vscode-customization)
+-  [Release History](#release-history)
+-  [Issues and Suggestions](#issues-and-suggestions)
+-  [References and Links](#references-and-links)
+-  [Author](#author)
+-  [License](#license)
 
 ## Description <!-- omit in toc -->
 
@@ -23,27 +23,27 @@ This theme has a lot of different options for the **main color**, **background**
 
 _<div align="left"> (Syntax: Hourglass / Background: Grey) </div>_
 
-![Nebula Syntax - Hourglass - Typescript](./README/syntax/example_1.png)
+![Nebula Syntax - Hourglass - Typescript](./doc/syntax/example_1.png)
 
 _<div align="left"> (Syntax: Pegasus / Background: Purple) </div>_
 
-![Nebula Syntax - Pegasus - Typescript](./README/syntax/example_2.png)
+![Nebula Syntax - Pegasus - Typescript](./doc/syntax/example_2.png)
 
 _<div align="left"> (Syntax: Spirograph / Background: Dark Grey) </div>_
 
-![Nebula Syntax - Spirograph - Typescript](./README/syntax/example_3.png)
+![Nebula Syntax - Spirograph - Typescript](./doc/syntax/example_3.png)
 
 _<div align="left"> (Syntax: Cerberus / Background: Blue) </div>_
 
-![Nebula Syntax - Cerberus - Typescript](./README/syntax/example_4.png)
+![Nebula Syntax - Cerberus - Typescript](./doc/syntax/example_4.png)
 
 _<div align="left"> (Main Color: Bumblebee / Background: Grey) </div>_
 
-![Oni UI Menu](./README/oni-ui/window_1.png)
+![Oni UI Menu](./doc/oni-ui/window_1.png)
 
 _<div align="left"> (Main Color: Peach / Background: Blue) </div>_
 
-![Oni UI Menu](./README/oni-ui/window_2.png)
+![Oni UI Menu](./doc/oni-ui/window_2.png)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -75,7 +75,7 @@ And it's all easily customizable through the **Nebula Oni Menu**!
 
 _<div align="left"> (Main Color: Sakura / Background: Glacial Blue) </div>_
 
-![Nebula Oni Menu](./README/oni-ui/menu.png)
+![Nebula Oni Menu](./doc/oni-ui/menu.png)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -83,15 +83,15 @@ _<div align="left"> (Main Color: Sakura / Background: Glacial Blue) </div>_
 
 There are a lot of small details and **visual hints** that can make your life a lot easier when interacting with an interface. So I've tried my best to combine them together and enhance the **UX/UI** of the **Visual Studio Code**.
 
-I hope you like it and give it a try! For more info, check [Oni UI's page](./README/ONI-UI.md)
+I hope you like it and give it a try! For more info, check [Oni UI's page](./doc/ONI-UI.md)
 
 ### Main Colors <!-- omit in toc -->
 
-![Oni UI Main Colors](./README/oni-ui/main_1.png)
+![Oni UI Main Colors](./doc/oni-ui/main_1.png)
 
 ### Background Colors <!-- omit in toc -->
 
-![Oni UI Background Colors](./README/oni-ui/bg_colors.png)
+![Oni UI Background Colors](./doc/oni-ui/bg_colors.png)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -103,23 +103,23 @@ There are **four** different color schemes for **Nebula Syntax**. Each one has a
 
 #### Hourglass (Javascript) <!-- omit in toc -->
 
-![Nebula Syntax - Hourglass](./README/syntax/example_hourglass_js.png)
+![Nebula Syntax - Hourglass](./doc/syntax/example_hourglass_js.png)
 
 #### Pegasus (JSON) <!-- omit in toc -->
 
 \*_Color Schemes_ for _JSON_ are split into pairs (_Hourglass/Spirograph_ and _Pegasus/Cerberus_)
 
-![Nebula Syntax - Pegasus](./README/syntax/example_pegasus_json.png)
+![Nebula Syntax - Pegasus](./doc/syntax/example_pegasus_json.png)
 
 #### Spirograph (Markdown) <!-- omit in toc -->
 
 \*_Markdown_ is the same for all _Color Schemes_
 
-![Nebula Syntax - Spirograph](./README/syntax/example_spirograph_md.png)
+![Nebula Syntax - Spirograph](./doc/syntax/example_spirograph_md.png)
 
 #### Cerberus (HTML) <!-- omit in toc -->
 
-![Nebula Syntax - Cerberus](./README/syntax/example_cerberus_html.png)
+![Nebula Syntax - Cerberus](./doc/syntax/example_cerberus_html.png)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -135,11 +135,11 @@ For those that might not be onboard with the **Violet** selection, there is a **
 
 #### Ultra Violet <!-- omit in toc -->
 
-![Ultra  Violet Highlight](./README/oni-ui/highlight_ultra_violet.gif)
+![Ultra  Violet Highlight](./doc/oni-ui/highlight_ultra_violet.gif)
 
 #### Clear <!-- omit in toc -->
 
-![Ultra  Violet Highlight](./README/oni-ui/highlight_clear.gif)
+![Ultra  Violet Highlight](./doc/oni-ui/highlight_clear.gif)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -149,7 +149,7 @@ It's a **border** that appears on mouse clicks and through keyboard navigation. 
 
 _<div align="left"> (Main Color: Aqua / Background: Purple) </div>_
 
-![Focus Border Example](./README/oni-ui/focus_border.gif)
+![Focus Border Example](./doc/oni-ui/focus_border.gif)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -163,7 +163,7 @@ For now you have less fine tuning with **Semantic Highlight**, but it helps you 
 
 There are 4 colors for comments, the standard **grey**, but also **violet**, **magenta** and **forest**, each of the colors have a lighter and a darker version, for a total of **8 options**.
 
-![Comments Colors](./README/syntax/comments.png)
+![Comments Colors](./doc/syntax/comments.png)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -177,13 +177,13 @@ The selection in focus is a bright white text so it doesn't interfere with **Git
 
 _<div align="left"> (Main Color: Lavender / Background: Dark Grey) </div>_
 
-![Side Bar](./README/oni-ui/sidebar.gif)
+![Side Bar](./doc/oni-ui/sidebar.gif)
 
 ### Command Palette <!-- omit in toc -->
 
 _<div align="left"> (Main Color: Sakura / Background: Glacial Blue) </div>_
 
-![Side Bar](./README/oni-ui/command_palette.gif)
+![Side Bar](./doc/oni-ui/command_palette.gif)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -191,7 +191,7 @@ _<div align="left"> (Main Color: Sakura / Background: Glacial Blue) </div>_
 
 These colors are used across the **mini map**, **editor gutter**, **notifications**, **git decorations** and **warnings** so users can easily identify what's going on in a glimpse.
 
-![Oni UI - Info Colors](./README/oni-ui/info.png)
+![Oni UI - Info Colors](./doc/oni-ui/info.png)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -201,7 +201,7 @@ The **Tabs** have different background colors, border and text so it's easier fo
 
 _<div align="left"> (Main Color: Mint / Background: Dark Grey) </div>_
 
-![Tab](./README/oni-ui/tabs.gif)
+![Tab](./doc/oni-ui/tabs.gif)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -209,38 +209,38 @@ _<div align="left"> (Main Color: Mint / Background: Dark Grey) </div>_
 
 I tried to select colors that are easy to read but it's still compatible with terminal customizations like **ZSH shell**.
 
-For more information on how to customized it, check [VSCode Customization's page](./README/CUSTOMIZATION.md).
+For more information on how to customized it, check [VSCode Customization's page](./doc/CUSTOMIZATION.md).
 
-![Terminal](./README/oni-ui/terminal.png)
+![Terminal](./doc/oni-ui/terminal.png)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
 ## Extensions
 
-I've customized extensions that are color-related, so if someone would like colors that match the `Nebula Syntax` colors, I'm sharing my settings for these **[Extensions](./README/EXTENSIONS.md)**.
+I've customized extensions that are color-related, so if someone would like colors that match the `Nebula Syntax` colors, I'm sharing my settings for these **[Extensions](./doc/EXTENSIONS.md)**.
 
 ### Better Comments <!-- omit in toc -->
 
-![Better Comments Customization](./README/extra/extensions-better_comments.png)
+![Better Comments Customization](./doc/extra/extensions-better_comments.png)
 
 ### Bracket Pair Colorizer and Indent Rainbow <!-- omit in toc -->
 
-![Bracket Pair Colorizer Customization](./README/extra/extensions-bracket_pair-indent_rainbow.png)
+![Bracket Pair Colorizer Customization](./doc/extra/extensions-bracket_pair-indent_rainbow.png)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
 ## VSCode Customization
 
-If you want more information on how to customize your **Oni UI** and **Nebula Syntax**, I made this [quick guide](./README/CUSTOMIZATION.md) with the basics to customize the workbench and the syntax.
+If you want more information on how to customize your **Oni UI** and **Nebula Syntax**, I made this [quick guide](./doc/CUSTOMIZATION.md) with the basics to customize the workbench and the syntax.
 
 [<div align="right">⬆</div>](#table-of-contents)
 
 ## More Info <!-- omit in toc -->
 
--  [Oni UI](./README/ONI-UI.md)
--  [Nebula Syntax](./README/SYNTAX.md)
--  [Extensions](./README/EXTENSIONS.md)
--  [VSCode Customization](./README/CUSTOMIZATION.md)
+-  [Oni UI](./doc/ONI-UI.md)
+-  [Nebula Syntax](./doc/SYNTAX.md)
+-  [Extensions](./doc/EXTENSIONS.md)
+-  [VSCode Customization](./doc/CUSTOMIZATION.md)
 
 ## Release History
 
@@ -278,4 +278,4 @@ Thanks,
 
 ## License
 
--  [Apache 2.0](./README/LICENSE.md)
+-  [Apache 2.0](./LICENSE.md)

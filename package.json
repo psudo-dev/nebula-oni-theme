@@ -174,7 +174,7 @@
 			}
 		]
 	},
-	"icon": "README/icon.png",
+	"icon": "./icon.png",
 	"galleryBanner": {
 		"color": "#33373D",
 		"theme": "dark"
