@@ -1,0 +1,4 @@
+
+*.vsix
+**/.eslintrc.json
+**/jsconfig.json
