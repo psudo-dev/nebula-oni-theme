@@ -58,8 +58,8 @@ This started as a simple Atom's [One Dark Syntax](https://github.com/atom/one-da
 If you liked this theme and you want to support it, you can do simple things like:
 
 -  **sharing** this theme with friends and colleagues
--  **rating** it on Visual Studio Code **[Market Place](https://marketplace.visualstudio.com/publishers/psudo-dev)**
--  giving it a **star** on **[Github](https://github.com/psudo-dev/nebula-oni-theme)**
+-  **rating** it on Visual Studio Code [Market Place](https://marketplace.visualstudio.com/publishers/psudo-dev)
+-  giving it a **star** on [Github](https://github.com/psudo-dev/nebula-oni-theme)
 
 There are several ways to help and support it!
 
@@ -269,8 +269,8 @@ I've probably have one or two more themes I might publish - that once upon a tim
 If you want to support this theme, would you consider:
 
 -  **sharing** this theme with friends and colleagues
--  **rating** it on Visual Studio Code **[Market Place](https://marketplace.visualstudio.com/publishers/psudo-dev)**
--  giving it a **star** on **[Github](https://github.com/psudo-dev/nebula-oni-theme)**
+-  **rating** it on Visual Studio Code [Market Place](https://marketplace.visualstudio.com/publishers/psudo-dev)
+-  giving it a **star** on [Github](https://github.com/psudo-dev/nebula-oni-theme)
 
 And if you **really** liked this theme, would you consider [buying me a coffee](https://buymeacoff.ee/psudo.dev)?
 
