@@ -3,15 +3,15 @@
 	"displayName": "Nebula Oni Theme",
 	"description": "Oni (鬼) is a type of ogre youkai and \"Nebula Oni Theme\" has colors from outer space!",
 	"version": "1.0.0",
-	"author": "Renato Setoue <psudo.dev@gmail.com>",
+	"author": "Renato Setoue",
 	"publisher": "psudo-dev",
-	"bugs": {
-		"url": "https://github.com/psudo-dev/"
-	},
-	"homepage": "https://github.com/psudo-dev/",
+	"homepage": "https://github.com/psudo-dev/nebula-oni-theme",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/psudo-dev/"
+		"url": "https://github.com/psudo-dev/nebula-oni-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/psudo-dev/nebula-oni-theme/issues/new/choose"
 	},
 	"engines": {
 		"vscode": "^1.43.0"
