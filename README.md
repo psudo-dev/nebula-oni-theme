@@ -2,18 +2,18 @@
 
 ### Table of Contents
 
--  [Nebula Oni Theme](#nebula-oni-theme)
--  [Nebula Oni » Theme Options](#nebula-oni--theme-options)
--  [Oni UI](#oni-ui)
--  [Nebula Syntax](#nebula-syntax)
--  [Theme Features](#theme-features)
--  [Extensions](#extensions)
--  [VSCode Customization](#vscode-customization)
--  [Release History](#release-history)
--  [Issues and Suggestions](#issues-and-suggestions)
--  [References and Links](#references-and-links)
--  [Author](#author)
--  [License](#license)
+- [Nebula Oni Theme](#nebula-oni-theme)
+- [Nebula Oni » Theme Options](#nebula-oni--theme-options)
+- [Oni UI](#oni-ui)
+- [Nebula Syntax](#nebula-syntax)
+- [Theme Features](#theme-features)
+- [Extensions](#extensions)
+- [VSCode Customization](#vscode-customization)
+- [Release History](#release-history)
+- [Issues and Suggestions](#issues-and-suggestions)
+- [References and Links](#references-and-links)
+- [Author](#author)
+- [License](#license)
 
 ## Description <!-- omit in toc -->
 
@@ -58,7 +58,7 @@ This started as a simple Atom's [One Dark Syntax](https://github.com/atom/one-da
 If you liked this theme and you want to support it, you can do simple things like:
 
 -  **sharing** this theme with friends and colleagues
--  **rating** it on Visual Studio Code **[Market Place](https://github.com/psudo-dev/nebula-oni-theme)**
+-  **rating** it on Visual Studio Code **[Market Place](https://marketplace.visualstudio.com/publishers/psudo-dev)**
 -  giving it a **star** on **[Github](https://github.com/psudo-dev/nebula-oni-theme)**
 
 There are several ways to help and support it!
@@ -262,12 +262,14 @@ If you want more information on how to customize your **Oni UI** and **Nebula Sy
 
 ## Author
 
-I'm just getting into programming. This project was supposed to be something very simple but it got bigger and bigger and instead of just a few days or weeks, it ended up taking months. I've probably have one or two more Themes and I'm considering maybe creating Icons, who knows?
+I'm just getting into programming. This project was supposed to be something very simple but it got bigger and bigger and instead of just a few days or weeks, it ended up taking months.
+
+I've probably have one or two more themes I might publish - that once upon a time were just a single Color Theme - but I'm also considering creating Icons, who knows?
 
 If you want to support this theme, would you consider:
 
 -  **sharing** this theme with friends and colleagues
--  **rating** it on Visual Studio Code **[Market Place](https://github.com/psudo-dev/nebula-oni-theme)**
+-  **rating** it on Visual Studio Code **[Market Place](https://marketplace.visualstudio.com/publishers/psudo-dev)**
 -  giving it a **star** on **[Github](https://github.com/psudo-dev/nebula-oni-theme)**
 
 And if you **really** liked this theme, would you consider [buying me a coffee](https://buymeacoff.ee/psudo.dev)?
