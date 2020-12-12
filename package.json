@@ -14,7 +14,7 @@
 		"url": "https://github.com/psudo-dev/nebula-oni-theme/issues/new/choose"
 	},
 	"engines": {
-		"vscode": "^1.43.0"
+		"vscode": "^1.49.0"
 	},
 	"categories": [
 		"Themes",
