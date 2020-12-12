@@ -10,8 +10,7 @@
 - [Extensions](#extensions)
 - [VSCode Customization](#vscode-customization)
 - [Release History](#release-history)
-- [Issues and Bugs](#issues-and-bugs)
-- [Suggestions and Improvements](#suggestions-and-improvements)
+- [Issues and Suggestions](#issues-and-suggestions)
 - [References and Links](#references-and-links)
 - [Author](#author)
 - [License](#license)
@@ -20,7 +19,7 @@
 
 **Oni** (鬼) is a type of ogre _youkai_ and **Nebula Oni Theme** has colors from outer space!
 
-This theme has a lot of different options for the **main color**, **background**, **syntax options** and more! You can customize everything and add your own flair through the extension's menu in **VSCode's Settings**!
+This theme has a lot of different options for the **main color**, **background**, **syntax options** and more! You can customize everything and add your own flair through the **extension's menu** in **VSCode's Settings**!
 
 _<div align="left"> (Syntax: Hourglass / Background: Grey) </div>_
 
@@ -59,8 +58,8 @@ This started as a simple Atom's [One Dark Syntax](https://github.com/atom/one-da
 If you liked this theme and you want to support it, you can do simple things like:
 
 -  **sharing** this theme with friends and colleagues
--  **rating** it on Visual Studio Code [**Market Place**](https://github.com/psudo-dev/)
--  giving it a **star** on [**Github**](https://github.com/psudo-dev/)
+-  **rating** it on Visual Studio Code **[Market Place](https://github.com/psudo-dev/nebula-oni-theme)**
+-  giving it a **star** on **[Github](https://github.com/psudo-dev/nebula-oni-theme)**
 
 There are several ways to help and support it!
 
@@ -241,18 +240,15 @@ If you want more information on how to customize your **Oni UI** and **Nebula Sy
 -  [Oni UI](./README/ONI-UI.md)
 -  [Nebula Syntax](./README/SYNTAX.md)
 -  [Extensions](./README/EXTENSIONS.md)
+-  [VSCode Customization](./README/CUSTOMIZATION.md)
 
 ## Release History
 
--  [more information](./README/CHANGELOG.md)
+-  [more information](https://github.com/psudo-dev/nebula-oni-theme/releases/)
 
-## Issues and Bugs
+## Issues and Suggestions
 
--  [more information](./README/ISSUES.md)
-
-## Suggestions and Improvements
-
--  [more information](./README/CONTRIBUTING.md)
+-  [more information](https://github.com/psudo-dev/nebula-oni-theme/issues/new/choose)
 
 ## References and Links
 
@@ -271,12 +267,13 @@ I'm just getting into programming. This project was supposed to be something ver
 If you want to support this theme, would you consider:
 
 -  **sharing** this theme with friends and colleagues
--  **rating** it on Visual Studio Code **Market Place**
--  giving it a **star** on **Github**
+-  **rating** it on Visual Studio Code **[Market Place](https://github.com/psudo-dev/nebula-oni-theme)**
+-  giving it a **star** on **[Github](https://github.com/psudo-dev/nebula-oni-theme)**
 
 And if you **really** liked this theme, would you consider [buying me a coffee](https://buymeacoff.ee/psudo.dev)?
 
 Thanks,
+
 [ [psudo.dev](https://github.com/psudo-dev/) ]
 
 ## License
