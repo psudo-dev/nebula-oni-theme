@@ -45,6 +45,10 @@ _<div align="left"> (Main Color: Peach / Background: Blue) </div>_
 
 ![Oni UI Menu](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/window_2.png)
 
+_<div align="left"> (Main Color: Lime / Background: Purple) </div>_
+
+![Oni UI Menu](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/window_3.png)
+
 [<div align="right">⬆</div>](#table-of-contents)
 
 ## Nebula Oni Theme
