@@ -2,3 +2,4 @@
 *.vsix
 **/.eslintrc.json
 **/jsconfig.json
+**/nebula-oni-theme.md

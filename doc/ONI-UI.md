@@ -6,6 +6,18 @@ There are a lot of small details and visual hints that can make your life a lot 
 
 I find something that can be improved, I will try it, test it, change it, tweak it until it feels right - or quite, because there is always something new.
 
+_<div align="left"> (Main Color: Bumblebee / Background: Grey) </div>_
+
+![Oni UI Menu](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/window_1.png)
+
+_<div align="left"> (Main Color: Peach / Background: Blue) </div>_
+
+![Oni UI Menu](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/window_2.png)
+
+_<div align="left"> (Main Color: Lime / Background: Purple) </div>_
+
+![Oni UI Menu](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/window_3.png)
+
 ### Table of Contents
 
 - [Main Colors](#main-colors)

@@ -2,9 +2,11 @@
 .gitignore
 .vscode-test/**
 .vscode/**
+*.vsix
 **/.eslintrc.json
 **/*.map
 **/jsconfig.json
+**/nebula-oni-theme.md
 doc/**
 node_modules/**
 test/**
