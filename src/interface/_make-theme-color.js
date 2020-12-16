@@ -45,8 +45,8 @@ const makeBackground = (color, hex) => {
 
 		"button.background": color.button,
 		"button.hoverBackground": color.buttonHover,
-		"button.secondaryBackground": `${color.button}${hex[65]}`,
-		"button.secondaryHoverBackground": `${color.buttonHover}${hex[65]}`,
+		"button.secondaryBackground": `${color.button}${hex[64]}`,
+		"button.secondaryHoverBackground": `${color.buttonHover}${hex[64]}`,
 		"statusBar.noFolderBackground": color.noFolder,
 
 		"gitDecoration.ignoredResourceForeground": color.gitIgnored,
@@ -150,7 +150,7 @@ const makeMain = (color, hex) => {
 		"editorSuggestWidget.highlightForeground": color.editorCursor,
 
 		"textPreformat.foreground": color.formattedText,
-		"selection.background": `${color.selection}${hex[65]}`,
+		"selection.background": `${color.selection}${hex[64]}`,
 		"statusBar.debuggingBackground": color.main,
 		"statusBarItem.remoteBackground": color.remote,
 	}

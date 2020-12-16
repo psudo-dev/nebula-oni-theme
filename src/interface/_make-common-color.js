@@ -17,6 +17,7 @@ const makeInfo = (colorInfo, hex) => ({
 	"charts.blue": colorInfo.untracked,
 
 	"editorInfo.foreground": colorInfo.info,
+	"editorInfo.background": `${colorInfo.info}${hex[32]}`,
 	"editorMarkerNavigationInfo.background": colorInfo.info,
 	"editorOverviewRuler.infoForeground": colorInfo.info,
 	"problemsInfoIcon.foreground": colorInfo.info,
@@ -32,12 +33,14 @@ const makeInfo = (colorInfo, hex) => ({
 	"editorMarkerNavigationWarning.background": colorInfo.warning,
 	"editorOverviewRuler.warningForeground": colorInfo.warning,
 	"editorWarning.foreground": colorInfo.warning,
+	"editorWarning.background": `${colorInfo.warning}${hex[32]}`,
 	"list.warningForeground": colorInfo.warning,
 	"minimap.warningHighlight": colorInfo.warning,
 	"problemsWarningIcon.foreground": colorInfo.warning,
 	"charts.orange": colorInfo.warning,
 
 	"editorError.foreground": colorInfo.error,
+	"editorError.background": `${colorInfo.error}${hex[32]}`,
 	"editorMarkerNavigationError.background": colorInfo.error,
 	"editorOverviewRuler.errorForeground": colorInfo.error,
 	"errorForeground": colorInfo.error,
@@ -58,8 +61,8 @@ const makeInfo = (colorInfo, hex) => ({
 
 const makeHighlightClear = (basicColors, hex) => ({
 	"editorBracketMatch.border": `${basicColors.white}${hex[32]}`,
-	"minimap.selectionHighlight": `${basicColors.white}${hex[24]}`,
-	"editor.findMatchHighlightBackground": `${basicColors.white}${hex[24]}`,
+	"minimap.selectionHighlight": `${basicColors.white}${hex[25]}`,
+	"editor.findMatchHighlightBackground": `${basicColors.white}${hex[25]}`,
 	"selection.background": `${basicColors.white}${hex[20]}`,
 	"editor.findMatchBackground": `${basicColors.white}${hex[16]}`,
 	"editor.selectionBackground": `${basicColors.white}${hex[10]}`,
@@ -100,6 +103,8 @@ const makeCommon = (basicColors) => ({
 	"extensionButton.prominentForeground": basicColors.black,
 	"notificationCenterHeader.foreground": basicColors.black,
 	"statusBar.debuggingForeground": basicColors.black,
+	"statusBarItem.errorBackground": basicColors.crimson,
+	"statusBarItem.errorForeground": basicColors.white,
 	"statusBarItem.remoteForeground": basicColors.black,
 	"editorLightBulbAutoFix.foreground": basicColors.limePlus,
 	"editorLightBulb.foreground": basicColors.yellowPlus,
@@ -109,7 +114,7 @@ const makeCommon = (basicColors) => ({
 	"debugIcon.breakpointStackframeForeground": basicColors.limePlus,
 	"debugIcon.breakpointUnverifiedForeground": basicColors.orange,
 	"debugIcon.continueForeground": basicColors.white,
-	"debugIcon.disconnectForeground": basicColors.crimson,
+	"debugIcon.disconnectForeground": basicColors.raspberry,
 	"debugIcon.pauseForeground": basicColors.white,
 	"debugIcon.restartForeground": basicColors.limePlus,
 	"debugIcon.startForeground": basicColors.limePlus,
@@ -117,7 +122,7 @@ const makeCommon = (basicColors) => ({
 	"debugIcon.stepIntoForeground": basicColors.white,
 	"debugIcon.stepOutForeground": basicColors.white,
 	"debugIcon.stepOverForeground": basicColors.white,
-	"debugIcon.stopForeground": basicColors.crimson,
+	"debugIcon.stopForeground": basicColors.raspberry,
 })
 
 const makeTerminal = (colorTerminal) => ({
