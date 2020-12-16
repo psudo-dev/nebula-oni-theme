@@ -15,7 +15,8 @@ const basicColors = {
 	yellowPlus: "#FFD500",
 	orange: "#FF8A00",
 	red: "#F24949",
-	crimson: "#F22468",
+	raspberry: "#F22468",
+	crimson:  "#BF003F",
 }
 
 // < Grey
@@ -28,7 +29,7 @@ const colorInfo_1 = {
 	added: basicColors.green,
 	warning: basicColors.orange,
 	error: basicColors.red,
-	deleted: basicColors.crimson,
+	deleted: basicColors.raspberry,
 }
 
 // < Blue
@@ -41,7 +42,7 @@ const colorInfo_2 = {
 	added: basicColors.green,
 	warning: basicColors.orange,
 	error: basicColors.red,
-	deleted: basicColors.crimson,
+	deleted: basicColors.raspberry,
 }
 
 // < Purple
@@ -54,15 +55,15 @@ const colorInfo_3 = {
 	added: basicColors.green,
 	warning: basicColors.orange,
 	error: basicColors.red,
-	deleted: basicColors.crimson,
+	deleted: basicColors.raspberry,
 }
 
 const colorTerminal = {
 	cursor: basicColors.lime,
 	green: basicColors.lime,
 	brightGreen: basicColors.lime,
-	red: basicColors.crimson,
-	brightRed: basicColors.crimson,
+	red: basicColors.raspberry,
+	brightRed: basicColors.raspberry,
 	cyan: basicColors.blue,
 	brightWhite: basicColors.white,
 	black: basicColors.black,
@@ -83,10 +84,10 @@ const hexCode = {
 	10: "1A",
 	16: "29",
 	20: "33",
-	24: "3D",
+	25: "40",
 	32: "52",
 	50: "80",
-	65: "A6",
+	64: "A3",
 	75: "BF",
 	80: "CC",
 } // ~ percentage: hexcode

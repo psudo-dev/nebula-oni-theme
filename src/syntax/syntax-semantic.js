@@ -18,7 +18,7 @@ const semanticTokens = (colorSchemes, schemeName) => {
 		"variable.readonly.defaultLibrary": scheme.number,
 		"function": scheme.function,
 		"function.defaultLibrary": scheme.function,
-		"member": scheme.function,
+		"method": scheme.function,
 		"macro": scheme.function,
 		"event": scheme.function,
 		"property": scheme.property,
