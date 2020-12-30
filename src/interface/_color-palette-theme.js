@@ -14,7 +14,7 @@ const background_1A = {
 	sideBar: "#21252A",
 	editor: "#262A30",
 	panelBorder: "#2E333A",
-	activityBarBG: "#333840",
+	activityBarBG: "#363C44",
 
 	button: "#454D59",
 	buttonHover: "#5A6473",
@@ -98,7 +98,7 @@ const background_3A = {
 	sideBar: "#221D38",
 	editor: "#272240",
 	panelBorder: "#2F294D",
-	activityBarBG: "#3A3266",
+	activityBarBG: "#3A3263",
 
 	button: "#483D80",
 	buttonHover: "#574999",
@@ -114,7 +114,7 @@ const background_3B = {
 	statusBar: "#17152A",
 	sideBar: "#1B182E",
 	editor: "#1E1B33",
-	panelBorder: "#242142",
+	panelBorder: "#252240",
 	activityBarBG: "#2E2A53",
 
 	button: "#3A3666",
