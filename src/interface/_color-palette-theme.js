@@ -31,7 +31,7 @@ const background_1B = {
 	sideBar: "#1C1F29",
 	editor: "#1D212D",
 	panelBorder: "#242937",
-	activityBarBG: "#2C3242",
+	activityBarBG: "#2D3345",
 
 	button: "#384059",
 	buttonHover: "#495373",
