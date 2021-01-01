@@ -34,7 +34,7 @@ module.exports = {
 // const option_1 = new Interface("Bumblebee", "Dark Grey", "Ultra Violet", "OFF")
 // console.log(option_1)
 
-// const option_2 = new Interface("Lime", "Purple", "Ultra Violet", "OFF")
+// const option_2 = new Interface("Mint", "Purple", "Ultra Violet", "OFF")
 // console.log(option_2)
 
 // const option_3 = new Interface("Peach", "Blue", "Ultra Violet", "OFF")
