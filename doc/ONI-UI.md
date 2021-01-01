@@ -6,18 +6,6 @@ There are a lot of small details and visual hints that can make your life a lot 
 
 I find something that can be improved, I will try it, test it, change it, tweak it until it feels right - or quite, because there is always something new.
 
-_<div align="left"> (Main Color: Bumblebee / Background: Grey) </div>_
-
-![Oni UI Menu](./oni-ui/window_1.png)
-
-_<div align="left"> (Main Color: Peach / Background: Blue) </div>_
-
-![Oni UI Menu](./oni-ui/window_2.png)
-
-_<div align="left"> (Main Color: Lime / Background: Purple) </div>_
-
-![Oni UI Menu](./oni-ui/window_3.png)
-
 ### Table of Contents
 
 - [Main Colors](#main-colors)
@@ -29,6 +17,32 @@ _<div align="left"> (Main Color: Lime / Background: Purple) </div>_
 - [Command Palette](#command-palette)
 - [Tabs](#tabs)
 - [Panel and Terminal](#panel-and-terminal)
+
+## Examples <!-- omit in toc -->
+
+_<div align="left"> (Main Color: Bumblebee / Background: Grey) </div>_
+
+![Oni UI Menu](./oni-ui/win_1.png)
+
+_<div align="left"> (Main Color: Peach / Background: Blue) </div>_
+
+![Oni UI Menu](./oni-ui/win_2.png)
+
+_<div align="left"> (Main Color: Mint / Background: Purple) </div>_
+
+![Oni UI Menu](./oni-ui/win_3.png)
+
+_<div align="left"> (Main Color: Lavender / Background: Dark Grey) </div>_
+
+![Oni UI Menu](./oni-ui/win_4.png)
+
+_<div align="left"> (Main Color: Sakura / Background: Glacial Blue) </div>_
+
+![Oni UI Menu](./oni-ui/win_5.png)
+
+_<div align="left"> (Main Color: Aqua / Background: Deep Purple) </div>_
+
+![Oni UI Menu](./oni-ui/win_6.png)
 
 ## Main Colors
 
@@ -68,7 +82,7 @@ When using **Find Match** the matched words will have the **Violet** selection w
 
 #### Ultra Violet <!-- omit in toc -->
 
-**In some situations it only activates when you double click the word*
+\*_In some situations it only activates when you double click the word_
 
 ![Ultra  Violet Highlight](./oni-ui/highlight_ultra_violet.gif)
 
@@ -82,7 +96,7 @@ When using **Find Match** the matched words will have the **Violet** selection w
 
 I was going to simply make it invisible because I didn't see much use for it except making it look like sometimes that border shouldn't be there.
 
-*<div align="left"> (Main Color: Aqua / Background: Purple) </div>*
+_<div align="left"> (Main Color: Aqua / Background: Purple) </div>_
 
 ![Focus Border Example](./oni-ui/focus_border.gif)
 
@@ -100,7 +114,7 @@ The **selected file** has a bright text so it's easier to spot it and it won't b
 
 It was all thought in a way to not get in your way, **Oni UI** tries to make things quicker and a little bit more intuitive.
 
-*<div align="left"> (Main Color: Lavender / Background: Dark Grey) </div>*
+_<div align="left"> (Main Color: Lavender / Background: Dark Grey) </div>_
 
 ![Side Bar and Activity Bar](./oni-ui/sidebar.gif)
 
@@ -108,7 +122,7 @@ It was all thought in a way to not get in your way, **Oni UI** tries to make thi
 
 ## Command Palette
 
-*<div align="left"> (Main Color: Sakura / Background: Glacial Blue) </div>*
+_<div align="left"> (Main Color: Sakura / Background: Glacial Blue) </div>_
 
 ![Side Bar](./oni-ui/command_palette.gif)
 
@@ -122,7 +136,7 @@ The **inactive tabs** don't have border and they have the same color as the **Ex
 
 But when you **hover** over them, the title is highlighted and easier to read, the background gets the same color as the editor but still not bas bright as the active tabs.
 
-*<div align="left"> (Main Color: Mint / Background: Dark Grey) </div>*
+_<div align="left"> (Main Color: Mint / Background: Dark Grey) </div>_
 
 ![Tabs](./oni-ui/tabs.gif)
 
