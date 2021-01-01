@@ -2,18 +2,18 @@
 
 ### Table of Contents
 
-- [Nebula Oni Theme](#nebula-oni-theme)
-- [Nebula Oni » Theme Options](#nebula-oni--theme-options)
-- [Oni UI](#oni-ui)
-- [Nebula Syntax](#nebula-syntax)
-- [Theme Features](#theme-features)
-- [Extensions](#extensions)
-- [VSCode Customization](#vscode-customization)
-- [Release History](#release-history)
-- [Issues and Suggestions](#issues-and-suggestions)
-- [References and Links](#references-and-links)
-- [Author](#author)
-- [License](#license)
+-  [Nebula Oni Theme](#nebula-oni-theme)
+-  [Nebula Oni » Theme Options](#nebula-oni--theme-options)
+-  [Oni UI](#oni-ui)
+-  [Nebula Syntax](#nebula-syntax)
+-  [Theme Features](#theme-features)
+-  [Extensions](#extensions)
+-  [VSCode Customization](#vscode-customization)
+-  [Release History](#release-history)
+-  [Issues and Suggestions](#issues-and-suggestions)
+-  [References and Links](#references-and-links)
+-  [Author](#author)
+-  [License](#license)
 
 ## Description <!-- omit in toc -->
 
@@ -39,15 +39,15 @@ _<div align="left"> (Syntax: Cerberus / Background: Blue) </div>_
 
 _<div align="left"> (Main Color: Bumblebee / Background: Grey) </div>_
 
-![Oni UI Menu](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/window_1.png)
+![Oni UI Menu](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/win_1.png)
 
 _<div align="left"> (Main Color: Peach / Background: Blue) </div>_
 
-![Oni UI Menu](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/window_2.png)
+![Oni UI Menu](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/win_2.png)
 
-_<div align="left"> (Main Color: Lime / Background: Purple) </div>_
+_<div align="left"> (Main Color: Mint / Background: Purple) </div>_
 
-![Oni UI Menu](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/window_3.png)
+![Oni UI Menu](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/win_3.png)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
