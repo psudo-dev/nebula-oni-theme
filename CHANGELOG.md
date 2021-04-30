@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -  VSCode 1.53 update
    - sash.hoverBorder
+
+### Changed
+
 -  VSCode 1.54 update
    -  list.focusBackground -> quickInput.list.focusBackground
 -  VSCode 1.55 update
