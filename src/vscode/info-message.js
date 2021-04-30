@@ -50,7 +50,7 @@ const reloadMessage =
 const installMessage =
 	`Thanks for downloading ${themeTextName} Theme! Use the extension's menu to save your preferences and customize your theme! For more information check the theme's page.`
 
-const updateMessage = `${themeTextName} Theme has been updated!`
+const updateMessage = `${themeTextName} Theme has been updated! Don't worry, just some minor updates, for more info, check the changelog!`
 
 const website = `https://github.com/psudo-dev/${themeFileName}`
 
