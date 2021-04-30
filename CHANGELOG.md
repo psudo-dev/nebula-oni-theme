@@ -5,6 +5,17 @@ All notable changes to the **Nebula Oni Theme** extension will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2] - 2021-04-29
+
+### Added
+
+-  VSCode 1.53 update
+   - sash.hoverBorder
+-  VSCode 1.54 update
+   -  list.focusBackground -> quickInput.list.focusBackground
+-  VSCode 1.55 update
+   - quickInput.list.focusBackgroud -> quickInputList.focusBackground
+
 ## [1.1.1] - 2021-01-01
 
 ### Added
