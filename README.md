@@ -67,7 +67,7 @@ If you liked this theme and you want to support it, you can do simple things lik
 
 There are several ways to help and support it!
 
--  And if you **really** liked this theme, would you consider [buying me a coffee](https://buymeacoff.ee/psudo.dev)?
+-  And if you **really** liked this theme, would you consider [buying me a coffee](https://buymeacoff.ee/psudodev)?
 
 ## Nebula Oni » Theme Options
 
@@ -276,7 +276,7 @@ If you want to support this theme, would you consider:
 -  **rating** it on Visual Studio Code [Market Place](https://marketplace.visualstudio.com/publishers/psudo-dev)
 -  giving it a **star** on [Github](https://github.com/psudo-dev/nebula-oni-theme)
 
-And if you **really** liked this theme, would you consider [buying me a coffee](https://www.buymeacoffee.com/psudodev)?
+And if you **really** liked this theme, would you consider [buying me a coffee](https://buymeacoff.ee/psudodev)?
 
 Thanks,
 
