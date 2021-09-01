@@ -5,6 +5,7 @@ const basicColors = {
 	black: "#14151A",
 	white: "#F0F1F2",
 	grey: "#9096A0",
+	pink: "#FF00FF",
 	purple: "#6D29CC",
 	blue: "#5991FF",
 	lime: "#49F249",
@@ -16,7 +17,7 @@ const basicColors = {
 	orange: "#FF8A00",
 	red: "#F24949",
 	raspberry: "#F22468",
-	crimson:  "#BF003F",
+	crimson: "#BF003F",
 }
 
 // < Grey
@@ -86,6 +87,9 @@ const hexCode = {
 	20: "33",
 	25: "40",
 	32: "52",
+	36: "5C",
+	40: "66",
+	42: "6B",
 	50: "80",
 	64: "A3",
 	75: "BF",

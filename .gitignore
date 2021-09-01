@@ -3,3 +3,5 @@
 **/.eslintrc.json
 **/jsconfig.json
 **/nebula-oni-theme.md
+**/todo.md
+node_modules/

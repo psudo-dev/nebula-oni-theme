@@ -60,7 +60,7 @@ const makeInfo = (colorInfo, hex) => ({
 })
 
 const makeHighlightClear = (basicColors, hex) => ({
-	"editorBracketMatch.border": `${basicColors.white}${hex[32]}`,
+	// "editorBracketMatch.border": `${basicColors.white}${hex[32]}`, // decide to keep or not
 	"minimap.selectionHighlight": `${basicColors.white}${hex[25]}`,
 	"editor.findMatchHighlightBackground": `${basicColors.white}${hex[25]}`,
 	"selection.background": `${basicColors.white}${hex[20]}`,
@@ -88,10 +88,10 @@ const makeTransparency = (basicColors, hex) => ({
 	"editor.findMatchBackground": `${basicColors.purple}${hex[80]}`,
 	"editor.findMatchHighlightBackground": `${basicColors.purple}${hex[80]}`,
 	"editor.selectionBackground": `${basicColors.purple}${hex[80]}`,
-	"editor.selectionHighlightBackground": `${basicColors.purple}${hex[80]}`,
+	"editor.selectionHighlightBackground": `${basicColors.pink}${hex[36]}`,
 	"minimap.selectionHighlight": `${basicColors.purple}${hex[80]}`,
-	"editor.wordHighlightBackground": `${basicColors.white}${hex[16]}`,
-	"editor.wordHighlightStrongBackground": `${basicColors.white}${hex[10]}`,
+	"editor.wordHighlightBackground": `${basicColors.purple}${hex[36]}`,
+	"editor.wordHighlightStrongBackground": `${basicColors.purple}${hex[36]}`,
 	"editor.lineHighlightBackground": `${basicColors.white}${hex[8]}`,
 	"diffEditor.insertedTextBackground": `${basicColors.emerald}${hex[20]}`,
 	"diffEditor.removedTextBackground": `${basicColors.red}${hex[20]}`,
@@ -108,7 +108,8 @@ const makeCommon = (basicColors) => ({
 	"statusBarItem.remoteForeground": basicColors.black,
 	"editorLightBulbAutoFix.foreground": basicColors.limePlus,
 	"editorLightBulb.foreground": basicColors.yellowPlus,
-	"debugIcon.breakpointCurrentStackframeForeground": basicColors.yellow,
+	"debugIcon.breakpointCurrentStackframeForeground": basicColors
+		.yellow,
 	"debugIcon.breakpointDisabledForeground": basicColors.grey,
 	"debugIcon.breakpointForeground": basicColors.red,
 	"debugIcon.breakpointStackframeForeground": basicColors.limePlus,

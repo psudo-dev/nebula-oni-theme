@@ -102,6 +102,8 @@ const textmateTokens = (colorSchemes, schemeName) => {
 				"variable.parameter",
 				"variable.language.arguments",
 				"variable.other.object",
+				"string.quoted.template variable.other.readwrite"
+				// ? ^ for variables inside template strings `${variable}`
 			],
 			settings: {
 				foreground: scheme.variable,

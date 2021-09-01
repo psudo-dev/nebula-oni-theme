@@ -10,3 +10,4 @@
 doc/**
 node_modules/**
 test/**
+**/todo.md
