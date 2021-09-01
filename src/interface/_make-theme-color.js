@@ -24,7 +24,7 @@ const makeBackground = (color, hex) => {
 		"tab.unfocusedHoverBackground": color.editor,
 
 		"panel.border": color.panelBorder,
-		"notebook.rowHoverBackground": color.panelBorder,
+		// "notebook.rowHoverBackground": color.panelBorder,
 		"settings.focusedRowBackground": color.panelBorder,
 		"tab.lastPinnedBorder": color.panelBorder,
 
@@ -125,7 +125,7 @@ const makeMain = (color, hex) => {
 		"editorWidget.border": color.main,
 		"menu.selectionForeground": color.main,
 		"menubar.selectionForeground": color.main,
-		"notebook.focusedRowBorder": color.main,
+		// "notebook.focusedRowBorder": color.main,
 		"notificationLink.foreground": color.main,
 		"panelTitle.activeBorder": color.main,
 		"panelTitle.activeForeground": color.main,

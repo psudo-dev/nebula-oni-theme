@@ -2,18 +2,18 @@
 
 ### Table of Contents
 
--  [Nebula Oni Theme](#nebula-oni-theme)
--  [Nebula Oni » Theme Options](#nebula-oni--theme-options)
--  [Oni UI](#oni-ui)
--  [Nebula Syntax](#nebula-syntax)
--  [Theme Features](#theme-features)
--  [Extensions](#extensions)
--  [VSCode Customization](#vscode-customization)
--  [Release History](#release-history)
--  [Issues and Suggestions](#issues-and-suggestions)
--  [References and Links](#references-and-links)
--  [Author](#author)
--  [License](#license)
+- [Nebula Oni Theme](#nebula-oni-theme)
+- [Nebula Oni » Theme Options](#nebula-oni--theme-options)
+- [Oni UI](#oni-ui)
+- [Nebula Syntax](#nebula-syntax)
+- [Theme Features](#theme-features)
+- [Extensions](#extensions)
+- [VSCode Customization](#vscode-customization)
+- [Release History](#release-history)
+- [Issues and Suggestions](#issues-and-suggestions)
+- [References and Links](#references-and-links)
+- [Author](#author)
+- [License](#license)
 
 ## Description <!-- omit in toc -->
 
@@ -53,7 +53,7 @@ _<div align="left"> (Main Color: Mint / Background: Purple) </div>_
 
 ## Nebula Oni Theme
 
-This started as a simple Atom's [One Dark Syntax](https://github.com/atom/one-dark-syntax) customization by someone that had just finishied his first programming course, had no idea how to change syntax colors and started tweaking the `settings.json` file and it got a bit out of hand and it became this:
+This started as a simple Atom's [One Dark Syntax](https://github.com/atom/one-dark-syntax) customization by someone that had just finished his first programming course, had no idea how to change syntax colors and started tweaking the `settings.json` file and it got a bit out of hand and it became this:
 
 > A completely different theme with **multiple UI options** and a **new Syntax** that has nothing to do with the original project.
 
