@@ -9,7 +9,7 @@ const {
 // < To get any setting
 const themeMenu = () => vscode.workspace.getConfiguration(themeMenuName)
 
-// ~ gets a boolean
+// ~ gets a boolean from changes
 const applyChanges = () => themeMenu().get("applyChanges")
 
 // ~ set applyChanges to FALSE
@@ -27,6 +27,7 @@ const getConfig = () => {
 		focusBorder: themeMenu().get("interface.focusBorder"),
 		fontStyle: themeMenu().get("editor.fontStyle"),
 		comments: themeMenu().get("editor.comments"),
+		// darkerSyntax: themeMenu().get("editor.darkerSyntaxColors"),
 		favorite: themeMenu().get("add.favorite"),
 	}
 }

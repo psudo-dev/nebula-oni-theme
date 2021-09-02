@@ -22,7 +22,7 @@ For more information on how to customized it, I've followed this [tutorial](http
 ### My Settings <!-- omit in toc -->
 
 ```json
- "terminal.integrated.shell.osx": "/bin/zsh",
+ "terminal.integrated.defaultProfile.osx": "zsh",
  "terminal.integrated.fontFamily": "MesloLGS NF",
  "debug.console.fontFamily": "MesloLGS NF",
  "terminal.integrated.fontWeightBold": "normal",
