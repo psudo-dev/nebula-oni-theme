@@ -17,6 +17,34 @@ const syntaxColors = {
 	brown: "#99611F",
 }
 
+// dimmer/night
+// const syntaxColors = {
+// 	pink: "#FF9EE7CC",
+// 	magenta: "#D74BBECC",
+// 	purple: "#AB80FFCC",
+// 	blue: "#50B6FFCC",
+// 	cyan: "#4FE0E0CC",
+// 	green: "#2FDE73CC",
+// 	yellow: "#E6E667CC",
+// 	white: "#D3D1EBD1",
+// 	red: "#E6457BCC",
+// 	brown: "#99611FCC",
+// }
+
+// atom
+// const syntaxColors = {
+// 	pink: "#E5C07B",
+// 	magenta: "#E06C75",
+// 	purple: "#C678DD",
+// 	blue: "#98C379",
+// 	cyan: "#56B6C2",
+// 	green: "#E5C07B",
+// 	yellow: "#61AFEF",
+// 	white: "#ABB2BF",
+// 	red: "#E6457B",
+// 	brown: "#99611F",
+// }
+
 const commentColors = {
 	"Dark Grey": "#737880",
 	"Light Grey": "#8A9099",
