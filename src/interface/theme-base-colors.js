@@ -16,7 +16,9 @@ const {
 	makeTerminal,
 } = require("./_make-common-color")
 
-const { hexCode } = require("./_color-palette-common")
+const {
+	hexCode
+} = require("./_color-palette-common")
 
 const common = makeCommon(basicColors)
 

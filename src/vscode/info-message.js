@@ -50,7 +50,7 @@ const reloadMessage =
 const installMessage =
 	`Thanks for downloading ${themeTextName} Theme! Use the extension's menu to save your preferences and customize your theme! For more information check the theme's page.`
 
-const updateMessage = `${themeTextName} Theme has been updated! The main change of this update is that I added an extra color for Selection Highlight, for more info, check the changelog!`
+const updateMessage = `${themeTextName} Theme has been updated! VSCode 1.60 added native Bracket Pair Colorization. I used the colors I made for the \`Bracket Pair Colorizer Extension\` and set it for those that intend to use the new built-in settings. Just remember that you have to enable the new feat in VSCode's \`Settings\``
 
 const website = `https://github.com/psudo-dev/${themeFileName}`
 

@@ -124,6 +124,14 @@ const makeCommon = (basicColors) => ({
 	"debugIcon.stepOutForeground": basicColors.white,
 	"debugIcon.stepOverForeground": basicColors.white,
 	"debugIcon.stopForeground": basicColors.raspberry,
+	"editorBracketHighlight.foreground1": basicColors.magenta,
+	"editorBracketHighlight.foreground2": basicColors.cyan,
+	"editorBracketHighlight.foreground3": basicColors.brightYellow,
+	"editorBracketHighlight.foreground4": basicColors.amethyst,
+	"editorBracketHighlight.foreground5": basicColors.brightLime,
+	"editorBracketHighlight.foreground6": basicColors.cyan,
+	"editorBracketHighlight.unexpectedBracket.foreground": basicColors
+		.raspberry,
 })
 
 const makeTerminal = (colorTerminal) => ({
