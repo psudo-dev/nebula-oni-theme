@@ -1,8 +1,11 @@
 "use strict"
-
 const {
 	nameOptions
 } = require("../../data/theme-names")
+
+// const {
+// 	getConfig
+// } = require("../vscode/menu-settings")
 
 const syntaxColors = {
 	pink: "#FF9EE7",
@@ -16,6 +19,43 @@ const syntaxColors = {
 	red: "#E6457B",
 	brown: "#99611F",
 }
+
+// const syntaxColors = {
+// 	normal: {
+// 		pink: "#FF9EE7",
+// 		magenta: "#D74BBE",
+// 		purple: "#AB80FF",
+// 		blue: "#50B6FF",
+// 		cyan: "#4FE0E0",
+// 		green: "#2FDE73",
+// 		yellow: "#E6E667",
+// 		white: "#D3D1EB",
+// 		red: "#E6457B",
+// 		brown: "#99611F",
+// 	},
+// 	darker: {
+// 		pink: "#FF9EE7CC",
+// 		magenta: "#D74BBECC",
+// 		purple: "#AB80FFCC",
+// 		blue: "#50B6FFCC",
+// 		cyan: "#4FE0E0CC",
+// 		green: "#2FDE73CC",
+// 		yellow: "#E6E667CC",
+// 		white: "#D3D1EBD1",
+// 		red: "#E6457BCC",
+// 		brown: "#99611FCC",
+// 	},
+// }
+
+// const syntaxDarker = (colors, darker) => {
+// 	if (darker === "darker") {
+// 		return colors.darker
+// 	} else {
+// 		return colors.normal
+// 	}
+// }
+
+// const syntaxColors = syntaxDarker(colors, darker)
 
 // dimmer/night
 // const syntaxColors = {
@@ -109,7 +149,7 @@ const schemes = (options, colors) => {
 	return schemes
 }
 
-const colorSchemes = schemes(nameOptions, syntaxColors)
+const colorSchemes = schemes(nameOptions, syntaxColors) // darker
 
 module.exports = {
 	syntaxColors,

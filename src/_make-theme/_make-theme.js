@@ -21,7 +21,7 @@ const {
 
 class Theme {
 	constructor(config) {
-		this.themeSyntax = new Syntax(config.fontStyle, config.comments)
+		this.themeSyntax = new Syntax(config.fontStyle, config.comments) // config.dimmed
 		this.themeInterface = new Interface(
 			config.main,
 			config.background,

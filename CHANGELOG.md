@@ -5,6 +5,30 @@ All notable changes to the **Nebula Oni Theme** extension will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.3] - 2021-09-05
+
+## Added
+
+-   VSCode 1.60 added built-in Bracket Pair Colorization
+
+-   New Settings:
+
+    -   "editorBracketHighlight.foreground1": basicColors.magenta,
+    -   "editorBracketHighlight.foreground2": basicColors.cyan,
+    -   "editorBracketHighlight.foreground3": basicColors.brightYellow,
+    -   "editorBracketHighlight.foreground4": basicColors.amethyst,
+    -   "editorBracketHighlight.foreground5": basicColors.brightLime,
+    -   "editorBracketHighlight.foreground6": basicColors.cyan,
+    -   "editorBracketHighlight.unexpectedBracket.foreground": basicColors.raspberry,
+
+-   New Colors:
+    -   magenta: "#E63AC8",
+    -   amethyst: "#AB80FF",
+    -   frenchBlue: "#59BAFF",
+    -   cyan: "#00FFFF",
+    -   brightLime: "#00FF64",
+    -   brightYellow:"#FFEA00",
+
 ## [1.2.2] - 2021-09-01
 
 ## Added
