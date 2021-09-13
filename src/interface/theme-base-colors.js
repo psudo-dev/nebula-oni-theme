@@ -1,11 +1,16 @@
 "use strict"
 
 const {
+	nameOptions
+} = require("../../data/theme-names")
+
+const {
 	colorInfo_1,
 	colorInfo_2,
 	colorInfo_3,
 	basicColors,
-	colorTerminal,
+	terminalColors,
+	hexCode
 } = require("./_color-palette-common")
 
 const {
@@ -14,13 +19,12 @@ const {
 	makeTransparency,
 	makeCommon,
 	makeTerminal,
+	makeBrackets,
 } = require("./_make-common-color")
 
-const {
-	hexCode
-} = require("./_color-palette-common")
-
 const common = makeCommon(basicColors)
+
+const brackets = makeBrackets(nameOptions, basicColors)
 
 const info_1 = makeInfo(colorInfo_1, hexCode)
 const info_2 = makeInfo(colorInfo_2, hexCode)
@@ -30,7 +34,7 @@ const transparency = makeTransparency(basicColors, hexCode)
 
 const highlightClear = makeHighlightClear(basicColors, hexCode)
 
-const terminal = makeTerminal(colorTerminal)
+const terminal = makeTerminal(terminalColors)
 
 const noFocusBorder = {
 	focusBorder: `${basicColors.zero}`,
@@ -63,4 +67,5 @@ module.exports = {
 	base_2,
 	highlightClear,
 	noFocusBorder,
+	brackets,
 }

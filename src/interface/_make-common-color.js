@@ -124,34 +124,63 @@ const makeCommon = (basicColors) => ({
 	"debugIcon.stepOutForeground": basicColors.white,
 	"debugIcon.stepOverForeground": basicColors.white,
 	"debugIcon.stopForeground": basicColors.raspberry,
-	"editorBracketHighlight.foreground1": basicColors.magenta,
-	"editorBracketHighlight.foreground2": basicColors.cyan,
-	"editorBracketHighlight.foreground3": basicColors.brightYellow,
-	"editorBracketHighlight.foreground4": basicColors.amethyst,
-	"editorBracketHighlight.foreground5": basicColors.brightLime,
-	"editorBracketHighlight.foreground6": basicColors.cyan,
 	"editorBracketHighlight.unexpectedBracket.foreground": basicColors
 		.raspberry,
+	// "editorBracketHighlight.foreground1": basicColors
+	// .magenta, //property
+	// "editorBracketHighlight.foreground2": basicColors
+	// .cyan, //punctuation
+	// "editorBracketHighlight.foreground3": basicColors
+	// .brightYellow, //function
+	// "editorBracketHighlight.foreground4": basicColors
+	// .amethyst, //storageType
+	// "editorBracketHighlight.foreground5": basicColors
+	// .brightLime, //class
+	// "editorBracketHighlight.foreground6": basicColors
+	// .frenchBlue, //sting
 })
 
-const makeTerminal = (colorTerminal) => ({
-	"terminalCursor.foreground": colorTerminal.cursor,
-	"terminal.ansiBlack": colorTerminal.black,
-	"terminal.ansiBlue": colorTerminal.blue,
-	"terminal.ansiCyan": colorTerminal.cyan,
-	"terminal.ansiGreen": colorTerminal.green,
-	"terminal.ansiMagenta": colorTerminal.magenta,
-	"terminal.ansiRed": colorTerminal.red,
-	"terminal.ansiWhite": colorTerminal.white,
-	"terminal.ansiYellow": colorTerminal.yellow,
-	"terminal.ansiBrightBlack": colorTerminal.brightBlack,
-	"terminal.ansiBrightBlue": colorTerminal.brightBlue,
-	"terminal.ansiBrightCyan": colorTerminal.brightCyan,
-	"terminal.ansiBrightGreen": colorTerminal.brightGreen,
-	"terminal.ansiBrightMagenta": colorTerminal.brightMagenta,
-	"terminal.ansiBrightRed": colorTerminal.brightRed,
-	"terminal.ansiBrightWhite": colorTerminal.brightWhite,
-	"terminal.ansiBrightYellow": colorTerminal.brightYellow,
+const makeBrackets = (options, colors) => {
+	const brackets = {}
+	brackets[options.option_1] = {
+		"editorBracketHighlight.foreground1": colors.magenta,
+		"editorBracketHighlight.foreground2": colors.cyan,
+		"editorBracketHighlight.foreground3": colors.brightYellow,
+		"editorBracketHighlight.foreground4": colors.amethyst,
+		"editorBracketHighlight.foreground5": colors.brightLime,
+		"editorBracketHighlight.foreground6": colors.frenchBlue,
+	}
+	brackets[options.option_2] = {
+		"editorBracketHighlight.foreground1": colors.brightLime,
+		"editorBracketHighlight.foreground2": colors.brightYellow,
+		"editorBracketHighlight.foreground3": colors.cyan,
+		"editorBracketHighlight.foreground4": colors.amethyst,
+		"editorBracketHighlight.foreground5": colors.magenta,
+		"editorBracketHighlight.foreground6": colors.frenchBlue,
+	}
+	brackets[options.option_3] = brackets[options.option_1]
+	brackets[options.option_4] = brackets[options.option_2]
+	return brackets
+}
+
+const makeTerminal = (terminalColors) => ({
+	"terminalCursor.foreground": terminalColors.cursor,
+	"terminal.ansiBlack": terminalColors.black,
+	"terminal.ansiBlue": terminalColors.blue,
+	"terminal.ansiCyan": terminalColors.cyan,
+	"terminal.ansiGreen": terminalColors.green,
+	"terminal.ansiMagenta": terminalColors.magenta,
+	"terminal.ansiRed": terminalColors.red,
+	"terminal.ansiWhite": terminalColors.white,
+	"terminal.ansiYellow": terminalColors.yellow,
+	"terminal.ansiBrightBlack": terminalColors.brightBlack,
+	"terminal.ansiBrightBlue": terminalColors.brightBlue,
+	"terminal.ansiBrightCyan": terminalColors.brightCyan,
+	"terminal.ansiBrightGreen": terminalColors.brightGreen,
+	"terminal.ansiBrightMagenta": terminalColors.brightMagenta,
+	"terminal.ansiBrightRed": terminalColors.brightRed,
+	"terminal.ansiBrightWhite": terminalColors.brightWhite,
+	"terminal.ansiBrightYellow": terminalColors.brightYellow,
 })
 
 module.exports = {
@@ -159,5 +188,6 @@ module.exports = {
 	makeHighlightClear,
 	makeTransparency,
 	makeCommon,
+	makeBrackets,
 	makeTerminal,
 }

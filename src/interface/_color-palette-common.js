@@ -12,12 +12,12 @@ const basicColors = {
 	blue: "#5991FF",
 	frenchBlue: "#59BAFF",
 	cyan: "#00FFFF",
-	brightLime:  "#00FF64",
+	brightLime: "#00FF64",
 	lime: "#49F249",
 	limePlus: "#51D936",
 	green: "#7CE667",
 	emerald: "#00B386",
-	brightYellow:"#FFEA00",
+	brightYellow: "#FFEA00",
 	yellow: "#FFDF40",
 	yellowPlus: "#FFD500",
 	orange: "#FF8A00",
@@ -65,7 +65,7 @@ const colorInfo_3 = {
 	deleted: basicColors.raspberry,
 }
 
-const colorTerminal = {
+const terminalColors = {
 	cursor: basicColors.lime,
 	green: basicColors.lime,
 	brightGreen: basicColors.lime,
@@ -107,6 +107,6 @@ module.exports = {
 	colorInfo_3,
 	colorInfo_2,
 	basicColors,
-	colorTerminal,
+	terminalColors,
 	hexCode,
 }
