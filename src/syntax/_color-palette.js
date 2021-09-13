@@ -1,4 +1,5 @@
 "use strict"
+
 const {
 	nameOptions
 } = require("../../data/theme-names")
