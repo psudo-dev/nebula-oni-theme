@@ -12,6 +12,7 @@ I find something that can be improved, I will try it, test it, change it, tweak 
 - [Background Colors](#background-colors)
 - [Information Colors](#information-colors)
 - [Selection Highlight and Find Match Highlight](#selection-highlight-and-find-match-highlight)
+- [Bracket Pair Colorization](#bracket-pair-colorization)
 - [Focus Border](#focus-border)
 - [Side Bar and Activity Bar](#side-bar-and-activity-bar)
 - [Command Palette](#command-palette)
@@ -89,6 +90,34 @@ When using **Find Match** the matched words will have the **Violet** selection w
 #### Clear <!-- omit in toc -->
 
 ![Ultra  Violet Highlight](./oni-ui/highlight_clear.gif)
+
+[<div align="right">⬆</div>](#table-of-contents)
+
+## Bracket Pair Colorization
+
+For now, first you need to enable the settings. Go to **Settings > Editor > Bracket Pair Colorization**.
+
+![Side Bar](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/bracket_enabled.png)
+
+Since now **VSCode** has its built-in **Bracket Pair Colorization**, I've basically used the same colors I've created for the extension but now it's here natively.
+
+I made a different color combination for each pair of **Color Schemes**, that way you have similar colors matching less frequently.
+
+_<div align="left"> ( Hourglass ) </div>_
+
+![Side Bar](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/_bracket_hourglass.png)
+
+_<div align="left"> ( Spirograph ) </div>_
+
+![Side Bar](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/_bracket_spirograph.png)
+
+_<div align="left"> ( Pegasus) </div>_
+
+![Side Bar](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/_bracket_pegasus.png)
+
+_<div align="left"> ( Cerberus) </div>_
+
+![Side Bar](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/_bracket_cerberus.png)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
