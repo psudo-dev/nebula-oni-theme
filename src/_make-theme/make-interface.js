@@ -21,18 +21,6 @@ const {
 	brackets
 } = require("../interface/theme-base-colors")
 
-// class Interface {
-// 	constructor(main, background, highlight, focusBorder) {
-// 		this.colors = {
-// 			...themeColor[main],
-// 			...themeBackground[background],
-// 		} // ? for highlight
-// 		if (highlight === "Clear") Object.assign(this.colors,
-// 			highlightClear)
-// 		if (focusBorder === "OFF") Object.assign(this.colors, noFocusBorder)
-// 	}
-// }
-
 class Interface {
 	constructor(main, background, highlight, focusBorder) {
 		Object.values(nameOptions).map((name) => {
@@ -41,7 +29,7 @@ class Interface {
 					...themeColor[main],
 					...themeBackground[background],
 					...brackets[name],
-				} // ? for highlight
+				}
 			}
 		})
 		if (highlight === "Clear") Object.assign(this.colors,

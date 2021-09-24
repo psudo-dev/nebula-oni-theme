@@ -124,8 +124,6 @@ const makeCommon = (basicColors) => ({
 	"debugIcon.stepOutForeground": basicColors.white,
 	"debugIcon.stepOverForeground": basicColors.white,
 	"debugIcon.stopForeground": basicColors.raspberry,
-	"editorBracketHighlight.unexpectedBracket.foreground": basicColors
-		.raspberry,
 	// "editorBracketHighlight.foreground1": basicColors
 	// .magenta, //property
 	// "editorBracketHighlight.foreground2": basicColors
@@ -149,6 +147,8 @@ const makeBrackets = (options, colors) => {
 		"editorBracketHighlight.foreground4": colors.amethyst,
 		"editorBracketHighlight.foreground5": colors.brightLime,
 		"editorBracketHighlight.foreground6": colors.frenchBlue,
+		"editorBracketHighlight.unexpectedBracket.foreground": colors
+			.raspberry,
 	}
 	brackets[options.option_2] = {
 		"editorBracketHighlight.foreground1": colors.brightLime,
@@ -157,6 +157,8 @@ const makeBrackets = (options, colors) => {
 		"editorBracketHighlight.foreground4": colors.amethyst,
 		"editorBracketHighlight.foreground5": colors.magenta,
 		"editorBracketHighlight.foreground6": colors.frenchBlue,
+		"editorBracketHighlight.unexpectedBracket.foreground": colors
+			.raspberry,
 	}
 	brackets[options.option_3] = brackets[options.option_1]
 	brackets[options.option_4] = brackets[options.option_2]

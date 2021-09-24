@@ -5,6 +5,33 @@ All notable changes to the **Nebula Oni Theme** extension will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2021-09-24
+
+## Added
+
+-   New function `makeBrackets()` to Make Common Color file
+
+## Changed
+
+Bracket Pair Colorization combination:
+
+-   Interface constructor file
+-   Theme constructor file
+-   Theme Base Colors file
+-   Make Common Color file
+
+## Removed
+
+Removed from function `makeCommon()`:
+
+-   "editorBracketHighlight.foreground1": basicColors.magenta,
+-   "editorBracketHighlight.foreground2": basicColors.cyan,
+-   "editorBracketHighlight.foreground3": basicColors.brightYellow,
+-   "editorBracketHighlight.foreground4": basicColors.amethyst,
+-   "editorBracketHighlight.foreground5": basicColors.brightLime,
+-   "editorBracketHighlight.foreground6": basicColors.cyan,
+-   "editorBracketHighlight.unexpectedBracket.foreground": basicColors.raspberry,
+
 ## [1.2.3] - 2021-09-05
 
 ## Added
