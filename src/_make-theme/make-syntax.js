@@ -1,8 +1,13 @@
 "use strict"
 
-const { nameOptions } = require("../../data/theme-names")
+const {
+	nameOptions
+} = require("../../data/theme-names")
 
-const { makeTextmate, makeSemantic } = require("../syntax/_syntax-base")
+const {
+	makeTextmate,
+	makeSemantic
+} = require("../syntax/_syntax-base")
 
 const {
 	syntaxColors,
@@ -10,16 +15,23 @@ const {
 	commentColors,
 } = require("../syntax/_color-palette")
 
-const { commentTokens } = require("../syntax/syntax-extra")
+const {
+	commentTokens
+} = require("../syntax/syntax-extra")
 
 class Syntax {
 	constructor(fontStyle, comments) {
 		Object.values(nameOptions).map((name) => {
 			this[name] = {
 				semanticHighlighting: true,
-				semanticTokenColors: makeSemantic(fontStyle, colorSchemes, name),
+				semanticTokenColors: makeSemantic(
+					fontStyle,
+					colorSchemes,
+					name
+				),
 				tokenColors: [
-					...commentTokens(comments, commentColors),
+					...commentTokens(comments,
+						commentColors),
 					...makeTextmate(
 						fontStyle,
 						syntaxColors,

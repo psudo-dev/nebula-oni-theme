@@ -43,7 +43,7 @@ class Theme {
 				fontStyle: `${config.fontStyle}`,
 				highlight: `${config.highlight}`,
 				focusBorder: `${config.focusBorder}`,
-				...this.themeInterface,
+				...this.themeInterface[optionName],
 				...this.themeSyntax[optionName],
 			}
 		})
