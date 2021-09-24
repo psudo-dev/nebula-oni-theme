@@ -61,13 +61,13 @@ This started as a simple Atom's [One Dark Syntax](https://github.com/atom/one-da
 
 If you liked this theme and you want to support it, you can do simple things like:
 
--  **sharing** this theme with friends and colleagues
--  **rating** it on Visual Studio Code [Market Place](https://marketplace.visualstudio.com/publishers/psudo-dev)
--  giving it a **star** on [Github](https://github.com/psudo-dev/nebula-oni-theme)
+-   **sharing** this theme with friends and colleagues
+-   **rating** it on Visual Studio Code [Market Place](https://marketplace.visualstudio.com/publishers/psudo-dev)
+-   giving it a **star** on [Github](https://github.com/psudo-dev/nebula-oni-theme)
 
 There are several ways to help and support it!
 
--  And if you **really** liked this theme, would you consider [buying me a coffee](https://buymeacoff.ee/psudodev)?
+-   And if you **really** liked this theme, would you consider [buying me a coffee](https://buymeacoff.ee/psudodev)?
 
 ## Nebula Oni » Theme Options
 
@@ -144,6 +144,26 @@ For those that might not be onboard with the **Violet** selection, there is a **
 #### Clear <!-- omit in toc -->
 
 ![Ultra  Violet Highlight](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/highlight_clear.gif)
+
+[<div align="right">⬆</div>](#table-of-contents)
+
+### VSCode Native Bracket Pair Colorization <!-- omit in toc -->
+
+For now, first you need to enable the settings. Go to **Settings > Editor > Bracket Pair Colorization**.
+
+![Side Bar](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/bracket_enabled.png)
+
+Since now **VSCode** has its built-in **Bracket Pair Colorization**, I've basically used the same colors I've created for the extension but now it's here natively.
+
+I made a different color combination for each pair of **Color Schemes**, that way you have similar colors matching less frequently.
+
+_<div align="left"> ( Hourglass / **Spirograph** ) </div>_
+
+![Side Bar](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/_bracket_spirograph.png)
+
+_<div align="left"> ( Pegasus / **Cerberus** ) </div>_
+
+![Side Bar](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/_bracket_cerberus.png)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -229,7 +249,13 @@ I've customized extensions that are color-related, so if someone would like colo
 
 ### Bracket Pair Colorizer and Indent Rainbow <!-- omit in toc -->
 
-![Bracket Pair Colorizer Customization](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/extra/extensions-bracket_pair-indent_rainbow.png)
+_<div align="left"> ( **Hourglass** / Spirograph ) </div>_
+
+![Bracket Pair Colorizer Customization](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/extra/extensions-bracket_indent_hourglass.png)
+
+_<div align="left"> ( **Pegasus** / Cerberus ) </div>_
+
+![Bracket Pair Colorizer Customization](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/extra/extensions-bracket_indent_pegasus.png)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -241,26 +267,26 @@ If you want more information on how to customize your **Oni UI** and **Nebula Sy
 
 ## More Info <!-- omit in toc -->
 
--  [Oni UI](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/ONI-UI.md)
--  [Nebula Syntax](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/SYNTAX.md)
--  [Extensions](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/EXTENSIONS.md)
--  [VSCode Customization](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/CUSTOMIZATION.md)
+-   [Oni UI](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/ONI-UI.md)
+-   [Nebula Syntax](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/SYNTAX.md)
+-   [Extensions](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/EXTENSIONS.md)
+-   [VSCode Customization](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/CUSTOMIZATION.md)
 
 ## Release History
 
--  [more information](https://github.com/psudo-dev/nebula-oni-theme/releases/)
+-   [more information](https://github.com/psudo-dev/nebula-oni-theme/releases/)
 
 ## Issues and Suggestions
 
--  [more information](https://github.com/psudo-dev/nebula-oni-theme/issues/new/choose)
+-   [more information](https://github.com/psudo-dev/nebula-oni-theme/issues/new/choose)
 
 ## References and Links
 
--  [ZSH Terminal Customization](https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb)
--  [Nerd Fonts](https://www.nerdfonts.com/)
--  [VSCode Workbench Customization](https://code.visualstudio.com/api/references/theme-color)
--  [Syntax Highlight Guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
--  [Semantic Highlight Guide](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-token-classification)
+-   [ZSH Terminal Customization](https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb)
+-   [Nerd Fonts](https://www.nerdfonts.com/)
+-   [VSCode Workbench Customization](https://code.visualstudio.com/api/references/theme-color)
+-   [Syntax Highlight Guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
+-   [Semantic Highlight Guide](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-token-classification)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -272,9 +298,9 @@ I've probably have one or two more themes I might publish - that once upon a tim
 
 If you want to support this theme, would you consider:
 
--  **sharing** this theme with friends and colleagues
--  **rating** it on Visual Studio Code [Market Place](https://marketplace.visualstudio.com/publishers/psudo-dev)
--  giving it a **star** on [Github](https://github.com/psudo-dev/nebula-oni-theme)
+-   **sharing** this theme with friends and colleagues
+-   **rating** it on Visual Studio Code [Market Place](https://marketplace.visualstudio.com/publishers/psudo-dev) and Open VSX [Market Place](https://open-vsx.org/extension/psudo-dev/nebula-oni-theme)
+-   giving it a **star** on [Github](https://github.com/psudo-dev/nebula-oni-theme)
 
 And if you **really** liked this theme, would you consider [buying me a coffee](https://buymeacoff.ee/psudodev)?
 
@@ -284,4 +310,4 @@ Thanks,
 
 ## License
 
--  [Apache 2.0](https://github.com/psudo-dev/nebula-oni-theme/blob/main/LICENSE.md)
+-   [Apache 2.0](https://github.com/psudo-dev/nebula-oni-theme/blob/main/LICENSE.md)
