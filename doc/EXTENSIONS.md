@@ -91,6 +91,8 @@ These **6 colors** have the same **hue** as the colors from **Nebula Syntax** an
 
 It was quite a hassle, but in the end, I think it works well and it's aesthetically pleasing.
 
+I made this combination for **Hourglass** and **Spirograph**:
+
 ![Bracket Pair Colorizer](./extra/extensions-bracket_pair_1.png)
 
 ```json
@@ -104,7 +106,28 @@ It was quite a hassle, but in the end, I think it works well and it's aesthetica
  ]
 ```
 
+![Bracket Pair Colorizer](./extra/extensions-_bracket_hourglass.png)
+
+![Bracket Pair Colorizer](./extra/extensions-_bracket_spirograph.png)
+
+And this one for **Pegasus** and **Cerberus**:
+
 ![Bracket Pair Colorizer](./extra/extensions-bracket_pair_2.png)
+
+```json
+ "bracket-pair-colorizer-2.colors": [
+  "#00FF64",
+  "#FFEA00",
+  "#00FFFF",
+  "#AB80FF",
+  "#E63AC8",
+  "#59BAFF"
+ ]
+```
+
+![Bracket Pair Colorizer](./extra/extensions-_bracket_pegasus.png)
+
+![Bracket Pair Colorizer](./extra/extensions-_bracket_cerberus.png)
 
 I don't like the border when you match the brackets, so I made it borderless.
 
