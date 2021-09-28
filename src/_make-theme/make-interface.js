@@ -31,13 +31,12 @@ class Interface {
 					...brackets[name],
 				}
 			}
+			if (highlight === "Clear") Object.assign(this[name].colors,
+				highlightClear)
+			if (focusBorder === "OFF") Object.assign(this[name].colors, noFocusBorder)
 		})
-		if (highlight === "Clear") Object.assign(this.colors,
-			highlightClear)
-		if (focusBorder === "OFF") Object.assign(this.colors, noFocusBorder)
 	}
 }
-
 
 module.exports = {
 	Interface,

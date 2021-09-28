@@ -50,7 +50,7 @@ const reloadMessage =
 const installMessage =
 	`Thanks for downloading ${themeTextName} Theme! Use the extension's menu to save your preferences and customize your theme! For more information check the theme's page.`
 
-const updateMessage = `${themeTextName} Theme has been updated! I made in a way that the different Color Schemes get a different combination for the Bracket Pair Colorization. Just one combination wasn't good enough for all the themes. Just remember that you have to enable the new feat in VSCode. **\`Settings > Editor > Bracket Pair Colorization\`**`
+const updateMessage = `${themeTextName} Theme has been updated! The Theme Color Constructor has been fixed! It should be properly working now! I'm sorry for the inconvenience!`
 
 const website = `https://github.com/psudo-dev/${themeFileName}`
 
