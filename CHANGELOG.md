@@ -5,6 +5,18 @@ All notable changes to the **Nebula Oni Theme** extension will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.1] - 2021-09-28
+
+## Added
+
+- New Print Screens for the Documentation
+
+## Changed
+
+- README.md
+- ONI0-UI.md
+- EXTENSIONS.md
+
 ## [1.3.0] - 2021-09-24
 
 ## Added
