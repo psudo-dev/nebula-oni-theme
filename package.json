@@ -14,10 +14,6 @@
 	"bugs": {
 		"url": "https://github.com/psudo-dev/nebula-oni-theme/issues/new/choose"
 	},
-	"activationEvents": [
-		"*"
-	],
-	"main": "./out/extension",
 	"contributes": {
 		"themes": [
 			{
