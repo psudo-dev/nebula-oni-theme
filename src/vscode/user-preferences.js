@@ -79,8 +79,11 @@ class Settings {
 
 // < saves configuration
 const saveSettings = (config) => {
-	themeMenu().update("update.restoreConfiguration", new Settings(config),
-		true)
+	themeMenu().update(
+		"update.restoreConfiguration",
+		new Settings(config),
+		true
+	)
 }
 
 module.exports = {
@@ -89,3 +92,5 @@ module.exports = {
 	themeConfig,
 	freshInstall,
 }
+
+// syntaxBrightness: "Normal",
