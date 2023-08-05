@@ -6,18 +6,11 @@ const {
 	themeFileName,
 } = require("./../../data/theme-names")
 
-const {
-	createFile,
-	themeDir
-} = require("../vscode/theme-control")
+const { createFile, themeDir } = require("../vscode/theme-control")
 
-const {
-	Interface
-} = require("./make-interface")
+const { Interface } = require("./make-interface")
 
-const {
-	Syntax
-} = require("./make-syntax")
+const { Syntax } = require("./make-syntax")
 
 class Theme {
 	constructor(config) {
@@ -53,8 +46,7 @@ class Theme {
 		if (typeof favorite !== "string") fileName = optionName
 		const name = `${themeFileName}-${fileName.toLowerCase()}.json`
 		const message = `${name} file has been created!`
-		createFile(themeDir, name, JSON.stringify(this[optionName]),
-			message)
+		createFile(themeDir, name, JSON.stringify(this[optionName]), message)
 	}
 	favoriteTheme() {
 		if (this.favorite === "OFF") {

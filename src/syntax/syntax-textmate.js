@@ -102,7 +102,7 @@ const textmateTokens = (colorSchemes, schemeName) => {
 				"variable.parameter",
 				"variable.language.arguments",
 				"variable.other.object",
-				"string.quoted.template variable.other.readwrite"
+				"string.quoted.template variable.other.readwrite",
 				// ? ^ for variables inside template strings `${variable}`
 			],
 			settings: {
@@ -122,12 +122,11 @@ const textmateTokens = (colorSchemes, schemeName) => {
 			},
 		},
 		{
-			name: "NAMESPACE, PRIMITIVE TYPES AND ENUM MEMBER",
+			name: "NAMESPACE AND ENUM MEMBER",
 			scope: [
 				"entity.name.section",
 				"entity.name.namespace",
 				"entity.name.type.module",
-				"support.type.primitive",
 				"variable.other.enummember",
 			],
 			settings: {
@@ -151,6 +150,7 @@ const textmateTokens = (colorSchemes, schemeName) => {
 			name: "CLASSES AND TYPES",
 			scope: [
 				"support.class",
+				"support.type.primitive",
 				"entity.name.type.class",
 				"entity.name.class",
 				"variable.other.class",
