@@ -21,55 +21,56 @@ const syntaxColors = {
 	brown: "#99611F",
 }
 
-// const syntaxColors = {
-// 	normal: {
-// 		pink: "#FF9EE7",
-// 		magenta: "#D74BBE",
-// 		purple: "#AB80FF",
-// 		blue: "#50B6FF",
-// 		cyan: "#4FE0E0",
-// 		green: "#2FDE73",
-// 		yellow: "#E6E667",
-// 		white: "#D3D1EB",
-// 		red: "#E6457B",
-// 		brown: "#99611F",
-// 	},
-// 	darker: {
-// 		pink: "#FF9EE7CC",
-// 		magenta: "#D74BBECC",
-// 		purple: "#AB80FFCC",
-// 		blue: "#50B6FFCC",
-// 		cyan: "#4FE0E0CC",
-// 		green: "#2FDE73CC",
-// 		yellow: "#E6E667CC",
-// 		white: "#D3D1EBD1",
-// 		red: "#E6457BCC",
-// 		brown: "#99611FCC",
-// 	},
-// }
-
-// const syntaxDarker = (colors, darker) => {
-// 	if (darker === "darker") {
-// 		return colors.darker
+// const syntaxDimmed = (colors, dimmed) => {
+// 	if (dimmed === "dimmed") {
+// 		return colors.dimmed
 // 	} else {
 // 		return colors.normal
 // 	}
 // }
 
-// const syntaxColors = syntaxDarker(colors, darker)
+// const syntaxColors = syntaxDimmed(colors, dimmed)
 
-// dimmer/night
+// normal
 // const syntaxColors = {
-// 	pink: "#FF9EE7CC",
-// 	magenta: "#D74BBECC",
-// 	purple: "#AB80FFCC",
-// 	blue: "#50B6FFCC",
-// 	cyan: "#4FE0E0CC",
-// 	green: "#2FDE73CC",
-// 	yellow: "#E6E667CC",
-// 	white: "#D3D1EBD1",
-// 	red: "#E6457BCC",
-// 	brown: "#99611FCC",
+// 	pink: "#FF9EE7",
+// 	magenta: "#D74BBE",
+// 	purple: "#AB80FF",
+// 	blue: "#50B6FF",
+// 	cyan: "#4FE0E0",
+// 	green: "#2FDE73",
+// 	yellow: "#E6E667",
+// 	white: "#D3D1EB",
+// 	red: "#E6457B",
+// 	brown: "#99611F",
+// }
+
+// dimmed
+// const syntaxColors = {
+// 	pink: "#CF80BB",
+// 	magenta: "#B13D9C",
+// 	purple: "#8A68CF",
+// 	blue: "#4093CF",
+// 	cyan: "#3FB5B5",
+// 	green: "#26B45D",
+// 	yellow: "#BABA54",
+// 	white: "#ABA9BE",
+// 	red: "#BA3864",
+// 	brown: "#7C4F19",
+// }
+
+// extra dimmed
+// const syntaxColors = {
+// 	pink: "#C47AB2",
+// 	magenta: "#A73A95",
+// 	purple: "#8363C5",
+// 	blue: "#3E8CC4",
+// 	cyan: "#3DACAC",
+// 	green: "#23AB59",
+// 	yellow: "#B1B14F",
+// 	white: "#A2A1B5",
+// 	red: "#B1355F",
+// 	brown: "#764B17",
 // }
 
 // atom
@@ -84,6 +85,33 @@ const syntaxColors = {
 // 	white: "#ABB2BF",
 // 	red: "#E6457B",
 // 	brown: "#99611F",
+// }
+
+// const syntaxColors = {
+// 	normal: {
+// 		pink: "#FF9EE7",
+// 		magenta: "#D74BBE",
+// 		purple: "#AB80FF",
+// 		blue: "#50B6FF",
+// 		cyan: "#4FE0E0",
+// 		green: "#2FDE73",
+// 		yellow: "#E6E667",
+// 		white: "#D3D1EB",
+// 		red: "#E6457B",
+// 		brown: "#99611F",
+// 	},
+// 	dimmed: {
+// 		pink: "#FF9EE7CC",
+// 		magenta: "#D74BBECC",
+// 		purple: "#AB80FFCC",
+// 		blue: "#50B6FFCC",
+// 		cyan: "#4FE0E0CC",
+// 		green: "#2FDE73CC",
+// 		yellow: "#E6E667CC",
+// 		white: "#D3D1EBD1",
+// 		red: "#E6457BCC",
+// 		brown: "#99611FCC",
+// 	},
 // }
 
 const commentColors = {
@@ -150,7 +178,7 @@ const schemes = (options, colors) => {
 	return schemes
 }
 
-const colorSchemes = schemes(nameOptions, syntaxColors) // darker
+const colorSchemes = schemes(nameOptions, syntaxColors) // dimmed
 
 module.exports = {
 	syntaxColors,

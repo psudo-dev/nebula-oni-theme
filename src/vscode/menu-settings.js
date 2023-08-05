@@ -27,7 +27,6 @@ const getConfig = () => {
 		focusBorder: themeMenu().get("interface.focusBorder"),
 		fontStyle: themeMenu().get("editor.fontStyle"),
 		comments: themeMenu().get("editor.comments"),
-		// darkerSyntax: themeMenu().get("editor.darkerSyntaxColors"),
 		favorite: themeMenu().get("add.favorite"),
 	}
 }
@@ -39,3 +38,5 @@ module.exports = {
 	favoriteOFF,
 	themeMenu,
 }
+
+// syntaxBrightness: themeMenu().get("editor.dimmedSyntaxColors"),

@@ -5,6 +5,24 @@ All notable changes to the **Nebula Oni Theme** extension will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.4] - 2023-08-03
+
+## Fixed
+
+- Fixed Bug that prevented the Menu Settings from working
+
+## [1.4.2] - 2023-07-30
+
+## Changed
+
+- Forgot to change the Update Message
+
+## [1.4.1] - 2023-07-30
+
+## Changed
+
+- Changed `package.json` configuration to be able to run as a `Web Extension`
+
 ## [1.4.0] - 2021-09-28
 
 ## Fixed
