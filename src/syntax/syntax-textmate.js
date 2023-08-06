@@ -116,7 +116,12 @@ const textmateTokens = (colorSchemes, schemeName) => {
 			},
 		},
 		{
-			scope: ["keyword.operator.new", "keyword.control.new"],
+			name: "NEW AND TYPES",
+			scope: [
+				"keyword.operator.new",
+				"keyword.control.new",
+				"support.type.primitive",
+			],
 			settings: {
 				foreground: scheme.storageType,
 			},
@@ -150,7 +155,6 @@ const textmateTokens = (colorSchemes, schemeName) => {
 			name: "CLASSES AND TYPES",
 			scope: [
 				"support.class",
-				"support.type.primitive",
 				"entity.name.type.class",
 				"entity.name.class",
 				"variable.other.class",
@@ -604,7 +608,8 @@ const textmateTokens = (colorSchemes, schemeName) => {
 		},
 		{
 			scope: [
-				"meta.property-list punctuation.separator.key-value"],
+				"meta.property-list punctuation.separator.key-value"
+			],
 			settings: {
 				foreground: scheme.variable,
 			},
@@ -765,6 +770,8 @@ const textmateItalic = [{
 			"entity.name.class",
 			"entity.name.namespace",
 			"entity.name.other.preprocessor.macro",
+			"entity.name.type",
+			"entity.name.type.alias",
 			"entity.name.type.class",
 			"entity.name.type.interface",
 			"entity.name.type.module",

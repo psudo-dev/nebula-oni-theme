@@ -51,7 +51,7 @@ const installMessage =
 	`Thanks for downloading ${themeTextName} Theme! Use the extension's menu to save your preferences and customize your theme! For more information check the theme's page.`
 
 const updateMessage =
-	`${themeTextName} Theme has been updated! Just a minor color correction for TYPE. Help support Nebula Oni Color Theme by leaving a review on the VSCode Market Place and help spread the word! Thanks!`
+	`${themeTextName} Theme has been updated! Added italic for TYPE. Help support Nebula Oni by reviewing it on the Market Place and help spread the word! Thanks!`
 
 const website = `https://github.com/psudo-dev/${themeFileName}`
 
