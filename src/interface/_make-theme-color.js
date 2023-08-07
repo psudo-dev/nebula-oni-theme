@@ -53,7 +53,8 @@ const makeBackground = (color, hex) => {
 
 		"gitDecoration.ignoredResourceForeground": color.gitIgnored,
 		"editorCodeLens.foreground": color.gitIgnored,
-		"editorIndentGuide.activeBackground": color.gitIgnored,
+		// "editorIndentGuide.activeBackground": color.gitIgnored,
+		"editorIndentGuide.activeBackground1": color.gitIgnored,
 		"editorLineNumber.foreground": color.gitIgnored,
 		"focusBorder": color.gitIgnored,
 
@@ -93,7 +94,8 @@ const makeBase = (color, hex) => {
 		"menu.foreground": color.tabActive,
 		"panelTitle.inactiveForeground": color.tabActive,
 
-		"editorIndentGuide.background": `${color.foreground}${hex[16]}`,
+		// "editorIndentGuide.background": `${color.foreground}${hex[16]}`,
+		"editorIndentGuide.background1": `${color.foreground}${hex[16]}`,
 		"editorRuler.foreground": `${color.foreground}${hex[16]}`,
 		"editorWhitespace.foreground": `${color.foreground}${hex[16]}`,
 

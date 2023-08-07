@@ -5,6 +5,17 @@ All notable changes to the **Nebula Oni Theme** extension will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.2] - 2023-08-07
+
+## Changed
+
+- Changed `typeParameter` semantic token color from the same color as **NUMBER** to the same color as **STORAGETYPE** (to complement `"support.type.primitive"`)
+- Changed `"editorIndentGuide.background"` and  `"editorIndentGuide.activeBackground"` to `"editorIndentGuide.background1"` and  `"editorIndentGuide.activeBackground1"` because they were deprecated
+
+## Added
+
+- Added italic to `typeParameter` semantic token (to complement `"support.type.primitive"`)
+
 ## [1.5.1] - 2023-08-05
 
 ## Added
