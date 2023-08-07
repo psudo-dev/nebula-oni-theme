@@ -3,6 +3,7 @@
 const semanticTokens = (colorSchemes, schemeName) => {
 	const scheme = colorSchemes[schemeName]
 	const tokens = {
+		"typeParameter": scheme.storageType,
 		"class.defaultLibrary": scheme.class,
 		"class": scheme.class,
 		"class.readonly": scheme.class,
@@ -13,7 +14,6 @@ const semanticTokens = (colorSchemes, schemeName) => {
 		"struct": scheme.class,
 		"variable.defaultLibrary": scheme.class,
 		"namespace": scheme.number,
-		"typeParameter": scheme.number,
 		"enumMember": scheme.number,
 		"variable.readonly.defaultLibrary": scheme.number,
 		"function": scheme.function,
@@ -37,6 +37,10 @@ const semanticTokens = (colorSchemes, schemeName) => {
 const semanticItalic = (colorSchemes, schemeName) => {
 	const scheme = colorSchemes[schemeName]
 	const tokens = {
+		"typeParameter": {
+			foreground: scheme.storageType,
+			fontStyle: "italic",
+		},
 		"namespace": {
 			foreground: scheme.number,
 			fontStyle: "italic",
