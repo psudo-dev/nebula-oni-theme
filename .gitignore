@@ -5,3 +5,9 @@
 **/nebula-oni-theme.md
 **/draft.md
 node_modules/
+
+.hintrc
+
+.typo
+
+.DS_Store

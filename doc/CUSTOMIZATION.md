@@ -70,9 +70,9 @@ These settings change the VSCode Interface. For more information, check the VSCo
 ```json
 "workbench.colorCustomizations": {
   "[NAME-OF-THE-THEME]": {
-  "foreground": "#B4BBC8",
-  "selection.background": "#5124B3A6",
-  "editor.background": "#262A30"
+    "foreground": "#B4BBC8",
+    "selection.background": "#5124B3A6",
+    "editor.background": "#262A30"
   }
 }
 ```
