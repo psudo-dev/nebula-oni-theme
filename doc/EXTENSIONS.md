@@ -165,7 +165,7 @@ I tried to basically use the same colors as the **Bracket Pair Colorizer** but I
  "indentRainbow.colors": [
   "#4DFFFF14",
   "#FFF04D14",
-  "#BB99FF14",
+  "#C3A6FF14",
   "#4DFF9214",
   "#FF99E514"
  ],
