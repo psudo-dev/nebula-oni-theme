@@ -1,10 +1,10 @@
-
 *.vsix
 **/.eslintrc.json
 **/jsconfig.json
 **/nebula-oni-theme.md
 **/draft.md
 node_modules/
+vsix/**
 
 .hintrc
 

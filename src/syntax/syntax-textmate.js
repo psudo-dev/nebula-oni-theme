@@ -387,7 +387,10 @@ const textmateTokens = (colorSchemes, schemeName) => {
 			},
 		},
 		{
+			name: "PUNCTUATIONS",
 			scope: [
+				"punctuation.separator.parameter",
+				"punctuation.terminator.statement",
 				"constant.other.color",
 				"constant.other.symbol",
 				"punctuation.definition.block.tag",
@@ -486,8 +489,6 @@ const textmateTokens = (colorSchemes, schemeName) => {
 		{
 			name: "BRACKETS, BRACES, PARENTHESES",
 			scope: [
-				"punctuation.separator.parameter",
-				"punctuation.terminator.statement",
 				"meta.array-binding-pattern-variable",
 				"keyword.operator.other.powershell",
 				"keyword.other.statement-separator.powershell",

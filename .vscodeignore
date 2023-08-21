@@ -11,3 +11,4 @@ doc/**
 node_modules/**
 test/**
 **/draft.md
+vsix/**
