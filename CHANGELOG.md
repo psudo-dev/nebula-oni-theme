@@ -5,6 +5,12 @@ All notable changes to the **Nebula Oni Theme** extension will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.3] - 2023-08-19
+
+## Changed
+
+- Changed `"punctuation.separator.parameter"` and `"punctuation.terminator.statement"` colors from `scheme.variable` to `scheme.punctuation`
+
 ## [1.5.2] - 2023-08-07
 
 ## Changed
