@@ -1,22 +1,20 @@
-"use strict"
+"use strict";
 
-const vscode = require("vscode")
+const vscode = require("vscode");
 
-const {
-	themeMenuName
-} = require("../../data/theme-names")
+const { themeMenuName } = require("../../data/theme-names");
 
 // < To get any setting
-const themeMenu = () => vscode.workspace.getConfiguration(themeMenuName)
+const themeMenu = () => vscode.workspace.getConfiguration(themeMenuName);
 
-// ~ gets a boolean from changes
-const applyChanges = () => themeMenu().get("applyChanges")
+// > gets a boolean from changes
+const applyChanges = () => themeMenu().get("applyChanges");
 
-// ~ set applyChanges to FALSE
-const applyChangesFalse = () => themeMenu().update("applyChanges", false, true)
+// > set applyChanges to FALSE
+const applyChangesFalse = () => themeMenu().update("applyChanges", false, true);
 
 // < set Favorite to OFF
-const favoriteOFF = () => themeMenu().update("add.favorite", "OFF", true)
+const favoriteOFF = () => themeMenu().update("add.favorite", "OFF", true);
 
 // ? get user preferences
 const getConfig = () => {
@@ -26,10 +24,11 @@ const getConfig = () => {
 		highlight: themeMenu().get("interface.editorSelectionAndFindMatch"),
 		focusBorder: themeMenu().get("interface.focusBorder"),
 		fontStyle: themeMenu().get("editor.fontStyle"),
+		syntaxBrightness: themeMenu().get("editor.syntaxBrightness"),
 		comments: themeMenu().get("editor.comments"),
 		favorite: themeMenu().get("add.favorite"),
-	}
-}
+	};
+};
 
 module.exports = {
 	applyChanges,
@@ -37,6 +36,4 @@ module.exports = {
 	applyChangesFalse,
 	favoriteOFF,
 	themeMenu,
-}
-
-// syntaxBrightness: themeMenu().get("editor.dimmedSyntaxColors"),
+};

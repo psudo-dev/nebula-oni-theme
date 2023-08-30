@@ -13,7 +13,7 @@ const path = require("path")
 const dataDir = path.join(__dirname, "../../data/")
 const dataFileName = `${themeFileName}.md`
 const fileMessage = `${dataFileName} file has been created`
-// ~ for checking if trigger file is on the ./data directory
+// > for checking if trigger file is on the ./data directory
 const noFile = fs.existsSync(`${dataDir}${dataFileName}`) === false
 
 // < theme directory
