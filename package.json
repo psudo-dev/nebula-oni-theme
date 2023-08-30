@@ -2,7 +2,7 @@
 	"name": "nebula-oni-theme",
 	"displayName": "Nebula Oni Theme",
 	"description": "Oni (鬼) is a type of ogre youkai and \"Nebula Oni Theme\" has colors from Outer Space! Nebula Oni has a Menu with a lot of different options, give it a try, customize it!",
-	"version": "1.5.3",
+	"version": "2.0.0",
 	"license": "Apache-2.0",
 	"author": "Renato Setoue",
 	"publisher": "psudo-dev",
@@ -15,7 +15,7 @@
 		"url": "https://github.com/psudo-dev/nebula-oni-theme/issues/new/choose"
 	},
 	"activationEvents": [
-		"*"
+		"onStartupFinished"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -110,6 +110,16 @@
 						"enum": [
 							"Italic",
 							"Regular"
+						]
+					},
+					"nebulaOni.editor.syntaxBrightness": {
+						"markdownDescription": "This is an option for those that prefer less contrast when coding. If you work at night or if you simply prefer dimmed syntax colors, select the `Dimmed` option. The `Syntax Brightness` is about 10% darker with this setting.",
+						"type": "string",
+						"scope": "application",
+						"default": "Normal",
+						"enum": [
+							"Normal",
+							"Dimmed"
 						]
 					},
 					"nebulaOni.interface.focusBorder": {

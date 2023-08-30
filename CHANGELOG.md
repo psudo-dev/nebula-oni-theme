@@ -5,6 +5,18 @@ All notable changes to the **Nebula Oni Theme** extension will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2023-08-29
+
+## Added
+
+- Added new menu option: `Editor: Syntax Brightness`
+- Added Dimmed Syntax Color Palette
+- Added Dimmed Comments Color Palette
+
+## Changed
+
+- Changed code in several files to accommodate the new functionalities
+
 ## [1.5.3] - 2023-08-19
 
 ## Changed
