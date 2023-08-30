@@ -8,8 +8,20 @@ const { themeMenu } = require("./menu-settings");
 const settingsConfig = () => themeMenu().get("update.restoreConfiguration");
 
 // > theme settings and favorite settings
-const themeConfig = () => settingsConfig().themeSettings;
-const favoriteConfig = () => settingsConfig().favoriteSettings;
+const themeConfig = () => {
+	let themeSettings = settingsConfig().themeSettings;
+	if (!themeSettings.syntaxBrightness) {
+		themeSettings.syntaxBrightness = "Normal";
+	}
+	return themeSettings;
+};
+const favoriteConfig = () => {
+	let favoriteSettings = settingsConfig().favoriteSettings;
+	if (!favoriteSettings.syntaxBrightness) {
+		favoriteSettings.syntaxBrightness = "Normal";
+	}
+	return favoriteSettings;
+};
 
 // < theme default configuration
 const themeDefault = (type) => {
@@ -89,5 +101,3 @@ module.exports = {
 	themeConfig,
 	freshInstall,
 };
-
-// syntaxBrightness: "Normal",
