@@ -51,6 +51,7 @@ function activate() {
 			info(updateMessage, "OK");
 			new Theme(themeConfig()).allThemes();
 			new Theme(favoriteConfig()).favoriteTheme();
+			saveSettings(getConfig());
 		}
 	}
 	vscode.workspace.onDidChangeConfiguration((event) => {
