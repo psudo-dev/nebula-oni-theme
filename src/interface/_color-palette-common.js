@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 const basicColors = {
 	zero: "#00000000",
@@ -24,7 +24,7 @@ const basicColors = {
 	red: "#F24949",
 	raspberry: "#F22468",
 	crimson: "#BF003F",
-}
+};
 
 // < Grey
 const colorInfo_1 = {
@@ -37,7 +37,7 @@ const colorInfo_1 = {
 	warning: basicColors.orange,
 	error: basicColors.red,
 	deleted: basicColors.raspberry,
-}
+};
 
 // < Blue
 const colorInfo_2 = {
@@ -50,7 +50,7 @@ const colorInfo_2 = {
 	warning: basicColors.orange,
 	error: basicColors.red,
 	deleted: basicColors.raspberry,
-}
+};
 
 // < Purple
 const colorInfo_3 = {
@@ -63,7 +63,7 @@ const colorInfo_3 = {
 	warning: basicColors.orange,
 	error: basicColors.red,
 	deleted: basicColors.raspberry,
-}
+};
 
 const terminalColors = {
 	cursor: basicColors.lime,
@@ -83,7 +83,7 @@ const terminalColors = {
 	brightMagenta: "#FF66CC",
 	magenta: "#B973FF",
 	blue: "#7A36D9",
-}
+};
 
 const hexCode = {
 	// < Hex Code for opacity
@@ -100,7 +100,7 @@ const hexCode = {
 	64: "A3",
 	75: "BF",
 	80: "CC",
-} // ~ percentage: hexcode
+}; // ~ percentage: hexcode
 
 module.exports = {
 	colorInfo_1,
@@ -109,4 +109,4 @@ module.exports = {
 	basicColors,
 	terminalColors,
 	hexCode,
-}
+};

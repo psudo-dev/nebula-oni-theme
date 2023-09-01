@@ -1,7 +1,7 @@
-"use strict"
+"use strict";
 
 const semanticTokens = (colorSchemes, schemeName) => {
-	const scheme = colorSchemes[schemeName]
+	const scheme = colorSchemes[schemeName];
 	const tokens = {
 		"typeParameter": scheme.storageType,
 		"class.defaultLibrary": scheme.class,
@@ -30,12 +30,12 @@ const semanticTokens = (colorSchemes, schemeName) => {
 		"variable.declaration": scheme.variable,
 		"variable.local": scheme.variable,
 		"type.defaultLibrary": scheme.variable,
-	}
-	return tokens
-}
+	};
+	return tokens;
+};
 
 const semanticItalic = (colorSchemes, schemeName) => {
-	const scheme = colorSchemes[schemeName]
+	const scheme = colorSchemes[schemeName];
 	const tokens = {
 		"typeParameter": {
 			foreground: scheme.storageType,
@@ -81,11 +81,11 @@ const semanticItalic = (colorSchemes, schemeName) => {
 			foreground: scheme.class,
 			fontStyle: "italic",
 		},
-	}
-	return tokens
-}
+	};
+	return tokens;
+};
 
 module.exports = {
 	semanticTokens,
 	semanticItalic,
-}
+};
