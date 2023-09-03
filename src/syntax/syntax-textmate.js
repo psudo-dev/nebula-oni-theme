@@ -1,8 +1,9 @@
-"use strict"
+"use strict";
 
 const textmateTokens = (colorSchemes, schemeName) => {
-	const scheme = colorSchemes[schemeName]
-	return [{
+	const scheme = colorSchemes[schemeName];
+	return [
+		{
 			scope: ["text", "source"],
 			settings: {
 				foreground: scheme.variable,
@@ -389,6 +390,7 @@ const textmateTokens = (colorSchemes, schemeName) => {
 		{
 			name: "PUNCTUATIONS",
 			scope: [
+				"meta.delimiter.comma",
 				"punctuation.separator.parameter",
 				"punctuation.terminator.statement",
 				"constant.other.color",
@@ -608,9 +610,7 @@ const textmateTokens = (colorSchemes, schemeName) => {
 			},
 		},
 		{
-			scope: [
-				"meta.property-list punctuation.separator.key-value"
-			],
+			scope: ["meta.property-list punctuation.separator.key-value"],
 			settings: {
 				foreground: scheme.variable,
 			},
@@ -650,9 +650,7 @@ const textmateTokens = (colorSchemes, schemeName) => {
 			},
 		},
 		{
-			scope: ["meta.preprocessor",
-				"entity.name.function.preprocessor"
-			],
+			scope: ["meta.preprocessor", "entity.name.function.preprocessor"],
 			settings: {
 				foreground: scheme.function,
 			},
@@ -761,10 +759,11 @@ const textmateTokens = (colorSchemes, schemeName) => {
 				foreground: scheme.number,
 			},
 		},
-	]
-}
+	];
+};
 
-const textmateItalic = [{
+const textmateItalic = [
+	{
 		name: "[CORRECTIONS] ITALIC",
 		scope: [
 			"constant.language.boolean",
@@ -802,9 +801,9 @@ const textmateItalic = [{
 			fontStyle: "bold italic",
 		},
 	},
-]
+];
 
 module.exports = {
 	textmateTokens,
 	textmateItalic,
-}
+};

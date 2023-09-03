@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 // < Base: Grey
 const backgroundBase_1 = {
@@ -6,7 +6,7 @@ const backgroundBase_1 = {
 	foreground: "#B4BBC8",
 	tabActive: "#D7DAE0",
 	white: "#F0F1F2",
-}
+};
 
 // < Background: Grey
 const background_1A = {
@@ -23,7 +23,7 @@ const background_1A = {
 	gitIgnored: "#5C6673",
 	activityBarFG: "#737880",
 	tabInactive: "#9097A0",
-}
+};
 
 // < Background: Dark Grey
 const background_1B = {
@@ -40,7 +40,7 @@ const background_1B = {
 	gitIgnored: "#4B5573",
 	activityBarFG: "#636D83",
 	tabInactive: "#7B88A3",
-}
+};
 
 // < Base: Blue
 const backgroundBase_2 = {
@@ -48,7 +48,7 @@ const backgroundBase_2 = {
 	foreground: "#A3BDCC",
 	tabActive: "#C3D9E6",
 	white: "#79CAF2",
-}
+};
 
 // < Background: Blue
 const background_2A = {
@@ -65,7 +65,7 @@ const background_2A = {
 	gitIgnored: "#406980",
 	activityBarFG: "#5C8599",
 	tabInactive: "#5993B3",
-}
+};
 
 // < Background: Glacial Blue
 const background_2B = {
@@ -82,7 +82,7 @@ const background_2B = {
 	gitIgnored: "#406080",
 	activityBarFG: "#5C7B99",
 	tabInactive: "#5986B3",
-}
+};
 
 // < Base: Purple
 const backgroundBase_3 = {
@@ -90,7 +90,7 @@ const backgroundBase_3 = {
 	foreground: "#B8AECC",
 	tabActive: "#CFC4E6",
 	white: "#C7B1F2",
-}
+};
 
 // < Background: Purple
 const background_3A = {
@@ -107,7 +107,7 @@ const background_3A = {
 	gitIgnored: "#67608D",
 	activityBarFG: "#7971A6",
 	tabInactive: "#8B81B9",
-}
+};
 
 // < Background: Deep Purple
 const background_3B = {
@@ -124,7 +124,7 @@ const background_3B = {
 	gitIgnored: "#5B5780",
 	activityBarFG: "#6E67B3",
 	tabInactive: "#7D78AC",
-}
+};
 
 const mainColorPalette = {
 	color_1A: "#FFE14D",
@@ -143,7 +143,7 @@ const mainColorPalette = {
 	color_6B: "#22DECD",
 	selection_3: "#006073",
 	text: "#E4E6E6",
-}
+};
 
 module.exports = {
 	backgroundBase_1,
@@ -156,4 +156,4 @@ module.exports = {
 	background_3A,
 	background_3B,
 	mainColorPalette,
-}
+};

@@ -1,16 +1,15 @@
-"use strict"
+"use strict";
 
 const markup = (colors) => {
-	return [{
+	return [
+		{
 			scope: ["markup.underline"],
 			settings: {
 				fontStyle: "underline",
 			},
 		},
 		{
-			scope: ["punctuation.definition.bold.markdown",
-				"markup.bold"
-			],
+			scope: ["punctuation.definition.bold.markdown", "markup.bold"],
 			settings: {
 				foreground: colors.yellow,
 				fontStyle: "italic",
@@ -115,11 +114,12 @@ const markup = (colors) => {
 				foreground: colors.blue,
 			},
 		},
-	]
-}
+	];
+};
 
 const regexp = (colors) => {
-	return [{
+	return [
+		{
 			name: "REGEX GREEN",
 			scope: [
 				"string.regexp",
@@ -178,32 +178,33 @@ const regexp = (colors) => {
 				foreground: colors.pink,
 			},
 		},
-	]
-}
+	];
+};
 
 const json = (colors, nameOptions, schemeName) => {
-	let scheme
+	let scheme;
 	let scheme_1 = {
 		color_1: colors.magenta,
 		color_2: colors.blue,
 		color_3: colors.purple,
 		color_4: colors.green,
-	}
+	};
 	let scheme_2 = {
 		color_1: colors.purple,
 		color_2: colors.green,
 		color_3: colors.magenta,
 		color_4: colors.blue,
-	}
+	};
 	if (
 		schemeName === nameOptions.option_1 ||
 		schemeName === nameOptions.option_3
 	) {
-		scheme = scheme_1
+		scheme = scheme_1;
 	} else {
-		scheme = scheme_2
+		scheme = scheme_2;
 	}
-	return [{
+	return [
+		{
 			name: "JSON KEY - Level 0",
 			scope: [
 				"meta.structure.dictionary.json support.type.property-name.json",
@@ -383,27 +384,29 @@ const json = (colors, nameOptions, schemeName) => {
 				foreground: scheme.color_2,
 			},
 		},
-	]
-}
+	];
+};
 
-const commentTokens = (commentOption, commentColors) => [{
-	name: `${commentOption} Comments`,
-	scope: [
-		"comment markup.link",
-		"comment",
-		"punctuation.definition.comment",
-		"unused.comment",
-		"wildcard.comment",
-	],
-	settings: {
-		foreground: commentColors[commentOption],
-		fontStyle: "italic",
+const commentTokens = (commentOption, commentColors) => [
+	{
+		name: `${commentOption} Comments`,
+		scope: [
+			"comment markup.link",
+			"comment",
+			"punctuation.definition.comment",
+			"unused.comment",
+			"wildcard.comment",
+		],
+		settings: {
+			foreground: commentColors[commentOption],
+			fontStyle: "italic",
+		},
 	},
-}, ]
+];
 
 module.exports = {
 	markup,
 	regexp,
 	json,
 	commentTokens,
-}
+};

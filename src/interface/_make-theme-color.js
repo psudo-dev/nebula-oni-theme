@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 const makeBackground = (color, hex) => {
 	return {
@@ -64,8 +64,8 @@ const makeBackground = (color, hex) => {
 		"sideBar.foreground": color.tabInactive,
 		"tab.inactiveForeground": color.tabInactive,
 		"titleBar.inactiveForeground": color.tabInactive,
-	}
-}
+	};
+};
 
 const makeBase = (color, hex) => {
 	return {
@@ -106,8 +106,8 @@ const makeBase = (color, hex) => {
 		"scrollbarSlider.hoverBackground": `${color.white}${hex[32]}`,
 
 		"scrollbarSlider.background": `${color.white}${hex[20]}`,
-	}
-}
+	};
+};
 
 const makeMain = (color, hex) => {
 	return {
@@ -158,11 +158,11 @@ const makeMain = (color, hex) => {
 		"selection.background": `${color.selection}${hex[64]}`,
 		"statusBar.debuggingBackground": color.main,
 		"statusBarItem.remoteBackground": color.remote,
-	}
-}
+	};
+};
 
 module.exports = {
 	makeBackground,
 	makeBase,
 	makeMain,
-}
+};

@@ -1,10 +1,10 @@
-"use strict"
+"use strict";
 
-const { mainColorPalette } = require("./_color-palette-theme")
+const { mainColorPalette } = require("./_color-palette-theme");
 
-const { makeMain } = require("./_make-theme-color")
+const { makeMain } = require("./_make-theme-color");
 
-const { hexCode } = require("./_color-palette-common")
+const { hexCode } = require("./_color-palette-common");
 
 // < Bumblebee
 const theme_1 = {
@@ -18,7 +18,7 @@ const theme_1 = {
 
 	selection: mainColorPalette.selection_1,
 	listSelection: mainColorPalette.text,
-}
+};
 
 // < Lavender
 const theme_2 = {
@@ -33,7 +33,7 @@ const theme_2 = {
 
 	selection: mainColorPalette.selection_1,
 	listSelection: mainColorPalette.text,
-}
+};
 
 // < Sakura
 const theme_3 = {
@@ -47,7 +47,7 @@ const theme_3 = {
 
 	selection: mainColorPalette.selection_2,
 	listSelection: mainColorPalette.text,
-}
+};
 
 // < Mint
 const theme_4 = {
@@ -62,7 +62,7 @@ const theme_4 = {
 
 	selection: mainColorPalette.selection_2,
 	listSelection: mainColorPalette.text,
-}
+};
 
 // < Peach
 const theme_5 = {
@@ -76,7 +76,7 @@ const theme_5 = {
 
 	selection: mainColorPalette.selection_3,
 	listSelection: mainColorPalette.text,
-}
+};
 
 // < Aqua
 const theme_6 = {
@@ -90,7 +90,7 @@ const theme_6 = {
 
 	selection: mainColorPalette.selection_3,
 	listSelection: mainColorPalette.text,
-}
+};
 
 const themeColor = {
 	Bumblebee: makeMain(theme_1, hexCode),
@@ -99,10 +99,10 @@ const themeColor = {
 	Mint: makeMain(theme_4, hexCode),
 	Peach: makeMain(theme_5, hexCode),
 	Aqua: makeMain(theme_6, hexCode),
-}
+};
 
 module.exports = {
 	themeColor,
-}
+};
 
 // < "list.hoverForeground": yellow/green

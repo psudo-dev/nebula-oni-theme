@@ -1,25 +1,17 @@
-"use strict"
+"use strict";
 
 const {
 	highlightClear,
 	noFocusBorder,
-} = require("../interface/theme-base-colors")
+} = require("../interface/theme-base-colors");
 
-const {
-	themeBackground
-} = require("../interface/theme-background")
+const { themeBackground } = require("../interface/theme-background");
 
-const {
-	themeColor
-} = require("../interface/theme-main-color")
+const { themeColor } = require("../interface/theme-main-color");
 
-const {
-	nameOptions
-} = require("../../data/theme-names")
+const { nameOptions } = require("../../data/theme-names");
 
-const {
-	brackets
-} = require("../interface/theme-base-colors")
+const { brackets } = require("../interface/theme-base-colors");
 
 class Interface {
 	constructor(main, background, highlight, focusBorder) {
@@ -29,18 +21,19 @@ class Interface {
 					...themeColor[main],
 					...themeBackground[background],
 					...brackets[name],
-				}
-			}
-			if (highlight === "Clear") Object.assign(this[name].colors,
-				highlightClear)
-			if (focusBorder === "OFF") Object.assign(this[name].colors, noFocusBorder)
-		})
+				},
+			};
+			if (highlight === "Clear")
+				Object.assign(this[name].colors, highlightClear);
+			if (focusBorder === "OFF")
+				Object.assign(this[name].colors, noFocusBorder);
+		});
 	}
 }
 
 module.exports = {
 	Interface,
-}
+};
 
 // ! TEST
 

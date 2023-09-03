@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 const makeInfo = (colorInfo, hex) => ({
 	"editorHint.foreground": colorInfo.hint,
@@ -57,7 +57,7 @@ const makeInfo = (colorInfo, hex) => ({
 	"gitDecoration.stageDeletedResourceForeground": `${colorInfo.deleted}${hex[75]}`,
 	"minimapGutter.deletedBackground": colorInfo.deleted,
 	"charts.red": colorInfo.deleted,
-})
+});
 
 const makeHighlightClear = (basicColors, hex) => ({
 	// "editorBracketMatch.border": `${basicColors.white}${hex[32]}`, // decide to keep or not
@@ -67,7 +67,7 @@ const makeHighlightClear = (basicColors, hex) => ({
 	"editor.findMatchBackground": `${basicColors.white}${hex[16]}`,
 	"editor.selectionBackground": `${basicColors.white}${hex[10]}`,
 	"editor.selectionHighlightBackground": `${basicColors.white}${hex[10]}`,
-})
+});
 
 const makeTransparency = (basicColors, hex) => ({
 	"activityBar.border": basicColors.zero,
@@ -95,7 +95,7 @@ const makeTransparency = (basicColors, hex) => ({
 	"editor.lineHighlightBackground": `${basicColors.white}${hex[8]}`,
 	"diffEditor.insertedTextBackground": `${basicColors.emerald}${hex[20]}`,
 	"diffEditor.removedTextBackground": `${basicColors.red}${hex[20]}`,
-})
+});
 
 const makeCommon = (basicColors) => ({
 	"activityBarBadge.foreground": basicColors.black,
@@ -108,8 +108,7 @@ const makeCommon = (basicColors) => ({
 	"statusBarItem.remoteForeground": basicColors.black,
 	"editorLightBulbAutoFix.foreground": basicColors.limePlus,
 	"editorLightBulb.foreground": basicColors.yellowPlus,
-	"debugIcon.breakpointCurrentStackframeForeground": basicColors
-		.yellow,
+	"debugIcon.breakpointCurrentStackframeForeground": basicColors.yellow,
 	"debugIcon.breakpointDisabledForeground": basicColors.grey,
 	"debugIcon.breakpointForeground": basicColors.red,
 	"debugIcon.breakpointStackframeForeground": basicColors.limePlus,
@@ -136,10 +135,10 @@ const makeCommon = (basicColors) => ({
 	// .brightLime, //class
 	// "editorBracketHighlight.foreground6": basicColors
 	// .frenchBlue, //sting
-})
+});
 
 const makeBrackets = (options, colors) => {
-	const brackets = {}
+	const brackets = {};
 	brackets[options.option_1] = {
 		"editorBracketHighlight.foreground1": colors.magenta,
 		"editorBracketHighlight.foreground2": colors.cyan,
@@ -147,9 +146,8 @@ const makeBrackets = (options, colors) => {
 		"editorBracketHighlight.foreground4": colors.amethyst,
 		"editorBracketHighlight.foreground5": colors.brightLime,
 		"editorBracketHighlight.foreground6": colors.frenchBlue,
-		"editorBracketHighlight.unexpectedBracket.foreground": colors
-			.raspberry,
-	}
+		"editorBracketHighlight.unexpectedBracket.foreground": colors.raspberry,
+	};
 	brackets[options.option_2] = {
 		"editorBracketHighlight.foreground1": colors.brightLime,
 		"editorBracketHighlight.foreground2": colors.brightYellow,
@@ -157,13 +155,12 @@ const makeBrackets = (options, colors) => {
 		"editorBracketHighlight.foreground4": colors.amethyst,
 		"editorBracketHighlight.foreground5": colors.magenta,
 		"editorBracketHighlight.foreground6": colors.frenchBlue,
-		"editorBracketHighlight.unexpectedBracket.foreground": colors
-			.raspberry,
-	}
-	brackets[options.option_3] = brackets[options.option_1]
-	brackets[options.option_4] = brackets[options.option_2]
-	return brackets
-}
+		"editorBracketHighlight.unexpectedBracket.foreground": colors.raspberry,
+	};
+	brackets[options.option_3] = brackets[options.option_1];
+	brackets[options.option_4] = brackets[options.option_2];
+	return brackets;
+};
 
 const makeTerminal = (terminalColors) => ({
 	"terminalCursor.foreground": terminalColors.cursor,
@@ -183,7 +180,7 @@ const makeTerminal = (terminalColors) => ({
 	"terminal.ansiBrightRed": terminalColors.brightRed,
 	"terminal.ansiBrightWhite": terminalColors.brightWhite,
 	"terminal.ansiBrightYellow": terminalColors.brightYellow,
-})
+});
 
 module.exports = {
 	makeInfo,
@@ -192,4 +189,4 @@ module.exports = {
 	makeCommon,
 	makeBrackets,
 	makeTerminal,
-}
+};
