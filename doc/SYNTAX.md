@@ -9,6 +9,10 @@ I kept tweaking the colors until I reached a balance and harmony that allowed fo
 ### Table of Contents
 
 - [Color Schemes](#color-schemes)
+- [Syntax Brightness](#syntax-brightness)
+  - [Normal vs Dimmed](#normal-vs-dimmed)
+  - [Different Background](#different-background)
+  - [Four Different Contrast Levels](#four-different-contrast-levels)
 - [Comments](#comments)
 - [Color Scheme - Universal](#color-scheme---universal)
     - [Markdown](#markdown)
@@ -35,6 +39,48 @@ When everything made sense and there was nothing left bothering me, then I final
 *Nebulas images:*
 ![Nebulas](./extra/nebulas.png)
 
+## Syntax Brightness
+
+To be honest, this is not something I will be using but it's another option to have and maybe some of you do prefer it, even more when working at night, I don't know.
+
+The colors are about 10~15% darker - and I say like that because simply making it equally darker doesn't work well for colors.
+
+You can also use darker background colors with it so you get a bit of the contrast back but the overall colors will be darker.
+
+### Normal vs Dimmed
+
+In this first example you have the same **Grey Background**, the first one has the **Normal Syntax Brightness** while the other is **Dimmed**.
+
+![Javascript](./dimmed/_js_comp.png)
+
+In this second example the **Syntax Brightness** settings are the same as the one before but the background now is **Dark Grey**. The contrast changes.
+
+![JSON](./dimmed/_json_comp.png)
+
+[<div align="right">⬆</div>](#table-of-contents)
+
+### Different Background
+
+In this next example the second one isn't just using the **Dimmed** option but also with a **Dark Grey Background**. This increases the contrast to similar levels to the **Normal Syntax Brightness** with **Grey Background**, but the overall theme is darker.
+
+![Markdown](./dimmed/_md_comp.png)
+
+[<div align="right">⬆</div>](#table-of-contents)
+
+### Four Different Contrast Levels
+
+Finally, we have all the contrast level options.
+
+**Darker Background** with **Normal Syntax Brightness** for **high-contrast** settings.
+
+**Normal Background** and **Normal Syntax Brightness** or **Darker Background** with **Dimmed Syntax Brightness** for a middle of the pack contrast level.
+
+And for **low-contrast**, just combine **Dimmed Syntax Brightness** with **Normal Background Color**.
+
+![Four Different Contrast Options](./dimmed/_contrast_comp.png)
+
+[<div align="right">⬆</div>](#table-of-contents)
+
 ## Comments
 
 Sometimes, depending on the time of the day or the lighting, I find the default **grey for comments** a bit harder to read in a glimpse.
@@ -45,7 +91,7 @@ There are 4 colors for comments, the standard **grey**, but also **violet**, **m
 
 ![Comments](./syntax/comments.png)
 
-[<div align="right">⬆</div>](#table-of-contents)  
+[<div align="right">⬆</div>](#table-of-contents)
 
 ## Color Scheme - Universal
 

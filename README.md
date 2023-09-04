@@ -6,6 +6,7 @@
 - [Nebula Oni » Theme Options](#nebula-oni--theme-options)
 - [Oni UI](#oni-ui)
 - [Nebula Syntax](#nebula-syntax)
+- [Syntax Brightness](#syntax-brightness)
 - [Theme Features](#theme-features)
 - [Extensions](#extensions)
 - [VSCode Customization](#vscode-customization)
@@ -126,6 +127,30 @@ There are **four** different color schemes for **Nebula Syntax**. Each one has a
 ![Nebula Syntax - Cerberus](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/_readme/example_cerberus_html.png)
 
 [<div align="right">⬆</div>](#table-of-contents)
+
+## Syntax Brightness
+
+![VSCode's Menu](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/dimmed/_syntax_brightness_menu.png)
+
+Nebula Oni Color Theme also has `Dimmed Syntax Brightness` option. It's for people that either prefer less contrast or an overall darker setting.
+
+If you work at night or if you simply prefer dimmed syntax colors, select the `Dimmed` option. The `Syntax Brightness` is about 10% darker with this setting.
+
+If you mix-and-match the **Syntax Brightness** with the **Background Color**, you've got **4 different contrast options**.
+
+**Darker Background** with **Normal Syntax Brightness** for **high-contrast** settings.
+
+![High-Contrast](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/dimmed/js_pegasus_darkgrey_normal.png)
+
+**Normal Background** and **Normal Syntax Brightness** or **Darker Background** with **Dimmed Syntax Brightness** for a middle of the pack contrast level.
+
+![Grey Background - Normal Syntax Brightness](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/dimmed/js_pegasus_grey_normal.png)
+
+![Dark Grey Background - Dimmed Syntax Brightness](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/dimmed/js_pegasus_darkgrey_dimmed.png)
+
+And for **low-contrast**, just combine **Dimmed Syntax Brightness** with **Normal Background Color**.
+
+![Low-Contrast](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/dimmed/js_pegasus_grey_dimmed.png)
 
 ## Theme Features
 
