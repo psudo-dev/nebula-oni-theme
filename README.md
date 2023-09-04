@@ -272,6 +272,8 @@ I've customized extensions that are color-related, so if someone would like colo
 
 ![Better Comments Customization](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/extra/extensions-better_comments.png)
 
+![Better Comments Customization](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/extra/extensions-better_comments_2.png)
+
 ### Bracket Pair Colorizer and Indent Rainbow <!-- omit in toc -->
 
 _<div align="left"> ( **Hourglass** / Spirograph ) </div>_

@@ -7,6 +7,8 @@ I've customized extensions that are color-related, so if someone would like colo
 ### Table of Contents
 
 - [Better Comments](#better-comments)
+  - [Option 1](#option-1)
+  - [Option 2](#option-2)
 - [Bracket Pair Colorizer](#bracket-pair-colorizer)
 - [Indent Rainbow](#indent-rainbow)
 
@@ -19,6 +21,8 @@ I customized the tags that trigger the colors as well as the colors themselves. 
 All **triggers** need the **Shift Key** except for the ~~**strikethrough**~~ _(double slash: **/ /** )_.
 
 For the other tags, you basically have 4 triggers in the **numbers row**, a pair on the **far left** `~` and `!` and another on the **far right** `_` and `+` and then the 4 colors I use the most are near the **Right Shift** `<` and `>` and then `?` and `:`.
+
+### Option 1
 
 ![Better Comments Example](./extra/extensions-better_comments.png)
 
@@ -79,6 +83,61 @@ For the other tags, you basically have 4 triggers in the **numbers row**, a pair
    "tag": "//"
   }
  ]
+```
+
+### Option 2
+
+![Better Comments Example](./extra/extensions-better_comments_2.png)
+
+```json
+	"better-comments.tags": [
+		{
+			"backgroundColor": "#F22468",
+			"color": "#D7DAE0",
+			"tag": "!"
+		},
+		{
+			"backgroundColor": "#FFA233",
+			"color": "#262A30",
+			"tag": "~"
+		},
+		{
+			"backgroundColor": "#6699FF",
+			"color": "#D7DAE0",
+			"tag": "_"
+		},
+		{
+			"backgroundColor": "#2EE6E6",
+			"color": "#262A30",
+			"tag": "+"
+		},
+		{
+			"backgroundColor": "#363A3F",
+			"color": "#18F26C",
+			"tag": "<"
+		},
+		{
+			"backgroundColor": "#363A3F",
+			"color": "#E645BD",
+			"tag": ">"
+		},
+		{
+			"backgroundColor": "#363A3F",
+			"color": "#E6E648",
+			"tag": "?"
+		},
+		{
+			"backgroundColor": "#363A3F",
+			"color": "#A273FF",
+			"tag": ":"
+		},
+		{
+			"backgroundColor": "transparent",
+			"color": "#737880",
+			"strikethrough": true,
+			"tag": "//"
+		}
+	]
 ```
 
 [<div align="right">⬆</div>](#table-of-contents)
