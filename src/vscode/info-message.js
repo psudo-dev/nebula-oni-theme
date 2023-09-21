@@ -45,7 +45,7 @@ const reloadMessage =
 
 const installMessage = `Thanks for downloading ${themeTextName} Theme! Use the VSCode Extension's menu to save your preferences and customize your theme! For more information check the theme's page.`;
 
-const updateMessage = `${themeTextName} v2.0 is here! NEW MENU OPTION: Dimmed Syntax Brightness! This update is for those that either prefer less contrast or an overall darker setup! Mix-and-match with darker background colors for different results.`;
+const updateMessage = `${themeTextName} v2.0.3 is here! Minor Color Correction. Help support Nebula Oni by reviewing it on the Market Place and help spread the word! Thanks!`;
 
 const website = `https://github.com/psudo-dev/${themeFileName}`;
 
