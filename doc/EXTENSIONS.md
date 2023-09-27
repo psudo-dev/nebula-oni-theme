@@ -102,7 +102,7 @@ For the other tags, you basically have 4 triggers in the **numbers row**, a pair
 			"tag": "~"
 		},
 		{
-			"backgroundColor": "#6699FF",
+			"backgroundColor": "#0066FF",
 			"color": "#D7DAE0",
 			"tag": "_"
 		},
