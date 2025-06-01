@@ -1,5 +1,3 @@
-"use strict";
-
 const makeInfo = (colorInfo, hex) => ({
 	"editorHint.foreground": colorInfo.hint,
 	"gitDecoration.submoduleResourceForeground": colorInfo.hint,

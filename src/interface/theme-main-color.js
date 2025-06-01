@@ -1,5 +1,3 @@
-"use strict";
-
 const { mainColorPalette } = require("./_color-palette-theme");
 
 const { makeMain } = require("./_make-theme-color");

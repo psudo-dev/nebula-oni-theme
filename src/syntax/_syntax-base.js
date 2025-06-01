@@ -1,5 +1,3 @@
-"use strict";
-
 const { corrections } = require("./syntax-corrections");
 
 const { markup, regexp, json } = require("./syntax-extra");

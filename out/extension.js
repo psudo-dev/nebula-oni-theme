@@ -1,5 +1,3 @@
-"use strict";
-
 const vscode = require("vscode");
 
 const { Theme } = require("../src/_make-theme/_make-theme");

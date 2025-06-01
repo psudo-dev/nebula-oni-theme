@@ -1,5 +1,3 @@
-"use strict";
-
 const { nameOptions } = require("../../data/theme-names");
 
 const { makeTextmate, makeSemantic } = require("../syntax/_syntax-base");

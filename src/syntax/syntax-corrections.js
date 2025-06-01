@@ -1,5 +1,3 @@
-"use strict";
-
 const { nameOptions } = require("../../data/theme-names");
 
 const { syntaxColors } = require("./_color-palette");

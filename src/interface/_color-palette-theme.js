@@ -1,5 +1,3 @@
-"use strict";
-
 // < Base: Grey
 const backgroundBase_1 = {
 	input: "#14151A",

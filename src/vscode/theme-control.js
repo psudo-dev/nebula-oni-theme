@@ -1,5 +1,3 @@
-"use strict";
-
 const { themeTextName, themeFileName } = require("./../../data/theme-names");
 
 const fs = require("fs");

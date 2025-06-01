@@ -1,5 +1,3 @@
-"use strict";
-
 const makeBackground = (color, hex) => {
 	return {
 		"statusBar.background": color.statusBar,

@@ -1,5 +1,3 @@
-"use strict";
-
 const syntaxColors = {
 	Normal: {
 		pink: "#FF9EE7",
