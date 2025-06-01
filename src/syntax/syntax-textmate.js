@@ -1,5 +1,3 @@
-"use strict";
-
 const textmateTokens = (colorSchemes, schemeName) => {
 	const scheme = colorSchemes[schemeName];
 	return [
@@ -551,6 +549,12 @@ const textmateTokens = (colorSchemes, schemeName) => {
 			},
 		},
 		{
+			scope: ["entity.name.tag.wildcard"],
+			settings: {
+				foreground: scheme.punctuation,
+			},
+		},
+		{
 			scope: ["entity.other.attribute-name"],
 			settings: {
 				foreground: scheme.number,
@@ -594,7 +598,7 @@ const textmateTokens = (colorSchemes, schemeName) => {
 		{
 			scope: ["support.constant.property-value"],
 			settings: {
-				foreground: scheme.variable,
+				foreground: scheme.storageType,
 			},
 		},
 		{
@@ -647,6 +651,15 @@ const textmateTokens = (colorSchemes, schemeName) => {
 			],
 			settings: {
 				foreground: scheme.storageType,
+			},
+		},
+		{
+			scope: [
+				"punctuation.definition.annotation.java",
+				"punctuation.definition.decorator.python",
+			],
+			settings: {
+				foreground: scheme.class,
 			},
 		},
 		{
