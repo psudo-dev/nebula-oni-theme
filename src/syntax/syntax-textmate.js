@@ -41,7 +41,11 @@ const textmateTokens = (colorSchemes, schemeName) => {
 			},
 		},
 		{
-			scope: ["variable.language.this", "variable.language.self"],
+			scope: [
+				"variable.language.this",
+				"variable.language.self",
+				"keyword.other.important",
+			],
 			settings: {
 				foreground: scheme.class,
 			},
@@ -53,11 +57,7 @@ const textmateTokens = (colorSchemes, schemeName) => {
 			},
 		},
 		{
-			scope: [
-				"keyword.control",
-				"punctuation.definition.keyword",
-				"keyword.other.important",
-			],
+			scope: ["keyword.control", "punctuation.definition.keyword"],
 			settings: {
 				foreground: scheme.storageType,
 			},
@@ -555,22 +555,25 @@ const textmateTokens = (colorSchemes, schemeName) => {
 			},
 		},
 		{
-			scope: ["entity.other.attribute-name"],
+			scope: [
+				"entity.other.attribute-name",
+				"entity.other.attribute-name.id",
+			],
 			settings: {
 				foreground: scheme.number,
 			},
 		},
 		{
-			scope: ["entity.other.attribute-name.id"],
+			scope: [
+				"entity.other.attribute-name.pseudo-class",
+				"entity.other.attribute-name.pseudo-element",
+			],
 			settings: {
 				foreground: scheme.function,
 			},
 		},
 		{
 			scope: [
-				"entity.other.attribute-name.pseudo-element",
-				"entity.other.attribute-name.pseudo-class",
-				"entity.other.attribute-name.class",
 				"entity.other.attribute-name.class.mixin",
 				"entity.other.attribute-name.parent-selector",
 				"entity.other.attribute-name.attribute",
@@ -580,6 +583,15 @@ const textmateTokens = (colorSchemes, schemeName) => {
 			],
 			settings: {
 				foreground: scheme.number,
+			},
+		},
+		{
+			scope: [
+				"entity.other.attribute-name.class",
+				"meta.attribute.class.html entity.other.attribute-name.html",
+			],
+			settings: {
+				foreground: scheme.storageType,
 			},
 		},
 		{
@@ -598,7 +610,7 @@ const textmateTokens = (colorSchemes, schemeName) => {
 		{
 			scope: ["support.constant.property-value"],
 			settings: {
-				foreground: scheme.storageType,
+				foreground: scheme.property,
 			},
 		},
 		{
