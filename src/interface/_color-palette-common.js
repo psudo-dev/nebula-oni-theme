@@ -1,5 +1,3 @@
-"use strict";
-
 const basicColors = {
 	zero: "#00000000",
 	black: "#14151A",

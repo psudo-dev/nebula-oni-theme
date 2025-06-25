@@ -1,5 +1,3 @@
-"use strict";
-
 const { themeTextName, nameOptions } = require("./../../data/theme-names");
 
 const { themeMenu } = require("./menu-settings");

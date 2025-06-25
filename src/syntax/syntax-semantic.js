@@ -1,5 +1,3 @@
-"use strict";
-
 const semanticTokens = (colorSchemes, schemeName) => {
 	const scheme = colorSchemes[schemeName];
 	const tokens = {

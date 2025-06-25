@@ -1,5 +1,3 @@
-"use strict";
-
 const vscode = require("vscode");
 
 const { themeMenuName } = require("../../data/theme-names");

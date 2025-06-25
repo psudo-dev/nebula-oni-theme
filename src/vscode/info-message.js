@@ -1,5 +1,3 @@
-"use strict";
-
 const { themeTextName, themeFileName } = require("./../../data/theme-names");
 
 const vscode = require("vscode");
@@ -45,7 +43,7 @@ const reloadMessage =
 
 const installMessage = `Thanks for downloading ${themeTextName} Theme! Use the VSCode Extension's menu to save your preferences and customize your theme! For more information check the theme's page.`;
 
-const updateMessage = `${themeTextName} v2.0.3 is here! Minor Color Correction. Help support Nebula Oni by reviewing it on the Market Place and help spread the word! Thanks!`;
+const updateMessage = `${themeTextName} v2.1.0 is here! Some colors have been changed, a minor update to the minimap, and added a new Syntax Color: Grey. Help support Nebula Oni by reviewing it on the Market Place and help spread the word! Thanks!`;
 
 const website = `https://github.com/psudo-dev/${themeFileName}`;
 

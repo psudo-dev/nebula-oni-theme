@@ -1,5 +1,3 @@
-"use strict";
-
 const makeInfo = (colorInfo, hex) => ({
 	"editorHint.foreground": colorInfo.hint,
 	"gitDecoration.submoduleResourceForeground": colorInfo.hint,
@@ -26,7 +24,7 @@ const makeInfo = (colorInfo, hex) => ({
 	"editorOverviewRuler.addedForeground": colorInfo.added,
 	"gitDecoration.addedResourceForeground": colorInfo.added,
 	// "gitDecoration.stageAddedResourceForeground": `${colorInfo.added}${hex[75]}`,
-	"minimap.findMatchHighlight": colorInfo.added,
+	"minimap.findMatchHighlight": `${colorInfo.added}${hex[80]}`,
 	"minimapGutter.addedBackground": colorInfo.added,
 	"charts.green": colorInfo.added,
 

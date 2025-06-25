@@ -5,6 +5,17 @@ All notable changes to the **Nebula Oni Theme** extension will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0] - 2025-06-24
+
+## Added
+
+- Added `"entity.name.tag.wildcard"`, `"punctuation.definition.annotation.java"`, `"punctuation.definition.decorator.python"`, `"meta.attribute.class.html entity.other.attribute-name.html"`
+
+## Changed
+
+- Changed colors of `"support.constant.property-value"`, `"keyword.other.important"`, `"entity.other.attribute-name.id"`, `"entity.other.attribute-name.pseudo-class"`, `"entity.other.attribute-name.pseudo-element"`, `"entity.other.attribute-name.class"`, `"punctuation.definition.tag"`
+- Corrected color of `"minimap.findMatchHighlight"` by adding transparency
+
 ## [2.0.3] - 2023-09-20
 
 ## Added

@@ -1,5 +1,3 @@
-"use strict";
-
 const {
 	backgroundBase_1,
 	background_1A,
