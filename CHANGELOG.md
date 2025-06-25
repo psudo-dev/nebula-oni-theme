@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Added
 
-- Added New Syntax Colors on `_color-pallete.js`:
+- Added New Syntax Colors to `_color-pallete.js`:
   - Normal Grey: "#7F848C"
   - Dimmed Grey: "#71767D"
 
