@@ -499,7 +499,6 @@ const textmateTokens = (colorSchemes, schemeName) => {
 				"punctuation.definition.arguments.end",
 				"punctuation.definition.entity.begin",
 				"punctuation.definition.entity.end",
-				"punctuation.definition.tag",
 				"punctuation.definition.type.begin",
 				"punctuation.definition.type.end",
 				"punctuation.section.scope.begin",
@@ -510,6 +509,12 @@ const textmateTokens = (colorSchemes, schemeName) => {
 			],
 			settings: {
 				foreground: scheme.variable,
+			},
+		},
+		{
+			scope: ["punctuation.definition.tag"],
+			settings: {
+				foreground: scheme.grey,
 			},
 		},
 		{
