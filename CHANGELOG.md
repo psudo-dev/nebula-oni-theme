@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Changed
 
-- Changed colors of `"support.constant.property-value"`, `"keyword.other.important"`, `"entity.other.attribute-name.id"`, `"entity.other.attribute-name.pseudo-class"`, `"entity.other.attribute-name.pseudo-element"`, `"entity.other.attribute-name.class"`
+- Changed colors of `"support.constant.property-value"`, `"keyword.other.important"`, `"entity.other.attribute-name.id"`, `"entity.other.attribute-name.pseudo-class"`, `"entity.other.attribute-name.pseudo-element"`, `"entity.other.attribute-name.class"`, `"punctuation.definition.tag"`
 - Corrected color of `"minimap.findMatchHighlight"` by adding transparency
 
 ## [2.0.3] - 2023-09-20
