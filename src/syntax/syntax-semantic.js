@@ -80,6 +80,10 @@ const semanticItalic = (colorSchemes, schemeName) => {
 			foreground: scheme.class,
 			fontStyle: "italic",
 		},
+		"variable.defaultLibrary": {
+			foreground: scheme.class,
+			fontStyle: "italic",
+		},
 	};
 	return tokens;
 };

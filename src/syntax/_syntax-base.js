@@ -1,4 +1,6 @@
-const { corrections } = require("./syntax-corrections");
+const { nameOptions } = require("../../data/theme-names");
+
+const { colorCorrections } = require("./syntax-corrections");
 
 const { markup, regexp, json } = require("./syntax-extra");
 
@@ -23,12 +25,11 @@ const makeTextmate = (
 		...markup(colors),
 		...regexp(colors),
 		...json(colors, nameOptions, schemeName),
-		...corrections[schemeName].textmate,
+		...colorCorrections(nameOptions, colorSchemes)[schemeName].textmate,
 		...italicTokens,
 	];
 	return textmate;
 };
-
 // < create semantic token colors (object)
 const makeSemantic = (fontStyle, colorSchemes, schemeName) => {
 	let italicTokens = {};
@@ -37,8 +38,8 @@ const makeSemantic = (fontStyle, colorSchemes, schemeName) => {
 	}
 	const semantic = {
 		...semanticTokens(colorSchemes, schemeName),
+		...colorCorrections(nameOptions, colorSchemes)[schemeName].semantic,
 		...italicTokens,
-		...corrections[schemeName].semantic,
 	};
 	return semantic;
 };

@@ -41,9 +41,9 @@ const info = (message, button, option) => {
 const reloadMessage =
 	"Your theme preferences have been saved! Reload the Window to apply the changes!";
 
-const installMessage = `Thanks for downloading ${themeTextName} Theme! Use the VSCode Extension's menu to save your preferences and customize your theme! For more information check the theme's page.`;
+const installMessage = `Thanks for downloading ${themeTextName} Theme! Use the VSCode Extension's menu to customize your theme and save your preferences! For more information check the theme's page.`;
 
-const updateMessage = `${themeTextName} v2.1.0 is here! Some colors have been changed, a minor update to the minimap, and added a new Syntax Color: Grey. Help support Nebula Oni by reviewing it on the Market Place and help spread the word! Thanks!`;
+const updateMessage = `${themeTextName} v2.2.0 is here! Fixed a bug for Color Correction and added new Italic properties. Help support Nebula Oni Theme by reviewing it on the Market Place or Github and help spread the word! Thanks!`;
 
 const website = `https://github.com/psudo-dev/${themeFileName}`;
 

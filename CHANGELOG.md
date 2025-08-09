@@ -5,6 +5,21 @@ All notable changes to the **Nebula Oni Theme** extension will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.2.0] - 2025-08-09
+
+## Added
+
+- `ITALIC` support for:
+  - "keyword.control.flow",
+  - "storage.modifier",
+  - "storage.type"
+
+## Changed
+
+- Fixed a bug that was introduced in v2.0.0 when I added `Dimmed` option:
+  -  I had to rewrite the parts related to `Color Correction` since the colors were coming back as `undefined`
+  - Changed files `_synstax-base` and `syntax-corrections`
+
 ## [2.1.0] - 2025-06-24
 
 ## Added
