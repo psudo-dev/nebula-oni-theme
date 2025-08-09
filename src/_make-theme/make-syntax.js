@@ -39,7 +39,7 @@ module.exports = {
 	Syntax,
 };
 
-// console.log(new Syntax("Italic", "Dark Violet", "Normal"));
+// console.log(new Syntax("Regular", "Dark Violet", "Normal"));
 // console.log(new Syntax("Italic", "Dark Grey", "Normal"));))
 // console.log(new Syntax("Italic", "Dark Magenta", "Dimmed"));))
 // console.log(new Syntax("Italic", "Dark Forest", "Dimmed"));))

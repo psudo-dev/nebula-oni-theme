@@ -1,11 +1,8 @@
-const { nameOptions } = require("../../data/theme-names");
-
-const { syntaxColors } = require("./_color-palette");
-
-const option_2_corrections = (colors) => {
+const option_2_corrections = (nameOptions, colorSchemes) => {
+	const colors = colorSchemes[nameOptions.option_2];
 	return {
 		semantic: {
-			"variable.defaultLibrary": colors.cyan,
+			"variable.defaultLibrary": colors.punctuation,
 		},
 		textmate: [
 			{
@@ -17,38 +14,40 @@ const option_2_corrections = (colors) => {
 					"punctuation.accessor",
 				],
 				settings: {
-					foreground: colors.green,
+					foreground: colors.string,
 				},
 			},
 			{
 				name: "[CORRECTIONS] YELLOW",
 				scope: ["storage.type.accessor", "variable.language.super"],
 				settings: {
-					foreground: colors.yellow,
+					foreground: colors.number,
 				},
 			},
 		],
 	};
 };
 
-const option_3_corrections = (colors) => {
+const option_3_corrections = (nameOptions, colorSchemes) => {
+	const colors = colorSchemes[nameOptions.option_3];
 	return {
 		semantic: {
-			"variable.defaultLibrary": colors.pink,
+			"variable.defaultLibrary": colors.number,
 		},
 		textmate: [
 			{
-				name: "[CORRECTIONS] GREEN",
+				name: "[CORRECTIONS] CYAN",
 				scope: ["keyword.operator.new", "keyword.control.new"],
 				settings: {
-					foreground: colors.cyan,
+					foreground: colors.punctuation,
 				},
 			},
 		],
 	};
 };
 
-const option_4_corrections = (colors) => {
+const option_4_corrections = (nameOptions, colorSchemes) => {
+	const colors = colorSchemes[nameOptions.option_4];
 	return {
 		semantic: {},
 		textmate: [
@@ -56,7 +55,7 @@ const option_4_corrections = (colors) => {
 				name: "[CORRECTIONS] GREEN",
 				scope: ["keyword.operator.accessor", "punctuation.accessor"],
 				settings: {
-					foreground: colors.green,
+					foreground: colors.string,
 				},
 			},
 			{
@@ -68,7 +67,7 @@ const option_4_corrections = (colors) => {
 					"variable.language.super",
 				],
 				settings: {
-					foreground: colors.yellow,
+					foreground: colors.number,
 				},
 			},
 		],
@@ -76,21 +75,28 @@ const option_4_corrections = (colors) => {
 };
 
 // < corrections for all color schemes
-const colorCorrections = (options, colors) => {
+const colorCorrections = (NameOptions, colorSchemes) => {
 	const schemes = {};
-	schemes[options.option_1] = {
+	schemes[NameOptions.option_1] = {
 		// ~ default
 		semantic: {},
 		textmate: [],
 	};
-	schemes[options.option_2] = option_2_corrections(colors);
-	schemes[options.option_3] = option_3_corrections(colors);
-	schemes[options.option_4] = option_4_corrections(colors);
+	schemes[NameOptions.option_2] = option_2_corrections(
+		NameOptions,
+		colorSchemes
+	);
+	schemes[NameOptions.option_3] = option_3_corrections(
+		NameOptions,
+		colorSchemes
+	);
+	schemes[NameOptions.option_4] = option_4_corrections(
+		NameOptions,
+		colorSchemes
+	);
 	return schemes;
 };
 
-const corrections = colorCorrections(nameOptions, syntaxColors);
-
 module.exports = {
-	corrections,
+	colorCorrections,
 };
