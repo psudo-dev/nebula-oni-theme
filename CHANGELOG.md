@@ -5,134 +5,142 @@ All notable changes to the **Nebula Oni Theme** extension will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.2.1] - 2025-10-04
+
+## Changed
+
+-   Changed the following syntax to `italic`:
+    -   (Python) `constant.numeric.dec`, `constant.numeric.bin`, `constant.numeric.oct`, `constant.numeric.hex`, `constant.numeric.float`
+
 ## [2.2.0] - 2025-08-09
 
 ## Added
 
-- `ITALIC` support for:
-  - "keyword.control.flow",
-  - "storage.modifier",
-  - "storage.type"
+-   `ITALIC` support for:
+    -   "keyword.control.flow",
+    -   "storage.modifier",
+    -   "storage.type"
 
 ## Changed
 
-- Fixed a bug that was introduced in v2.0.0 when I added `Dimmed` option:
-  -  I had to rewrite the parts related to `Color Correction` since the colors were coming back as `undefined`
-  - Changed files `_synstax-base` and `syntax-corrections`
+-   Fixed a bug that was introduced in v2.0.0 when I added `Dimmed` option:
+    -   I had to rewrite the parts related to `Color Correction` since the colors were coming back as `undefined`
+    -   Changed files `_synstax-base` and `syntax-corrections`
 
 ## [2.1.0] - 2025-06-24
 
 ## Added
 
-- Added New Syntax Colors to `_color-pallete.js`:
-  - Normal Grey: "#7F848C"
-  - Dimmed Grey: "#71767D"
+-   Added New Syntax Colors to `_color-pallete.js`:
 
-- Added `"entity.name.tag.wildcard"`, `"punctuation.definition.annotation.java"`, `"punctuation.definition.decorator.python"`, `"meta.attribute.class.html entity.other.attribute-name.html"`
+    -   Normal Grey: "#7F848C"
+    -   Dimmed Grey: "#71767D"
+
+-   Added `"entity.name.tag.wildcard"`, `"punctuation.definition.annotation.java"`, `"punctuation.definition.decorator.python"`, `"meta.attribute.class.html entity.other.attribute-name.html"`
 
 ## Changed
 
-- Changed colors of `"support.constant.property-value"`, `"keyword.other.important"`, `"entity.other.attribute-name.id"`, `"entity.other.attribute-name.pseudo-class"`, `"entity.other.attribute-name.pseudo-element"`, `"entity.other.attribute-name.class"`, `"punctuation.definition.tag"`
-- Corrected color of `"minimap.findMatchHighlight"` by adding transparency
+-   Changed colors of `"support.constant.property-value"`, `"keyword.other.important"`, `"entity.other.attribute-name.id"`, `"entity.other.attribute-name.pseudo-class"`, `"entity.other.attribute-name.pseudo-element"`, `"entity.other.attribute-name.class"`, `"punctuation.definition.tag"`
+-   Corrected color of `"minimap.findMatchHighlight"` by adding transparency
 
 ## [2.0.3] - 2023-09-20
 
 ## Added
 
-- `"module": scheme.variable`,
+-   `"module": scheme.variable`,
 
 ## [2.0.2] - 2023-08-31
 
 ## Changed
 
-- `"meta.delimiter.comma"` from `scheme.variable` to `scheme.punctuation`
+-   `"meta.delimiter.comma"` from `scheme.variable` to `scheme.punctuation`
 
 ## [2.0.1] - 2023-08-30
 
 ## Changed
 
-- `extension.js`, `user-preferences.js` to add `syntaxBrightness: Normal` to saved preferences as default
+-   `extension.js`, `user-preferences.js` to add `syntaxBrightness: Normal` to saved preferences as default
 
 ## [2.0.0] - 2023-08-29
 
 ## Added
 
-- Added new menu option: `Editor: Syntax Brightness`
-- Added Dimmed Syntax Color Palette
-- Added Dimmed Comments Color Palette
+-   Added new menu option: `Editor: Syntax Brightness`
+-   Added Dimmed Syntax Color Palette
+-   Added Dimmed Comments Color Palette
 
 ## Changed
 
-- Changed code in several files to accommodate the new functionalities
+-   Changed code in several files to accommodate the new functionalities
 
 ## [1.5.3] - 2023-08-19
 
 ## Changed
 
-- Changed `"punctuation.separator.parameter"` and `"punctuation.terminator.statement"` colors from `scheme.variable` to `scheme.punctuation`
+-   Changed `"punctuation.separator.parameter"` and `"punctuation.terminator.statement"` colors from `scheme.variable` to `scheme.punctuation`
 
 ## [1.5.2] - 2023-08-07
 
 ## Changed
 
-- Changed `typeParameter` semantic token color from the same color as **NUMBER** to the same color as **STORAGETYPE** (to complement `"support.type.primitive"`)
-- Changed `"editorIndentGuide.background"` and  `"editorIndentGuide.activeBackground"` to `"editorIndentGuide.background1"` and  `"editorIndentGuide.activeBackground1"` because they were deprecated
+-   Changed `typeParameter` semantic token color from the same color as **NUMBER** to the same color as **STORAGETYPE** (to complement `"support.type.primitive"`)
+-   Changed `"editorIndentGuide.background"` and `"editorIndentGuide.activeBackground"` to `"editorIndentGuide.background1"` and `"editorIndentGuide.activeBackground1"` because they were deprecated
 
 ## Added
 
-- Added italic to `typeParameter` semantic token (to complement `"support.type.primitive"`)
+-   Added italic to `typeParameter` semantic token (to complement `"support.type.primitive"`)
 
 ## [1.5.1] - 2023-08-05
 
 ## Added
 
-- Added `italic` for `["entity.name.type", "entity.name.type.alias"]`
+-   Added `italic` for `["entity.name.type", "entity.name.type.alias"]`
 
 ## Changed
 
-- Changed `"support.type.primitive"` color from **CLASS** color to **STORAGETYPE** color
+-   Changed `"support.type.primitive"` color from **CLASS** color to **STORAGETYPE** color
 
 ## [1.5.0] - 2023-08-05
 
 ## Changed
 
-- Changed `type` color from the same color as **NUMBER** to the same color as **CLASS**
+-   Changed `type` color from the same color as **NUMBER** to the same color as **CLASS**
 
 ## [1.4.4] - 2023-08-03
 
 ## Fixed
 
-- Fixed Bug that prevented the Menu Settings from working
+-   Fixed Bug that prevented the Menu Settings from working
 
 ## [1.4.2] - 2023-07-30
 
 ## Changed
 
-- Forgot to change the Update Message
+-   Forgot to change the Update Message
 
 ## [1.4.1] - 2023-07-30
 
 ## Changed
 
-- Changed `package.json` configuration to be able to run as a `Web Extension`
+-   Changed `package.json` configuration to be able to run as a `Web Extension`
 
 ## [1.4.0] - 2021-09-28
 
 ## Fixed
 
-- Color Theme Constructor
+-   Color Theme Constructor
 
 ## [1.3.1] - 2021-09-28
 
 ## Added
 
-- New Print Screens for the Documentation
+-   New Print Screens for the Documentation
 
 ## Changed
 
-- README.md
-- ONI-UI.md
-- EXTENSIONS.md
+-   README.md
+-   ONI-UI.md
+-   EXTENSIONS.md
 
 ## [1.3.0] - 2021-09-24
 

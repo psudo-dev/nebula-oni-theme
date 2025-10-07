@@ -41,9 +41,9 @@ const info = (message, button, option) => {
 const reloadMessage =
 	"Your theme preferences have been saved! Reload the Window to apply the changes!";
 
-const installMessage = `Thanks for downloading ${themeTextName} Theme! Use the VSCode Extension's menu to customize your theme and save your preferences! For more information check the theme's page.`;
+const installMessage = `Thanks for downloading ${themeTextName} Theme! Use the VSCode Extension's menu to customize your theme and save your preferences! For more information check the theme's page. Also, I made a monospaced font with ligatures to pair up with ${themeTextName}, it's called "psudoFont Liga Mono", go check it out! Thanks!`;
 
-const updateMessage = `${themeTextName} v2.2.0 is here! Fixed a bug for Color Correction and added new Italic properties. Help support Nebula Oni Theme by reviewing it on the Market Place or Github and help spread the word! Thanks!`;
+const updateMessage = `${themeTextName} v2.2.1 is here! Just a minor correction for Python. I made a monospaced font with ligatures to pair up with ${themeTextName}, it's called "psudoFont Liga Mono", go check it out! Help support Nebula Oni Theme by reviewing it on the Market Place and Github! Thanks!`;
 
 const website = `https://github.com/psudo-dev/${themeFileName}`;
 

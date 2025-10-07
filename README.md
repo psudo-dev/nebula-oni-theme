@@ -22,6 +22,16 @@
 
 This theme has a lot of different options for the **main color**, **background**, **syntax options** and more! You can customize everything and add your own flair through the **extension's menu** in **VSCode's Settings**!
 
+### psudoFont Liga Mono <!-- omit in toc -->
+
+If by any chance you are also looking for a programming font that matches the theme, I have one for you!
+
+It's a loooong story but just like this color theme I ended up creating my own font. It's based on both **Menlo/Meslo** and **IBM Plex Mono/Lilex**, and it's called **[psudoFont Liga Mono](https://github.com/psudo-dev/psudofont-liga-mono)**.
+
+It started as a _Frankenstein_ font but then it became its own font family with its own identity. It supports _ligatures_ and it's free to use! Give it a try!
+
+## Nebula Oni Theme examples <!-- omit in toc -->
+
 _<div align="left"> (Syntax: Hourglass / Background: Grey) </div>_
 
 ![Nebula Syntax - Hourglass - Typescript](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/_readme/example_1.png)
