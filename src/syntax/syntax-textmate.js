@@ -797,6 +797,11 @@ const textmateItalic = [
 		name: "[CORRECTIONS] ITALIC",
 		scope: [
 			"constant.language.boolean",
+			"constant.numeric.dec",
+			"constant.numeric.bin",
+			"constant.numeric.oct",
+			"constant.numeric.hex",
+			"constant.numeric.float",
 			"entity.name.class",
 			"entity.name.namespace",
 			"entity.name.other.preprocessor.macro",
