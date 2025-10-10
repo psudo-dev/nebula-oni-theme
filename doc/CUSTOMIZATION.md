@@ -23,15 +23,23 @@ For more information on how to customized it, I've followed this [tutorial](http
 
 ```json
  "terminal.integrated.defaultProfile.osx": "zsh",
- "terminal.integrated.fontFamily": "MesloLGS NF",
- "debug.console.fontFamily": "MesloLGS NF",
+ "terminal.integrated.fontFamily": "psudoFont Liga Mono",
+ "debug.console.fontFamily": "psudoFont Liga Mono",
  "terminal.integrated.fontWeightBold": "normal",
  "terminal.integrated.cursorStyle": "line",
  "terminal.integrated.cursorWidth": 2,
  "terminal.integrated.lineHeight": 1.1
 ```
 
-I use the these settings but `Hack NF` and `FiraCode NF` are also good font options. For more information check out [Nerd Fonts](https://www.nerdfonts.com/).
+#### psudoFont Liga Mono <!-- omit in toc -->
+
+If by any chance you are also looking for a programming font that matches the theme, I have one for you!
+
+It's a loooong story but just like this color theme I ended up creating my own font. It's based on both Menlo/Meslo and IBM Plex Mono/Lilex, and it's called psudoFont Liga Mono.
+
+It started as a Frankenstein font but then it became its own font family with its own identity. It supports ligatures and it's free to use! Give it a try!
+
+[psudoFont Liga Mono Repository](https://github.com/psudo-dev/psudofont-liga-mono)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -93,7 +101,7 @@ For `fontStyle` you can choose `regular`, `italic`, `bold` or `underline` or jus
 
 ```json
 {
-  "fontStyle": "underline bold italic"
+	"fontStyle": "underline bold italic"
 }
 ```
 

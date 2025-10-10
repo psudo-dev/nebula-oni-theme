@@ -320,7 +320,6 @@ If you want more information on how to customize your **Oni UI** and **Nebula Sy
 ## References and Links
 
 -   [ZSH Terminal Customization](https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb)
--   [Nerd Fonts](https://www.nerdfonts.com/)
 -   [VSCode Workbench Customization](https://code.visualstudio.com/api/references/theme-color)
 -   [Syntax Highlight Guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
 -   [Semantic Highlight Guide](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-token-classification)
@@ -343,7 +342,7 @@ And if you **really** liked this theme, would you consider [buying me a coffee](
 
 Thanks,
 
-[ [psudo.dev](https://github.com/psudo-dev/) ]
+[ [psudo-dev](https://github.com/psudo-dev/) ]
 
 ## License
 
