@@ -73,29 +73,29 @@ module.exports = {
 };
 
 // < Theme
-const nebulaTheme = {
-	background: "Grey",
-	main: "Bumblebee",
-	highlight: "Ultra Violet",
-	focusBorder: "ON",
-	fontStyle: "Italic",
-	syntaxBrightness: "Normal",
-	comments: "Dark Violet",
-	favorite: "OFF",
-};
-new Theme(nebulaTheme).allThemes();
+// const nebulaTheme = {
+// 	background: "Grey",
+// 	main: "Bumblebee",
+// 	highlight: "Ultra Violet",
+// 	focusBorder: "ON",
+// 	fontStyle: "Italic",
+// 	syntaxBrightness: "Normal",
+// 	comments: "Dark Violet",
+// 	favorite: "OFF",
+// };
+// new Theme(nebulaTheme).allThemes();
 
-const nebulaFav = {
-	background: "Glacial Blue",
-	main: "Sakura",
-	highlight: "Ultra Violet",
-	focusBorder: "ON",
-	fontStyle: "Italic",
-	syntaxBrightness: "Dimmed",
-	comments: "Dark Magenta",
-	favorite: `${themeTextName} (${nameOptions.option_2})`,
-};
-new Theme(nebulaFav).favoriteTheme();
+// const nebulaFav = {
+// 	background: "Glacial Blue",
+// 	main: "Sakura",
+// 	highlight: "Ultra Violet",
+// 	focusBorder: "ON",
+// 	fontStyle: "Italic",
+// 	syntaxBrightness: "Dimmed",
+// 	comments: "Dark Magenta",
+// 	favorite: `${themeTextName} (${nameOptions.option_2})`,
+// };
+// new Theme(nebulaFav).favoriteTheme();
 
 // new Theme(nebulaTheme).createTheme(`${nameOptions.option_1}`)
 // new Theme(nebulaTheme).createTheme(`${nameOptions.option_2}`)

@@ -237,6 +237,7 @@ const textmateTokens = (colorSchemes, schemeName) => {
 		{
 			name: "PROPERTY",
 			scope: [
+				"entity.other.keyframe-offset",
 				"support.type.vendored.property-name",
 				"support.type.property-name",
 				"variable.css",
