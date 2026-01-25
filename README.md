@@ -34,19 +34,19 @@ It started as a _Frankenstein_ font but then it became its own font family with 
 
 _<div align="left"> (Syntax: Hourglass / Background: Grey) </div>_
 
-![Nebula Syntax - Hourglass - Typescript](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/_readme/example_1.png)
+![Nebula Syntax - Hourglass - Typescript](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/refs/heads/main/doc/_readme/example_1.png)
 
 _<div align="left"> (Syntax: Pegasus / Background: Purple) </div>_
 
-![Nebula Syntax - Pegasus - Typescript](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/_readme/example_2.png)
+![Nebula Syntax - Pegasus - Typescript](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/refs/heads/main/doc/_readme/example_2.png)
 
 _<div align="left"> (Syntax: Spirograph / Background: Dark Grey) </div>_
 
-![Nebula Syntax - Spirograph - Typescript](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/_readme/example_3.png)
+![Nebula Syntax - Spirograph - Typescript](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/refs/heads/main/doc/_readme/example_3.png)
 
 _<div align="left"> (Syntax: Cerberus / Background: Blue) </div>_
 
-![Nebula Syntax - Cerberus - Typescript](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/_readme/example_4.png)
+![Nebula Syntax - Cerberus - Typescript](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/refs/heads/main/doc/_readme/example_4.png)
 
 _<div align="left"> (Main Color: Bumblebee / Background: Grey) </div>_
 
@@ -72,13 +72,13 @@ This started as a simple Atom's [One Dark Syntax](https://github.com/atom/one-da
 
 If you liked this theme and you want to support it, you can do simple things like:
 
--   **sharing** this theme with friends and colleagues
--   **rating** it on Visual Studio Code [Market Place](https://marketplace.visualstudio.com/publishers/psudo-dev)
--   giving it a **star** on [Github](https://github.com/psudo-dev/nebula-oni-theme)
+- **sharing** this theme with friends and colleagues
+- **rating** it on Visual Studio Code [Market Place](https://marketplace.visualstudio.com/publishers/psudo-dev)
+- giving it a **star** on [Github](https://github.com/psudo-dev/nebula-oni-theme)
 
 There are several ways to help and support it!
 
--   And if you **really** liked this theme, would you consider [buying me a coffee](https://buymeacoff.ee/psudodev)?
+- And if you **really** liked this theme, would you consider [buying me a coffee](https://buymeacoff.ee/psudodev)?
 
 ## Nebula Oni » Theme Options
 
@@ -118,23 +118,23 @@ There are **four** different color schemes for **Nebula Syntax**. Each one has a
 
 #### Hourglass (Javascript) <!-- omit in toc -->
 
-![Nebula Syntax - Hourglass](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/_readme/example_hourglass_js.png)
+![Nebula Syntax - Hourglass](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/refs/heads/main/doc/_readme/example_hourglass_js.png)
 
 #### Pegasus (JSON) <!-- omit in toc -->
 
 \*_Color Schemes_ for _JSON_ are split into pairs (_Hourglass/Spirograph_ and _Pegasus/Cerberus_)
 
-![Nebula Syntax - Pegasus](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/_readme/example_pegasus_json.png)
+![Nebula Syntax - Pegasus](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/refs/heads/main/doc/_readme/example_pegasus_json.png)
 
 #### Spirograph (Markdown) <!-- omit in toc -->
 
 \*_Markdown_ is the same for all _Color Schemes_
 
-![Nebula Syntax - Spirograph](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/_readme/example_spirograph_md.png)
+![Nebula Syntax - Spirograph](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/refs/heads/main/doc/_readme/example_spirograph_md.png)
 
 #### Cerberus (HTML) <!-- omit in toc -->
 
-![Nebula Syntax - Cerberus](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/_readme/example_cerberus_html.png)
+![Nebula Syntax - Cerberus](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/refs/heads/main/doc/_readme/example_cerberus_html.png)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -304,25 +304,25 @@ If you want more information on how to customize your **Oni UI** and **Nebula Sy
 
 ## More Info <!-- omit in toc -->
 
--   [Oni UI](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/ONI-UI.md)
--   [Nebula Syntax](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/SYNTAX.md)
--   [Extensions](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/EXTENSIONS.md)
--   [VSCode Customization](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/CUSTOMIZATION.md)
+- [Oni UI](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/ONI-UI.md)
+- [Nebula Syntax](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/SYNTAX.md)
+- [Extensions](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/EXTENSIONS.md)
+- [VSCode Customization](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/CUSTOMIZATION.md)
 
 ## Release History
 
--   [more information](https://github.com/psudo-dev/nebula-oni-theme/releases/)
+- [more information](https://github.com/psudo-dev/nebula-oni-theme/releases/)
 
 ## Issues and Suggestions
 
--   [more information](https://github.com/psudo-dev/nebula-oni-theme/issues/new/choose)
+- [more information](https://github.com/psudo-dev/nebula-oni-theme/issues/new/choose)
 
 ## References and Links
 
--   [ZSH Terminal Customization](https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb)
--   [VSCode Workbench Customization](https://code.visualstudio.com/api/references/theme-color)
--   [Syntax Highlight Guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
--   [Semantic Highlight Guide](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-token-classification)
+- [ZSH Terminal Customization](https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb)
+- [VSCode Workbench Customization](https://code.visualstudio.com/api/references/theme-color)
+- [Syntax Highlight Guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
+- [Semantic Highlight Guide](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-token-classification)
 
 [<div align="right">⬆</div>](#table-of-contents)
 
@@ -334,9 +334,9 @@ I've probably have one or two more themes I might publish - that once upon a tim
 
 If you want to support this theme, would you consider:
 
--   **sharing** this theme with friends and colleagues
--   **rating** it on Visual Studio Code [Market Place](https://marketplace.visualstudio.com/publishers/psudo-dev) and Open VSX [Market Place](https://open-vsx.org/extension/psudo-dev/nebula-oni-theme)
--   giving it a **star** on [Github](https://github.com/psudo-dev/nebula-oni-theme)
+- **sharing** this theme with friends and colleagues
+- **rating** it on Visual Studio Code [Market Place](https://marketplace.visualstudio.com/publishers/psudo-dev) and Open VSX [Market Place](https://open-vsx.org/extension/psudo-dev/nebula-oni-theme)
+- giving it a **star** on [Github](https://github.com/psudo-dev/nebula-oni-theme)
 
 And if you **really** liked this theme, would you consider [buying me a coffee](https://buymeacoff.ee/psudodev)?
 
@@ -346,4 +346,4 @@ Thanks,
 
 ## License
 
--   [Apache 2.0](https://github.com/psudo-dev/nebula-oni-theme/blob/main/LICENSE.md)
+- [Apache 2.0](https://github.com/psudo-dev/nebula-oni-theme/blob/main/LICENSE.md)
