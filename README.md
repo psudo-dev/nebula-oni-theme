@@ -44,7 +44,7 @@ _<div align="left"> (Syntax: Spirograph / Background: Dark Grey) </div>_
 
 ![Nebula Syntax - Spirograph - Typescript](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/refs/heads/main/doc/_readme/example_3.png)
 
-_<div align="left"> (Syntax: Cerberus / Background: Blue) </div>_
+_<div align="left"> (Syntax: Cerberus (Dimmed) / Background: Glacial Blue) </div>_
 
 ![Nebula Syntax - Cerberus - Typescript](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/refs/heads/main/doc/_readme/example_4.png)
 
