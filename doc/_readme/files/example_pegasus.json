@@ -1,0 +1,24 @@
+{
+  "name": "name",
+  "description": "description",
+  "version": "1.0.0",
+  "configuration": [
+    {
+      "title": "title",
+      "properties": {
+        "name.feature_1": {
+          "description": "Lorem ipsum dolor sit amet, consecte
+          adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua",
+          "type": "type",
+          "scope": [
+            {
+              "label": "Name (Label)",
+              "path": "./folder/file-label.json"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
