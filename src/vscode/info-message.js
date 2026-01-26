@@ -19,7 +19,7 @@ const info = (message, button, option) => {
 					.then((selectedAction) => {
 						if (selectedAction === button) {
 							vscode.commands.executeCommand(
-								"workbench.action.reloadWindow"
+								"workbench.action.reloadWindow",
 							);
 						}
 					})
@@ -43,7 +43,7 @@ const reloadMessage =
 
 const installMessage = `Thanks for downloading ${themeTextName} Theme! Use the VSCode Extension's menu to customize your theme and save your preferences! For more information check the theme's page. Also, I made a monospaced font with ligatures to pair up with ${themeTextName}, search for "psudoFont Liga Mono", go check it out! Thanks!`;
 
-const updateMessage = `${themeTextName} v2.2.2 is here! Just a minor correction for CSS. I made a monospaced font with ligatures to pair up with ${themeTextName}! Search for "psudoFont Liga Mono", go check it out! Help support Nebula Oni Theme by reviewing it on the Market Place and Github! Thanks!`;
+const updateMessage = `${themeTextName} v2.2.3 is here! For more info, check the CHANGELOG page. I made a monospaced font with ligatures to pair up with ${themeTextName}! Search for "psudoFont Liga Mono", go check it out! Help support Nebula Oni Theme by reviewing it on the Market Place and Github! Thanks!`;
 
 const website = `https://github.com/psudo-dev/${themeFileName}`;
 
