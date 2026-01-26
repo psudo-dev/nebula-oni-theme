@@ -15,13 +15,13 @@ class Theme {
 		this.themeSyntax = new Syntax(
 			config.fontStyle,
 			config.comments,
-			config.syntaxBrightness
+			config.syntaxBrightness,
 		);
 		this.themeInterface = new Interface(
 			config.main,
 			config.background,
 			config.highlight,
-			config.focusBorder
+			config.focusBorder,
 		);
 		this.favorite = config.favorite;
 		this.schemeNames = Object.keys(this.themeSyntax);

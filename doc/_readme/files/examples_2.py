@@ -7,12 +7,10 @@ class Animal:
 
 class Raven(Animal):
     def __init__(self, name: str):
-        # In Python, we call the parent constructor using super()
         super().__init__(name)
 
     def move(self, distance_in_meters: int = 100):
         print("Playing around...")
-        # Accessing the parent's method logic
         super().move(distance_in_meters)
 
 # Example Usage:

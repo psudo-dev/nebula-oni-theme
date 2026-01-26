@@ -300,6 +300,7 @@ const textmateTokens = (colorSchemes, schemeName) => {
 		{
 			name: "STORAGETYPE, FLOW, SPECIAL KEYWORDS",
 			scope: [
+				"comment.block.documentation entity.name.type",
 				"entity.name.operator",
 				"keyword.control.module.reference",
 				"keyword.operator.alignas",
@@ -473,7 +474,6 @@ const textmateTokens = (colorSchemes, schemeName) => {
 		{
 			scope: [
 				"comment.block.documentation entity.name.type punctuation.definition.bracket",
-				"comment.block.documentation entity.name.type",
 			],
 			settings: {
 				foreground: scheme.class,
@@ -797,6 +797,7 @@ const textmateItalic = [
 	{
 		name: "[CORRECTIONS] ITALIC",
 		scope: [
+			"comment.block.documentation entity.name.type",
 			"constant.language.boolean",
 			"constant.numeric.dec",
 			"constant.numeric.bin",
