@@ -813,6 +813,8 @@ const textmateItalic = [
 			"entity.name.type.interface",
 			"entity.name.type.module",
 			"entity.other.inherited-class",
+			"entity.other.attribute-name.pseudo-class",
+			"entity.other.attribute-name.pseudo-element",
 			"keyword.control.flow",
 			"keyword.operator.decorator",
 			"storage.type.accessor",
