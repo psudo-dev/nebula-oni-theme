@@ -17,3 +17,6 @@ node_modules/**
 package-lock.json
 .DS_Store
 **/tsconfig.web.json
+tsup.config.desktop.ts
+tsup.config.web.ts
+vitest.config.ts
