@@ -16,3 +16,4 @@ vsix/**
 node_modules/**
 package-lock.json
 .DS_Store
+**/tsconfig.web.json

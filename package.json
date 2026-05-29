@@ -2,42 +2,231 @@
 	"name": "nebula-oni-refactor",
 	"displayName": "nebula-oni-refactor",
 	"description": "Oni (鬼) is a type of ogre youkai and \"Nebula Oni Theme\" has colors from Outer Space! Nebula Oni has a Menu with a lot of different options, give it a try, customize it!",
-	"version": "0.0.1",
+	"version": "3.0.0",
+	"license": "Apache-2.0",
+	"author": "Renato Setoue",
+	"publisher": "psudo-dev",
+	"homepage": "https://github.com/psudo-dev/nebula-oni-theme/blob/main/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/psudo-dev/nebula-oni-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/psudo-dev/nebula-oni-theme/issues/new/choose"
+	},
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"main": "./dist/extension.js",
+	"browser": "./dist/web/extension.js",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Nebula Oni (Hourglass)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nebula-oni-theme-hourglass.json"
+			},
+			{
+				"label": "Nebula Oni (Pegasus)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nebula-oni-theme-pegasus.json"
+			},
+			{
+				"label": "Nebula Oni (Spirograph)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nebula-oni-theme-spirograph.json"
+			},
+			{
+				"label": "Nebula Oni (Cerberus)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nebula-oni-theme-cerberus.json"
+			},
+			{
+				"label": "Nebula Oni (Favorite)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nebula-oni-theme-favorite.json"
+			}
+		],
+		"configuration": [
+			{
+				"title": "Nebula Oni » Theme Options",
+				"properties": {
+					"nebulaOni.color.backgroundColor": {
+						"markdownDescription": "Three different `background color` options for your theme! Each color has a *lighter* and a *darker* variant for different levels of contrast.",
+						"type": "string",
+						"scope": "application",
+						"default": "Grey",
+						"enum": [
+							"Grey",
+							"Dark Grey",
+							"Blue",
+							"Glacial Blue",
+							"Purple",
+							"Deep Purple"
+						]
+					},
+					"nebulaOni.color.mainColor": {
+						"markdownDescription": "Choose between six different colors for the headers, borders, icons and badges!",
+						"type": "string",
+						"scope": "application",
+						"default": "Bumblebee",
+						"enum": [
+							"Bumblebee",
+							"Lavender",
+							"Sakura",
+							"Mint",
+							"Peach",
+							"Aqua"
+						],
+						"markdownEnumDescriptions": [
+							"Yellow Jacket",
+							"Radioactive Green",
+							"Sakura Drops",
+							"Lavender Fragrance",
+							"Juicy Peach",
+							"Glowing Blue"
+						]
+					},
+					"nebulaOni.editor.comments": {
+						"markdownDescription": "For `comments` you have 4 colors, the standard `Grey`, but also `Magenta`, `Forest` and `Violet`. Each with a *darker* and *lighter* option.",
+						"type": "string",
+						"scope": "application",
+						"default": "Dark Violet",
+						"enum": [
+							"Light Grey",
+							"Dark Grey",
+							"Light Magenta",
+							"Dark Magenta",
+							"Light Forest",
+							"Dark Forest",
+							"Light Violet",
+							"Dark Violet"
+						]
+					},
+					"nebulaOni.editor.fontStyle": {
+						"markdownDescription": "`Italics` are used for very few parameters like `classes`, `namespace`, special keywords as well as `function parameters`.",
+						"type": "string",
+						"scope": "application",
+						"default": "Italic",
+						"enum": [
+							"Italic",
+							"Regular"
+						]
+					},
+					"nebulaOni.editor.syntaxBrightness": {
+						"markdownDescription": "This is an option for those that prefer less contrast when coding. If you work at night or if you simply prefer dimmed syntax colors, select the `Dimmed` option. The `Syntax Brightness` is about 10% darker with this setting.",
+						"type": "string",
+						"scope": "application",
+						"default": "Normal",
+						"enum": [
+							"Normal",
+							"Dimmed"
+						]
+					},
+					"nebulaOni.interface.focusBorder": {
+						"markdownDescription": "For accessibility reasons and for those that use keyboard to navigate through the interface, you have `focusBorder`, it's a border that appears when we use the mouse click or `tab`. If you don't use it, you can turn it off.",
+						"type": "string",
+						"scope": "application",
+						"default": "ON",
+						"enum": [
+							"ON",
+							"OFF"
+						]
+					},
+					"nebulaOni.interface.editorSelectionAndFindMatch": {
+						"markdownDescription": "Options for `selection highlight` and `find match highlight`. Further configuration can be found on `Editor: Selection Highlight` in the Settings Menu",
+						"type": "string",
+						"scope": "application",
+						"default": "Ultra Violet",
+						"enum": [
+							"Ultra Violet",
+							"Clear"
+						],
+						"markdownEnumDescriptions": [
+							"It makes it easy to identity same `parameters`",
+							"A semi transparent neutral color"
+						]
+					},
+					"nebulaOni.applyChanges": {
+						"markdownDescription": "Select your options and use this `checkbox` to save your preferences. You will be prompted to `Reload Window` to apply the changes or you can do that later.",
+						"type": "boolean",
+						"scope": "application",
+						"default": false
+					},
+					"nebulaOni.update.restoreConfiguration": {
+						"markdownDescription": "Don't worry about this, this is just to save your settings so it can be restored automatically when Nebula Oni Theme is updated!",
+						"type": "object",
+						"scope": "application"
+					},
+					"nebulaOni.add.favorite": {
+						"markdownDescription": "If you need a secondary option - maybe for different contrast settings -, save your `Favorite` so you can switch between them without having to `Reload Window`! Choose your **Syntax Color Scheme** and once you `Apply Changes`, the current settings of **Color**, **Editor** and **Interface** will be saved as *Nebula Oni (Favorite)* in the **WorkBench > Color Theme**.",
+						"type": "string",
+						"scope": "application",
+						"default": "OFF",
+						"enum": [
+							"OFF",
+							"Nebula Oni (Hourglass)",
+							"Nebula Oni (Pegasus)",
+							"Nebula Oni (Spirograph)",
+							"Nebula Oni (Cerberus)"
+						]
+					}
+				}
+			}
+		]
+	},
 	"engines": {
 		"vscode": "^1.120.0"
 	},
 	"categories": [
+		"Themes",
 		"Other"
 	],
-	"activationEvents": [],
-	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "nebula-oni-refactor.helloWorld",
-				"title": "Hello World"
-			}
-		]
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#F0F1F2",
+		"theme": "light"
 	},
+	"keywords": [
+		"nebula syntax",
+		"oni ui",
+		"semantic",
+		"italic",
+		"high contrast",
+		"atom",
+		"one dark"
+	],
 	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./",
-		"pretest": "npm run compile && npm run lint",
-		"lint": "eslint src --ext ts",
-		"test": "node ./out/test/runTest.js"
+		"vscode:prepublish": "npm run build",
+		"clean": "rm -rf dist",
+		"build": "npm run clean && npm run build:desktop && npm run build:web",
+		"build:desktop": "tsup src/extension.ts --format cjs --external vscode --outDir dist --tsconfig tsconfig.json",
+		"build:web": "tsup src/web/extension.ts --format esm --external vscode --outDir dist/web --tsconfig tsconfig.web.json",
+		"watch": "concurrently --names \"desktop,web\" --prefixColors \"blue,green\" \"npm run watch:desktop\" \"npm run watch:web\"",
+		"watch:desktop": "tsup src/extension.ts --format cjs --external vscode --watch --outDir dist --tsconfig tsconfig.json",
+		"watch:web": "tsup src/web/extension.ts --format esm --external vscode --watch --outDir dist/web --tsconfig tsconfig.web.json",
+		"lint": "eslint src --ext .ts",
+		"test": "vitest run",
+		"test:watch": "vitest"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.120.0",
 		"@types/glob": "^8.1.0",
 		"@types/mocha": "^10.0.1",
-		"@types/node": "20.2.5",
+		"@types/node": "^22.19.19",
+		"@types/vscode": "^1.120.0",
 		"@typescript-eslint/eslint-plugin": "^5.59.8",
 		"@typescript-eslint/parser": "^5.59.8",
+		"@vscode/test-electron": "^2.3.2",
+		"concurrently": "^10.0.0",
 		"eslint": "^8.41.0",
 		"glob": "^8.1.0",
 		"mocha": "^10.2.0",
+		"tsup": "^8.5.1",
 		"typescript": "^5.1.3",
-		"@vscode/test-electron": "^2.3.2"
+		"vitest": "^4.1.7"
 	}
 }
