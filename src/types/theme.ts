@@ -7,13 +7,13 @@ import {
 	Highlight,
 	Main,
 	SyntaxBrightness,
-	syntaxNames,
+	SyntaxNames,
 } from "./settings";
 import { SemanticToken, TextmateToken } from "./tokens";
 
-export type ThemeName = `Nebula Oni (${syntaxNames})`;
+export type ThemeName = `Nebula Oni (${SyntaxNames})`;
 
-export type ThemeNebulaSyntax = `${syntaxNames} Color Scheme`;
+export type ThemeNebulaSyntax = `${SyntaxNames} Color Scheme`;
 
 export type ThemeType = "dark" | "light";
 

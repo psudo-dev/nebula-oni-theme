@@ -1,11 +1,11 @@
-import { syntaxNames, ThemeSettings } from "../types/settings";
+import { SyntaxNames, ThemeSettings } from "../types/settings";
 import { ThemeSyntax } from "../types/theme";
 import { buildSemantic } from "./buildSemantic";
 import { buildTextmate } from "./buildTextmate";
 
 export const buildSyntax = (
 	settings: ThemeSettings,
-	syntaxName: syntaxNames,
+	syntaxName: SyntaxNames,
 ): ThemeSyntax => {
 	return {
 		semanticHighlighting: true,

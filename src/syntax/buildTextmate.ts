@@ -1,5 +1,5 @@
 import { getSyntaxPalette } from "../palettes/syntax/syntax";
-import { syntaxNames, ThemeSettings } from "../types/settings";
+import { SyntaxNames, ThemeSettings } from "../types/settings";
 import { TextmateToken } from "../types/tokens";
 import { buildCommentTokens } from "./tokens/comments";
 import { buildJsonTokens } from "./tokens/json";
@@ -11,7 +11,7 @@ import { getCommentPalette } from "../palettes/syntax/comments";
 
 export const buildTextmate = (
 	settings: ThemeSettings,
-	syntaxName: syntaxNames,
+	syntaxName: SyntaxNames,
 ): TextmateToken[] => {
 	const { syntaxBrightness, fontStyle, comments } = settings;
 	const syntaxPalette = getSyntaxPalette(syntaxBrightness);

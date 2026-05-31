@@ -5,7 +5,7 @@ import { infoPalettes } from "../palettes/interface/info";
 import { mainPalettes } from "../palettes/interface/main";
 import { opacity } from "../palettes/interface/opacity";
 import { terminalPalette } from "../palettes/interface/terminal";
-import { syntaxNames, ThemeSettings } from "../types/settings";
+import { SyntaxNames, ThemeSettings } from "../types/settings";
 import { ThemeInterface } from "../types/theme";
 import { buildBackground } from "./tokens/background";
 import { buildBrackets } from "./tokens/brackets";
@@ -20,7 +20,7 @@ import { buildTransparency } from "./tokens/transparency";
 
 export const buildInterface = (
 	settings: ThemeSettings,
-	syntaxName: syntaxNames,
+	syntaxName: SyntaxNames,
 ): ThemeInterface => {
 	const { main, background, highlight, focusBorder } = settings;
 	const mainPalette = mainPalettes[main];
