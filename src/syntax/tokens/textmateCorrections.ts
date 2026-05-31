@@ -1,9 +1,9 @@
 import { SyntaxPalette } from "../../types/colors";
-import { SyntaxSchemes } from "../../types/settings";
+import { syntaxNames } from "../../types/settings";
 import { TextmateToken } from "../../types/tokens";
 
 export const buildTextmateCorrections = (
-	syntaxScheme: SyntaxSchemes,
+	syntaxName: syntaxNames,
 	syntaxPalette: SyntaxPalette,
 ): TextmateToken[] => {
 	const textmateCorrections = {
@@ -59,6 +59,6 @@ export const buildTextmateCorrections = (
 				},
 			},
 		],
-	} satisfies Record<SyntaxSchemes, TextmateToken[]>;
-	return textmateCorrections[syntaxScheme];
+	} satisfies Record<syntaxNames, TextmateToken[]>;
+	return textmateCorrections[syntaxName];
 };

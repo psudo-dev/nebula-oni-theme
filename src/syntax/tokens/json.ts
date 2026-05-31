@@ -1,13 +1,13 @@
-import { getJsonPalette } from "../../palettes/json";
+import { getJsonPalette } from "../../palettes/syntax/json";
 import { SyntaxPalette } from "../../types/colors";
-import { SyntaxSchemes } from "../../types/settings";
+import { syntaxNames } from "../../types/settings";
 import { TextmateToken } from "../../types/tokens";
 
 export const buildJsonTokens = (
-	syntaxScheme: SyntaxSchemes,
+	syntaxName: syntaxNames,
 	syntaxPalette: SyntaxPalette,
 ): TextmateToken[] => {
-	const jsonPalette = getJsonPalette(syntaxScheme, syntaxPalette);
+	const jsonPalette = getJsonPalette(syntaxName, syntaxPalette);
 	return [
 		{
 			name: "JSON KEY - Level 0",

@@ -1,14 +1,14 @@
-import { getSchemePalette } from "../../palettes/syntaxSchemes";
+import { getSchemePalette } from "../../palettes/syntax/syntaxNames";
 import { SyntaxPalette } from "../../types/colors";
-import { FontStyle, SyntaxSchemes } from "../../types/settings";
+import { FontStyle, syntaxNames } from "../../types/settings";
 import { TextmateToken } from "../../types/tokens";
 
 export const buildTextmateBase = (
-	syntaxScheme: SyntaxSchemes,
+	syntaxName: syntaxNames,
 	syntaxPalette: SyntaxPalette,
 	fontStyle: FontStyle,
 ): TextmateToken[] => {
-	const schemePalette = getSchemePalette(syntaxPalette, syntaxScheme);
+	const schemePalette = getSchemePalette(syntaxPalette, syntaxName);
 	const regularTokens: TextmateToken[] = [
 		{
 			scope: ["text", "source"],
