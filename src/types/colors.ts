@@ -30,3 +30,10 @@ export type SchemePalette = {
 	invalid: HexColor;
 	deprecated: HexColor;
 };
+
+export type JsonPalette = {
+	keyZero: HexColor;
+	valueZero: HexColor;
+	keyOne: HexColor;
+	valueOne: HexColor;
+};
