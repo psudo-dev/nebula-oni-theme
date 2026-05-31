@@ -1,4 +1,4 @@
-import { basePalette } from "./basePalette";
+import { basePalette } from "./base";
 
 export const infoGrey = {
 	gitModified: "#AA99FF",

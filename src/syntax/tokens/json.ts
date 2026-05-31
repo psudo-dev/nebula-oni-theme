@@ -1,10 +1,11 @@
 import { SyntaxPalette } from "../../types/colors";
-import { SyntaxScheme } from "../../types/settings";
+import { SyntaxSchemes } from "../../types/settings";
+import { TextmateToken } from "../../types/tokens";
 
-export const jsonTokens = (
+export const buildJsonTokens = (
 	syntaxPalette: SyntaxPalette,
-	syntaxScheme: SyntaxScheme,
-) => {
+	syntaxScheme: SyntaxSchemes,
+): TextmateToken[] => {
 	const jsonPalette =
 		syntaxScheme === "Hourglass" || syntaxScheme === "Spirograph"
 			? {
