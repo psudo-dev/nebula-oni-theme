@@ -1,5 +1,5 @@
-import { MainPalette, Opacity } from "../types/colors";
-import { ThemeInterfaceProperty } from "../types/theme";
+import { MainPalette, Opacity } from "../../types/colors";
+import { ThemeInterfaceProperty } from "../../types/theme";
 
 export const buildMain = (
 	mainPalette: MainPalette,

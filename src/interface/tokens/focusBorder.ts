@@ -1,6 +1,6 @@
-import { BackgroundPalette } from "../types/colors";
-import { FocusBorder } from "../types/settings";
-import { ThemeInterfaceProperty } from "../types/theme";
+import { BackgroundPalette } from "../../types/colors";
+import { FocusBorder } from "../../types/settings";
+import { ThemeInterfaceProperty } from "../../types/theme";
 
 export const buildFocusBorder = (
 	backgroundPalette: BackgroundPalette,

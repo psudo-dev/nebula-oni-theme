@@ -1,5 +1,5 @@
-import { InfoPalette, Opacity } from "../types/colors";
-import { ThemeInterfaceProperty } from "../types/theme";
+import { InfoPalette, Opacity } from "../../types/colors";
+import { ThemeInterfaceProperty } from "../../types/theme";
 
 export const buildInfo = (
 	infoPalette: InfoPalette,

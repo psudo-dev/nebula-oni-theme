@@ -1,5 +1,5 @@
-import { TerminalPalette } from "../types/colors";
-import { ThemeInterfaceProperty } from "../types/theme";
+import { TerminalPalette } from "../../types/colors";
+import { ThemeInterfaceProperty } from "../../types/theme";
 
 export const buildTerminal = (
 	terminalPalette: TerminalPalette,

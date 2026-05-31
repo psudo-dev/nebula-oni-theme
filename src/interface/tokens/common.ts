@@ -1,5 +1,5 @@
-import { BasePalette } from "../types/colors";
-import { ThemeInterfaceProperty } from "../types/theme";
+import { BasePalette } from "../../types/colors";
+import { ThemeInterfaceProperty } from "../../types/theme";
 
 export const buildCommon = (
 	basePalette: BasePalette,

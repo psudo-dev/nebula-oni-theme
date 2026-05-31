@@ -1,6 +1,6 @@
-import { BasePalette, Opacity } from "../types/colors";
-import { Highlight } from "../types/settings";
-import { ThemeInterfaceProperty } from "../types/theme";
+import { BasePalette, Opacity } from "../../types/colors";
+import { Highlight } from "../../types/settings";
+import { ThemeInterfaceProperty } from "../../types/theme";
 
 export const buildHighlight = (
 	basePalette: BasePalette,
