@@ -32,7 +32,6 @@ export type ThemeSyntax = {
 };
 
 export type Theme = {
-	// < creating each color scheme option
 	$schema: "vscode://schemas/color-theme";
 	_author: "[psudo-dev]";
 	_name: ThemeName;
