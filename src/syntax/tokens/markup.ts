@@ -1,7 +1,9 @@
 import { SyntaxPalette } from "../../types/colors";
 import { TextmateToken } from "../../types/tokens";
 
-export const buildMarkup = (syntaxPalette: SyntaxPalette): TextmateToken[] => {
+export const buildMarkupTokens = (
+	syntaxPalette: SyntaxPalette,
+): TextmateToken[] => {
 	return [
 		{
 			scope: ["markup.underline"],

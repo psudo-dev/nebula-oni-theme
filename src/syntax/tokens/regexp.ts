@@ -1,7 +1,7 @@
 import { SyntaxPalette } from "../../types/colors";
 import { TextmateToken } from "../../types/tokens";
 
-export const buildRegexp = (syntaxPalette: SyntaxPalette): TextmateToken[] => {
+export const buildRegexpTokens = (syntaxPalette: SyntaxPalette): TextmateToken[] => {
 	return [
 		{
 			name: "REGEX GREEN",
