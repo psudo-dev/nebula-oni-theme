@@ -1,6 +1,6 @@
 import { SyntaxBrightness } from "../types/settings";
 
-export const syntaxPalettes = {
+const syntaxPalettes = {
 	Normal: {
 		pink: "#FF9EE7",
 		magenta: "#D74BBE",

@@ -1,6 +1,6 @@
 import { SyntaxBrightness } from "../types/settings";
 
-export const commentPalettes = {
+const commentPalettes = {
 	Normal: {
 		"Dark Grey": "#737880",
 		"Light Grey": "#8A9099",
