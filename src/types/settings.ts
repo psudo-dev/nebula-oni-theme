@@ -62,4 +62,4 @@ export type FavoriteSettings = {
 	syntaxBrightness: SyntaxBrightness;
 };
 
-export type SyntaxSchemes = "Hourglass" | "Pegasus" | "Spirograph" | "Cerberus";
+export type syntaxNames = "Hourglass" | "Pegasus" | "Spirograph" | "Cerberus";
