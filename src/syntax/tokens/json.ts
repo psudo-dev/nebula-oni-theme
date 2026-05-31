@@ -1,25 +1,13 @@
+import { getJsonPalette } from "../../palettes/json";
 import { SyntaxPalette } from "../../types/colors";
 import { SyntaxSchemes } from "../../types/settings";
 import { TextmateToken } from "../../types/tokens";
 
 export const buildJsonTokens = (
-	syntaxPalette: SyntaxPalette,
 	syntaxScheme: SyntaxSchemes,
+	syntaxPalette: SyntaxPalette,
 ): TextmateToken[] => {
-	const jsonPalette =
-		syntaxScheme === "Hourglass" || syntaxScheme === "Spirograph"
-			? {
-					keyZero: syntaxPalette.magenta,
-					valueZero: syntaxPalette.blue,
-					keyOne: syntaxPalette.purple,
-					valueOne: syntaxPalette.green,
-				}
-			: {
-					keyZero: syntaxPalette.purple,
-					valueZero: syntaxPalette.green,
-					keyOne: syntaxPalette.magenta,
-					valueOne: syntaxPalette.blue,
-				};
+	const jsonPalette = getJsonPalette(syntaxScheme, syntaxPalette);
 	return [
 		{
 			name: "JSON KEY - Level 0",
