@@ -1,4 +1,7 @@
-const mainBasePalette = {
+import { HexColor, MainPalette } from "../../types/colors";
+import { Main } from "../../types/settings";
+
+const mainBasePalette: Record<string, HexColor> = {
 	yellow: "#FFE14D",
 	yellowStrong: "#FFD919",
 	lavender: "#BB99FF",
@@ -17,7 +20,7 @@ const mainBasePalette = {
 	text: "#E4E6E6",
 };
 
-export const bumblebeePalette = {
+export const bumblebeePalette: MainPalette = {
 	main: mainBasePalette.yellow,
 	strong: mainBasePalette.yellowStrong,
 	editorCursor: mainBasePalette.lavenderStrong,
@@ -27,7 +30,7 @@ export const bumblebeePalette = {
 	listSelection: mainBasePalette.text,
 };
 
-export const lavenderPalette = {
+export const lavenderPalette: MainPalette = {
 	main: mainBasePalette.lavender,
 	strong: mainBasePalette.lavenderStrong,
 	editorCursor: mainBasePalette.yellowStrong,
@@ -37,7 +40,7 @@ export const lavenderPalette = {
 	listSelection: mainBasePalette.text,
 };
 
-export const sakuraPalette = {
+export const sakuraPalette: MainPalette = {
 	main: mainBasePalette.sakura,
 	strong: mainBasePalette.sakuraStrong,
 	editorCursor: mainBasePalette.mintStrong,
@@ -47,7 +50,7 @@ export const sakuraPalette = {
 	listSelection: mainBasePalette.text,
 };
 
-export const mintPalette = {
+export const mintPalette: MainPalette = {
 	main: mainBasePalette.mint,
 	strong: mainBasePalette.mintStrong,
 	editorCursor: mainBasePalette.sakuraStrong,
@@ -57,7 +60,7 @@ export const mintPalette = {
 	listSelection: mainBasePalette.text,
 };
 
-export const peachPalette = {
+export const peachPalette: MainPalette = {
 	main: mainBasePalette.peach,
 	strong: mainBasePalette.peachStrong,
 	editorCursor: mainBasePalette.aquaStrong,
@@ -67,7 +70,7 @@ export const peachPalette = {
 	listSelection: mainBasePalette.text,
 };
 
-export const aquaPalette = {
+export const aquaPalette: MainPalette = {
 	main: mainBasePalette.aqua,
 	strong: mainBasePalette.aquaStrong,
 	editorCursor: mainBasePalette.peachStrong,
@@ -77,7 +80,7 @@ export const aquaPalette = {
 	listSelection: mainBasePalette.text,
 };
 
-export const mainPalette = {
+export const mainPalettes: Record<Main, MainPalette> = {
 	Bumblebee: bumblebeePalette,
 	Lavender: lavenderPalette,
 	Sakura: sakuraPalette,

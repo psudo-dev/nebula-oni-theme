@@ -1,4 +1,4 @@
-export const opacityMap = {
+export const opacity = {
 	8: "14",
 	10: "1A",
 	16: "29",

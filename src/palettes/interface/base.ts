@@ -22,4 +22,4 @@ export const basePalette = {
 	red: "#F24949",
 	raspberry: "#F22468",
 	crimson: "#BF003F",
-};
+} as const;

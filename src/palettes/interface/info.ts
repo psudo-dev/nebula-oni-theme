@@ -1,6 +1,8 @@
+import { InfoPalette } from "../../types/colors";
+import { Background } from "../../types/settings";
 import { basePalette } from "./base";
 
-export const infoGrey = {
+export const infoGrey: InfoPalette = {
 	gitModified: "#AA99FF",
 	modified: "#9966FF",
 	untracked: basePalette.blue,
@@ -12,7 +14,7 @@ export const infoGrey = {
 	deleted: basePalette.raspberry,
 };
 
-export const infoBlue = {
+export const infoBlue: InfoPalette = {
 	gitModified: "#BB99FF",
 	modified: "#B366FF",
 	untracked: "#28CCCC",
@@ -24,7 +26,7 @@ export const infoBlue = {
 	deleted: basePalette.raspberry,
 };
 
-export const infoPurple = {
+export const infoPurple: InfoPalette = {
 	gitModified: "#D98CFF",
 	modified: "#E359FF",
 	untracked: "#59B9FF",
@@ -36,7 +38,7 @@ export const infoPurple = {
 	deleted: basePalette.raspberry,
 };
 
-export const infoPalette = {
+export const infoPalettes: Record<Background, InfoPalette> = {
 	"Grey": infoGrey,
 	"Dark Grey": infoGrey,
 	"Blue": infoBlue,

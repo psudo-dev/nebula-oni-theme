@@ -1,11 +1,11 @@
-import { JsonPalette, SyntaxPalette } from "../types/colors";
-import { SyntaxSchemes } from "../types/settings";
+import { JsonPalette, SyntaxPalette } from "../../types/colors";
+import { syntaxNames } from "../../types/settings";
 
 export const getJsonPalette = (
-	syntaxScheme: SyntaxSchemes,
+	syntaxName: syntaxNames,
 	syntaxPalette: SyntaxPalette,
 ): JsonPalette => {
-	if (syntaxScheme === "Hourglass" || syntaxScheme === "Spirograph") {
+	if (syntaxName === "Hourglass" || syntaxName === "Spirograph") {
 		return {
 			keyZero: syntaxPalette.magenta,
 			valueZero: syntaxPalette.blue,
