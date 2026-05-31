@@ -19,7 +19,7 @@ const foregroundPurple: ForegroundPalette = {
 	white: "#C7B1F2",
 };
 
-export const foregroundPalette: Record<Background, ForegroundPalette> = {
+export const foregroundPalettes: Record<Background, ForegroundPalette> = {
 	"Grey": foregroundGrey,
 	"Dark Grey": foregroundGrey,
 	"Blue": foregroundBlue,
