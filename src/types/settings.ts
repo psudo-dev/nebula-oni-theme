@@ -26,13 +26,12 @@ export type Comments =
 
 export type Highlight = "Ultra Violet" | "Clear";
 
-export type Favorite = "ON" | "OFF";
-
-export type ChosenFavorite =
+export type Favorite =
 	| "Nebula Oni (Hourglass)"
 	| "Nebula Oni (Pegasus)"
 	| "Nebula Oni (Spirograph)"
-	| "Nebula Oni (Cerberus)";
+	| "Nebula Oni (Cerberus)"
+	| "OFF";
 
 export type FocusBorder = "ON" | "OFF";
 
@@ -49,17 +48,6 @@ export type ThemeSettings = {
 	syntaxBrightness: SyntaxBrightness;
 	comments: Comments;
 	favorite: Favorite;
-};
-
-export type FavoriteSettings = {
-	background: Background;
-	comments: Comments;
-	favorite: ChosenFavorite;
-	focusBorder: FocusBorder;
-	fontStyle: FontStyle;
-	highlight: Highlight;
-	main: Main;
-	syntaxBrightness: SyntaxBrightness;
 };
 
 export type SyntaxNames = "Hourglass" | "Pegasus" | "Spirograph" | "Cerberus";
