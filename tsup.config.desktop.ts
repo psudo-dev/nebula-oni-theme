@@ -1,7 +1,7 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-	entry: ["src/extension.ts"],
+	entry: ["src/extension/main.ts"],
 	format: ["cjs"],
 	external: ["vscode"],
 	outDir: "dist",

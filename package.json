@@ -17,8 +17,8 @@
 	"activationEvents": [
 		"onStartupFinished"
 	],
-	"main": "./dist/extension.js",
-	"browser": "./dist/web/extension.js",
+	"main": "./dist/main.js",
+	"browser": "./dist/web.js",
 	"contributes": {
 		"themes": [
 			{
@@ -209,7 +209,7 @@
 		"watch:desktop": "tsup --config tsup.config.desktop.ts --watch",
 		"watch:web": "tsup --config tsup.config.web.ts --watch",
 		"watch": "concurrently --names \"desktop,web\" --prefixColors \"blue,green\" \"npm run watch:desktop\" \"npm run watch:web\"",
-		"lint": "eslint src --ext .ts",
+		"lint": "eslint src//*.ts",
 		"test": "vitest run",
 		"test:watch": "vitest"
 	},

@@ -1,10 +1,10 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-	entry: ["src/web/extension.ts"],
+	entry: ["src/extension/web.ts"],
 	format: ["esm"],
 	external: ["vscode"],
-	outDir: "dist/web",
+	outDir: "dist",
 	tsconfig: "tsconfig.web.json",
 	outExtension: () => ({ js: ".js" }),
 });
