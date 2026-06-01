@@ -18,10 +18,10 @@ export const buildTextmate = (
 	const commentPalette = getCommentPalette(syntaxBrightness);
 	const textmateTokens = [
 		...buildTextmateBase(syntaxName, syntaxPalette, fontStyle),
+		...buildCommentTokens(commentPalette, comments),
 		...buildJsonTokens(syntaxName, syntaxPalette),
 		...buildMarkupTokens(syntaxPalette),
 		...buildRegexpTokens(syntaxPalette),
-		...buildCommentTokens(commentPalette, comments),
 		...buildTextmateCorrections(syntaxName, syntaxPalette),
 	];
 	return textmateTokens;
