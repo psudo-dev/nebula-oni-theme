@@ -28,13 +28,40 @@ const generateThemes = (settings: ThemeSettings): void => {
 	});
 };
 
+export const generateFavorite = (settings: ThemeSettings): void => {
+	const syntaxName = settings.favorite.match(
+		/\(([a-z]+)\)/i,
+	)?.[1] as SyntaxNames;
+	const themesDirPath = path.join(__dirname, "themes/");
+	const theme = buildTheme(settings, syntaxName);
+	const fileName = "nebula-oni-theme-favorite";
+	const message = `${fileName} file has been created!`;
+	try {
+		fs.writeFileSync(`${themesDirPath}${fileName}`, JSON.stringify(theme));
+		console.log(message);
+	} catch (err) {
+		console.error(`Failed to write ${fileName}:`, err);
+	}
+};
+
 generateThemes({
 	background: "Grey",
 	main: "Bumblebee",
 	highlight: "Ultra Violet",
-	focusBorder: "ON",
+	focusBorder: "OFF",
 	fontStyle: "Italic",
 	syntaxBrightness: "Normal",
 	comments: "Dark Violet",
 	favorite: "OFF",
+});
+
+generateFavorite({
+	background: "Glacial Blue",
+	main: "Sakura",
+	highlight: "Ultra Violet",
+	focusBorder: "OFF",
+	fontStyle: "Italic",
+	syntaxBrightness: "Dimmed",
+	comments: "Dark Magenta",
+	favorite: "Nebula Oni (Pegasus)",
 });
