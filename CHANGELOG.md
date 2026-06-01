@@ -9,7 +9,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Added
 
-- `"editorStickyScrollHover.background": backgroundPalette.panelBorder`,
+- `"editorStickyScrollHover.background": backgroundPalette.panelBorder`
+- `REGEX MAGENTA` to regexp tokens
+- properties `meta.assertion.negative-look-ahead.regexp`, `meta.assertion.negative-look-behind.regexp` and `punctuation.definition.group.no-capture.regexp` to `REGEX MAGENTA`
+- property `variable.other.regexp` to `REGEX GREEN`
+- property `keyword.other.back-reference.regexp` to `REGEX PURPLE`
+- property `constant.character.numeric.regexp` to `REGEX PINK`
+
+## Changed
+
+- properties `meta.group.regexp` and `constant.other.character-class.set.regexp` to `REGEX GREEN`
+- property `keyword.operator.or.regexp` to `REGEX YELLOW`
+- property `keyword.control.anchor.regexp` to `REGEX PINK`
+- properties `constant.character.escape.backslash.regexp` and `keyword.operator.negation.regexp` to `REGEX MAGENTA`
 
 ## [2.2.4] - 2026-03-06
 
