@@ -203,13 +203,13 @@
 	"scripts": {
 		"vscode:prepublish": "npm run build",
 		"clean": "rm -rf dist",
-		"build": "npm run clean && npm run build:desktop && npm run build:web",
-		"build:desktop": "tsup --config tsup.config.desktop.ts",
+		"build": "npm run clean && npm run build:main && npm run build:web",
+		"build:main": "tsup --config tsup.config.main.ts",
 		"build:web": "tsup --config tsup.config.web.ts",
-		"watch:desktop": "tsup --config tsup.config.desktop.ts --watch",
+		"watch:main": "tsup --config tsup.config.main.ts --watch",
 		"watch:web": "tsup --config tsup.config.web.ts --watch",
-		"watch": "concurrently --names \"desktop,web\" --prefixColors \"blue,green\" \"npm run watch:desktop\" \"npm run watch:web\"",
-		"lint": "eslint src//*.ts",
+		"watch": "concurrently --names \"main,web\" --prefixColors \"blue,green\" \"npm run watch:main\" \"npm run watch:web\"",
+		"lint": "eslint src/**/*.ts",
 		"test": "vitest run",
 		"test:watch": "vitest"
 	},
