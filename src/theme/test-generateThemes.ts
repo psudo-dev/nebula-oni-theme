@@ -34,7 +34,7 @@ export const generateFavorite = (settings: ThemeSettings): void => {
 	)?.[1] as SyntaxNames;
 	const themesDirPath = path.join(__dirname, "themes/");
 	const theme = buildTheme(settings, syntaxName);
-	const fileName = "nebula-oni-theme-favorite";
+	const fileName = "nebula-oni-theme-favorite.json";
 	const message = `${fileName} file has been created!`;
 	try {
 		fs.writeFileSync(`${themesDirPath}${fileName}`, JSON.stringify(theme));
