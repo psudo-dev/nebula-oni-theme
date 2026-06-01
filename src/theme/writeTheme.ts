@@ -7,8 +7,8 @@ export const writeTheme = (
 	settings: ThemeSettings,
 	syntaxName: SyntaxNames,
 ): void => {
-	const themesDirPath = path.join(__dirname, "../themes/");
 	const theme = buildTheme(settings, syntaxName);
+	const themesDirPath = path.join(__dirname, "../themes/");
 	const fileName = `nebula-oni-theme-${syntaxName.toLowerCase()}.json`;
 	const message = `${fileName} file has been created!`;
 	try {
