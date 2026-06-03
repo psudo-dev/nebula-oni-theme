@@ -28,7 +28,7 @@ const generateThemes = (settings: ThemeSettings): void => {
 	});
 };
 
-export const generateFavorite = (settings: ThemeSettings): void => {
+const generateFavorite = (settings: ThemeSettings): void => {
 	const syntaxName = settings.favorite.match(
 		/\(([a-z]+)\)/i,
 	)?.[1] as SyntaxNames;
