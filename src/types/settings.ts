@@ -39,6 +39,8 @@ export type FontStyle = "Regular" | "Italic";
 
 export type SyntaxBrightness = "Normal" | "Dimmed";
 
+export type SyntaxNames = "Hourglass" | "Pegasus" | "Spirograph" | "Cerberus";
+
 export type ThemeSettings = {
 	background: Background;
 	main: Main;
@@ -50,4 +52,7 @@ export type ThemeSettings = {
 	favorite: Favorite;
 };
 
-export type SyntaxNames = "Hourglass" | "Pegasus" | "Spirograph" | "Cerberus";
+export type RestoreConfiguration = {
+	themeSettings: ThemeSettings;
+	favoriteSettings: ThemeSettings;
+};
