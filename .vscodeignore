@@ -20,3 +20,4 @@ package-lock.json
 tsup.config.desktop.ts
 tsup.config.web.ts
 vitest.config.ts
+notes/
