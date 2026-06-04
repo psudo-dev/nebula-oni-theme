@@ -159,7 +159,7 @@
 						"scope": "application"
 					},
 					"nebulaOni.add.favorite": {
-						"markdownDescription": "If you need a secondary option - maybe for different contrast settings -, save your `Favorite` so you can switch between them without having to `Reload Window`! Choose your **Syntax Color Scheme** and once you `Apply Changes`, the current settings of **Color**, **Editor** and **Interface** will be saved as *Nebula Oni (Favorite)* in the **WorkBench > Color Theme**.",
+						"markdownDescription": "If you need a secondary option - maybe for different contrast settings -, save your `Favorite` so you can switch between themes without having to reconfigure it each time! Choose your **Syntax Color Scheme** and once you `Apply Changes`, the current settings of **Color**, **Editor** and **Interface** will be saved as *Nebula Oni (Favorite)* in the **WorkBench > Color Theme**.",
 						"type": "string",
 						"scope": "application",
 						"default": "OFF",
