@@ -1,9 +1,9 @@
 import { SyntaxPalette } from "../../types/colors";
-import { FontStyle, syntaxNames } from "../../types/settings";
+import { FontStyle, SyntaxNames } from "../../types/settings";
 import { SemanticToken } from "../../types/tokens";
 
 export const buildSemanticCorrections = (
-	syntaxName: syntaxNames,
+	syntaxName: SyntaxNames,
 	syntaxPalette: SyntaxPalette,
 	fontStyle: FontStyle,
 ): SemanticToken => {
@@ -12,7 +12,7 @@ export const buildSemanticCorrections = (
 		Pegasus: { "variable.defaultLibrary": syntaxPalette.cyan },
 		Spirograph: { "variable.defaultLibrary": syntaxPalette.pink },
 		Cerberus: {},
-	} satisfies Record<syntaxNames, SemanticToken>;
+	} satisfies Record<SyntaxNames, SemanticToken>;
 	const semanticItalicCorrections = {
 		Hourglass: {},
 		Pegasus: {
@@ -28,7 +28,7 @@ export const buildSemanticCorrections = (
 			},
 		},
 		Cerberus: {},
-	} satisfies Record<syntaxNames, SemanticToken>;
+	} satisfies Record<SyntaxNames, SemanticToken>;
 	if (fontStyle === "Regular") {
 		return semanticCorrections[syntaxName];
 	} else {

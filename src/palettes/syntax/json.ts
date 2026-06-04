@@ -1,8 +1,8 @@
 import { JsonPalette, SyntaxPalette } from "../../types/colors";
-import { syntaxNames } from "../../types/settings";
+import { SyntaxNames } from "../../types/settings";
 
 export const getJsonPalette = (
-	syntaxName: syntaxNames,
+	syntaxName: SyntaxNames,
 	syntaxPalette: SyntaxPalette,
 ): JsonPalette => {
 	if (syntaxName === "Hourglass" || syntaxName === "Spirograph") {

@@ -1,10 +1,10 @@
 import { getJsonPalette } from "../../palettes/syntax/json";
 import { SyntaxPalette } from "../../types/colors";
-import { syntaxNames } from "../../types/settings";
+import { SyntaxNames } from "../../types/settings";
 import { TextmateToken } from "../../types/tokens";
 
 export const buildJsonTokens = (
-	syntaxName: syntaxNames,
+	syntaxName: SyntaxNames,
 	syntaxPalette: SyntaxPalette,
 ): TextmateToken[] => {
 	const jsonPalette = getJsonPalette(syntaxName, syntaxPalette);

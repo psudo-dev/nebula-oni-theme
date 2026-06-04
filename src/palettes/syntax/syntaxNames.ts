@@ -1,9 +1,9 @@
 import { SchemePalette, SyntaxPalette } from "../../types/colors";
-import { syntaxNames } from "../../types/settings";
+import { SyntaxNames } from "../../types/settings";
 
 export const getSchemePalette = (
 	syntaxPalette: SyntaxPalette,
-	syntaxName: syntaxNames,
+	syntaxName: SyntaxNames,
 ): SchemePalette => {
 	const schemePalettes = {
 		Hourglass: {
@@ -58,6 +58,6 @@ export const getSchemePalette = (
 			invalid: syntaxPalette.red,
 			deprecated: syntaxPalette.brown,
 		},
-	} satisfies Record<syntaxNames, SchemePalette>;
+	} satisfies Record<SyntaxNames, SchemePalette>;
 	return schemePalettes[syntaxName];
 };

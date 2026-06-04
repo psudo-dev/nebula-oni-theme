@@ -1,10 +1,10 @@
 import { getSchemePalette } from "../../palettes/syntax/syntaxNames";
 import { SyntaxPalette } from "../../types/colors";
-import { FontStyle, syntaxNames } from "../../types/settings";
+import { FontStyle, SyntaxNames } from "../../types/settings";
 import { TextmateToken } from "../../types/tokens";
 
 export const buildTextmateBase = (
-	syntaxName: syntaxNames,
+	syntaxName: SyntaxNames,
 	syntaxPalette: SyntaxPalette,
 	fontStyle: FontStyle,
 ): TextmateToken[] => {
