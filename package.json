@@ -212,7 +212,8 @@
 		"watch": "concurrently --names \"main,web\" --prefixColors \"blue,green\" \"npm run watch:main\" \"npm run watch:web\"",
 		"lint": "eslint src/**/*.ts",
 		"test": "vitest run",
-		"test:watch": "vitest"
+		"test:watch": "vitest",
+		"vsce": "vsce package --out ./vsix/"
 	},
 	"devDependencies": {
 		"@types/glob": "^8.1.0",
