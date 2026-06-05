@@ -148,7 +148,7 @@
 						]
 					},
 					"nebulaOni.applyChanges": {
-						"markdownDescription": "Select your options and use this `checkbox` to save your preferences. You will be prompted to `Reload Window` to apply the changes or you can do that later.",
+						"markdownDescription": "Select your options and use this `checkbox` to save your preferences and apply the changes!",
 						"type": "boolean",
 						"scope": "application",
 						"default": false
@@ -201,8 +201,9 @@
 		"one dark"
 	],
 	"scripts": {
-		"vscode:prepublish": "npm run build",
+		"vscode:prepublish": "npm run generate && npm run build",
 		"clean": "rm -rf dist",
+		"generate": "tsup src/scripts/generateDefaults.ts --format cjs && node dist/generateDefaults.js",
 		"build": "npm run clean && npm run build:main && npm run build:web",
 		"build:main": "tsup --config tsup.config.main.ts",
 		"build:web": "tsup --config tsup.config.web.ts",
