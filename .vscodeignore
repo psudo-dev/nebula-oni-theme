@@ -9,7 +9,7 @@ vsc-extension-quickstart.md
 **/*.map
 **/*.ts
 
-.github/**``
+.github/**
 doc/**
 vsix/**
 *.vsix
@@ -17,7 +17,7 @@ node_modules/**
 package-lock.json
 .DS_Store
 **/tsconfig.web.json
-tsup.config.desktop.ts
+tsup.config.main.ts
 tsup.config.web.ts
 vitest.config.ts
 notes/
