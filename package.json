@@ -148,7 +148,7 @@
 						]
 					},
 					"nebulaOni.applyChanges": {
-						"markdownDescription": "Select your options and use this `checkbox` to save your preferences and apply the changes!",
+						"markdownDescription": "Select your options and use this `checkbox` to save your preferences. You will be prompted to `Reload Window` to apply the changes or you can do that later.",
 						"type": "boolean",
 						"scope": "application",
 						"default": false
