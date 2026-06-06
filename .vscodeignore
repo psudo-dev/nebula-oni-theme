@@ -21,3 +21,4 @@ tsup.config.main.ts
 tsup.config.web.ts
 vitest.config.ts
 notes/
+eslint.config.js
