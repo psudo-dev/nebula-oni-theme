@@ -47,6 +47,10 @@ export const resetApplyChanges = (): Thenable<void> => {
 	return nebulaOniTheme().update("applyChanges", false, true);
 };
 
+export const resetFavorite = (): Thenable<void> => {
+	return nebulaOniTheme().update("add.favorite", "OFF", true);
+};
+
 export const saveRestoreConfig = (
 	themeSettings: ThemeSettings,
 	favoriteSettings: ThemeSettings,
