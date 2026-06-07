@@ -129,6 +129,7 @@ export const buildTextmateBase = (
 				"keyword.operator.new",
 				"keyword.control.new",
 				"support.type.primitive",
+				"support.type.builtin",
 			],
 			settings: {
 				foreground: schemePalette.storageType,
@@ -286,7 +287,6 @@ export const buildTextmateBase = (
 				"meta.interface-or-protocol storage.type.objc",
 				"source.groovy storage.type.def",
 				"storage.type.accessor",
-				"storage.type.class.jsdoc",
 				"storage.type.property",
 				"storage",
 			],
@@ -404,7 +404,6 @@ export const buildTextmateBase = (
 				"punctuation.terminator.statement",
 				"constant.other.color",
 				"constant.other.symbol",
-				"punctuation.definition.block.tag",
 				"punctuation.accessor",
 				"keyword.operator.accessor",
 				"meta.attribute.href.html",
@@ -494,6 +493,16 @@ export const buildTextmateBase = (
 			settings: {
 				foreground: schemePalette.variable,
 				fontStyle: "italic",
+			},
+		},
+		{
+			name: "JSDOC",
+			scope: [
+				"storage.type.class.jsdoc",
+				"punctuation.definition.block.tag.jsdoc",
+			],
+			settings: {
+				foreground: schemePalette.class,
 			},
 		},
 		{
@@ -831,6 +840,7 @@ export const buildTextmateBase = (
 				"storage.type",
 				"support.class",
 				"support.type.primitive",
+				"support.type.builtin",
 				"variable.language.self",
 				"variable.language.super",
 				"variable.language.this",
