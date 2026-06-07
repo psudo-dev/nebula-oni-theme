@@ -6,11 +6,11 @@ import {
 	getRestoreConfig,
 	getThemeSettings,
 	resetApplyChanges,
-	restoreMenuSettings,
+	resetFavorite,
 	saveRestoreConfig,
 } from "./settings";
 
-export const applyChanges = () => {
+export const applyChanges = async (onComplete: () => void) => {
 	const currentSettings = getThemeSettings();
 	const { themeSettings, favoriteSettings } = getRestoreConfig();
 
@@ -19,9 +19,10 @@ export const applyChanges = () => {
 		saveRestoreConfig(currentSettings, favoriteSettings);
 	} else {
 		generateFavorite(currentSettings);
-		restoreMenuSettings(themeSettings);
+		await resetFavorite();
 		saveRestoreConfig(themeSettings, currentSettings);
 	}
-	resetApplyChanges();
+	await resetApplyChanges();
+	onComplete();
 	showReloadPrompt(reloadMessage);
 };
