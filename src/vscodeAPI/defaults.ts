@@ -19,5 +19,5 @@ export const defaultFavoriteSettings: ThemeSettings = {
 	fontStyle: "Italic",
 	syntaxBrightness: "Dimmed",
 	comments: "Dark Magenta",
-	favorite: "Nebula Oni (Pegasus)",
+	favorite: "Nebula Oni (Cerberus)",
 };
