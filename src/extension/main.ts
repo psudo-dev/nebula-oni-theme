@@ -2,7 +2,6 @@ import * as vscode from "vscode";
 import {
 	getApplyChanges,
 	getRestoreConfig,
-	restoreMenuSettings,
 	saveRestoreConfig,
 } from "../vscodeAPI/settings";
 import {
@@ -22,7 +21,11 @@ import { generateThemes } from "../theme/generateThemes";
 import { generateFavorite } from "../theme/generateFavorite";
 import { applyChanges } from "../vscodeAPI/applyChanges";
 
+let isApplying = false;
+
 export function activate(context: vscode.ExtensionContext) {
+	// context.globalState.update("version", undefined);
+	// context.globalState.update("version", "2.0.0");
 	const currentVersion = context.extension.packageJSON.version;
 	const storedVersion = context.globalState.get<string>("version");
 
@@ -34,22 +37,24 @@ export function activate(context: vscode.ExtensionContext) {
 		const { themeSettings, favoriteSettings } = getRestoreConfig();
 		generateThemes(themeSettings);
 		generateFavorite(favoriteSettings);
-		restoreMenuSettings(themeSettings);
 		showUpdateMessage(updateMessage, psudoFontOption);
 		context.globalState.update("version", currentVersion);
-	} else {
-		const { themeSettings } = getRestoreConfig();
-		restoreMenuSettings(themeSettings);
 	}
 
 	const listener = vscode.workspace.onDidChangeConfiguration((event) => {
 		if (!event.affectsConfiguration("nebulaOni")) {
 			return;
 		}
+		if (isApplying) {
+			return;
+		}
 		if (!getApplyChanges()) {
 			return;
 		}
-		applyChanges();
+		isApplying = true;
+		applyChanges(() => {
+			isApplying = false;
+		});
 	});
 
 	context.subscriptions.push(listener);
