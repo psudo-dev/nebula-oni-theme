@@ -20,6 +20,7 @@ export const buildSemanticBase = (
 		"enum": schemePalette.class,
 		"struct": schemePalette.class,
 		"variable.defaultLibrary": schemePalette.class,
+		"type.defaultLibrary": schemePalette.class,
 		"namespace": schemePalette.number,
 		"enumMember": schemePalette.number,
 		"variable.readonly.defaultLibrary": schemePalette.number,
@@ -37,7 +38,6 @@ export const buildSemanticBase = (
 		"variable.readonly": schemePalette.variable,
 		"variable.declaration": schemePalette.variable,
 		"variable.local": schemePalette.variable,
-		"type.defaultLibrary": schemePalette.variable,
 	};
 	const italicTokens = {
 		...regularTokens,
@@ -86,6 +86,10 @@ export const buildSemanticBase = (
 			fontStyle: "italic",
 		},
 		"variable.defaultLibrary": {
+			foreground: schemePalette.class,
+			fontStyle: "italic",
+		},
+		"type.defaultLibrary": {
 			foreground: schemePalette.class,
 			fontStyle: "italic",
 		},
