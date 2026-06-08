@@ -30,8 +30,17 @@ export function activate(context: vscode.ExtensionContext) {
 	const storedVersion = context.globalState.get<string>("version");
 
 	if (storedVersion === undefined) {
-		saveRestoreConfig(defaultThemeSettings, defaultFavoriteSettings);
-		showInstallMessage(installMessage, psudoFontOption);
+		const existingConfig = getRestoreConfig();
+		if (existingConfig) {
+			// < v2 update
+			generateThemes(existingConfig.themeSettings);
+			generateFavorite(existingConfig.favoriteSettings);
+			showUpdateMessage(updateMessage, psudoFontOption);
+		} else {
+			// < fresh install
+			saveRestoreConfig(defaultThemeSettings, defaultFavoriteSettings);
+			showInstallMessage(installMessage, psudoFontOption);
+		}
 		context.globalState.update("version", currentVersion);
 	} else if (storedVersion !== currentVersion) {
 		const { themeSettings, favoriteSettings } = getRestoreConfig();
