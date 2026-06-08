@@ -2,9 +2,9 @@
 	"name": "nebula-oni-theme",
 	"displayName": "Nebula Oni Theme",
 	"description": "Oni (鬼) is a type of ogre youkai and \"Nebula Oni Theme\" has colors from Outer Space! Nebula Oni has a Menu with a lot of different options, give it a try, customize it!",
-	"version": "2.2.4",
+	"version": "3.0.0",
 	"license": "Apache-2.0",
-	"author": "Renato Setoue",
+	"author": "Renato S.",
 	"publisher": "psudo-dev",
 	"homepage": "https://github.com/psudo-dev/nebula-oni-theme/blob/main/README.md",
 	"repository": {
@@ -17,7 +17,8 @@
 	"activationEvents": [
 		"onStartupFinished"
 	],
-	"main": "./out/extension.js",
+	"main": "./dist/main.js",
+	"browser": "./dist/web.js",
 	"contributes": {
 		"themes": [
 			{
@@ -158,7 +159,7 @@
 						"scope": "application"
 					},
 					"nebulaOni.add.favorite": {
-						"markdownDescription": "If you need a secondary option - maybe for different contrast settings -, save your `Favorite` so you can switch between them without having to `Reload Window`! Choose your **Syntax Color Scheme** and once you `Apply Changes`, the current settings of **Color**, **Editor** and **Interface** will be saved as *Nebula Oni (Favorite)* in the **WorkBench > Color Theme**.",
+						"markdownDescription": "If you need a secondary option - maybe for different contrast settings -, save your `Favorite` so you can switch between themes without having to reconfigure it each time! Choose your **Syntax Color Scheme** and once you `Apply Changes`, the current settings of **Color**, **Editor** and **Interface** will be saved as *Nebula Oni (Favorite)* in the **WorkBench > Color Theme**.",
 						"type": "string",
 						"scope": "application",
 						"default": "OFF",
@@ -175,7 +176,7 @@
 		]
 	},
 	"engines": {
-		"vscode": "^1.61.0"
+		"vscode": "^1.120.0"
 	},
 	"categories": [
 		"Themes",
@@ -200,20 +201,34 @@
 		"one dark"
 	],
 	"scripts": {
-		"build": "node src/_make-theme/_make-theme.js",
-		"lint": "eslint .",
-		"pretest": "npm run lint",
-		"test": "node ./test/runTest.js"
+		"vscode:prepublish": "npm run generate && npm run build",
+		"clean": "rm -rf dist",
+		"generate": "tsup src/scripts/generateDefaults.ts --format cjs && node dist/generateDefaults.js",
+		"build": "npm run clean && npm run build:main && npm run build:web",
+		"build:main": "tsup --config tsup.config.main.ts",
+		"build:web": "tsup --config tsup.config.web.ts",
+		"watch:main": "tsup --config tsup.config.main.ts --watch",
+		"watch:web": "tsup --config tsup.config.web.ts --watch",
+		"watch": "concurrently --names \"main,web\" --prefixColors \"blue,green\" \"npm run watch:main\" \"npm run watch:web\"",
+		"lint": "eslint src/**/*.ts",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"vsce": "vsce package --out ./vsix/"
 	},
 	"devDependencies": {
-		"@types/glob": "^7.1.3",
-		"@types/mocha": "^8.0.0",
-		"@types/node": "^14.0.27",
-		"@types/vscode": "^1.61.0",
-		"eslint": "^7.6.0",
-		"glob": "^7.1.6",
-		"mocha": "^8.0.1",
-		"typescript": "^3.8.3",
-		"vscode-test": "^1.4.0"
+		"@types/glob": "^8.1.0",
+		"@types/mocha": "^10.0.1",
+		"@types/node": "^22.19.19",
+		"@types/vscode": "^1.120.0",
+		"@typescript-eslint/eslint-plugin": "^5.59.8",
+		"@typescript-eslint/parser": "^5.59.8",
+		"@vscode/test-electron": "^2.3.2",
+		"concurrently": "^10.0.0",
+		"eslint": "^8.41.0",
+		"glob": "^8.1.0",
+		"mocha": "^10.2.0",
+		"tsup": "^8.5.1",
+		"typescript": "^5.1.3",
+		"vitest": "^4.1.7"
 	}
 }
