@@ -21,8 +21,8 @@ import { generateThemes } from "../theme/generateThemes";
 import { generateFavorite } from "../theme/generateFavorite";
 import { applyChanges } from "../vscodeAPI/applyChanges";
 
-// < prevents the listener to misfire
-// < while applyChanges() is still running
+// + prevents the listener to misfire
+// + while applyChanges() is still running
 let isApplying = false;
 
 export function activate(context: vscode.ExtensionContext) {
