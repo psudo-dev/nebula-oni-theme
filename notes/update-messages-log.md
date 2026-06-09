@@ -1,6 +1,8 @@
 # Update Messages Log
 
 ```js
+const updateMessage = `Nebula Oni Theme v3.0.0 is here! For more info, check the CHANGELOG page. I made a monospaced font with ligatures to pair up with the theme! Click on "psudoFont", go check it out! Help support Nebula Oni Theme by reviewing it on the Market Place and Github! Thanks!`;
+
 const updateMessage = `Nebula Oni Theme v2.2.4 is here! For more info, check the CHANGELOG page. I made a monospaced font with ligatures to pair up with Nebula Oni Theme! Search for "psudoFont Liga Mono", go check it out! Help support Nebula Oni Theme by reviewing it on the Market Place and Github! Thanks!`;
 
 const updateMessage = `Nebula Oni Theme v2.2.3 is here! For more info, check the CHANGELOG page. I made a monospaced font with ligatures to pair up with Nebula Oni Theme! Search for "psudoFont Liga Mono", go check it out! Help support Nebula Oni Theme by reviewing it on the Market Place and Github! Thanks!`;
