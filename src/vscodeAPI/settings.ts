@@ -38,9 +38,12 @@ export const getApplyChanges = () => {
 };
 
 export const getRestoreConfig = () => {
-	return nebulaOniTheme().get(
+	const restoreConfig = nebulaOniTheme().get(
 		"update.restoreConfiguration",
 	) as RestoreConfiguration;
+	return restoreConfig && Object.keys(restoreConfig).length > 0
+		? restoreConfig
+		: undefined;
 };
 
 export const resetApplyChanges = (): Thenable<void> => {
@@ -64,28 +67,4 @@ export const saveRestoreConfig = (
 		restoreConfig,
 		true,
 	);
-};
-
-export const restoreMenuSettings = (
-	themeSettings: ThemeSettings,
-): Promise<void[]> => {
-	const config = nebulaOniTheme();
-	return Promise.all([
-		config.update("color.backgroundColor", themeSettings.background, true),
-		config.update("color.mainColor", themeSettings.main, true),
-		config.update(
-			"interface.editorSelectionAndFindMatch",
-			themeSettings.highlight,
-			true,
-		),
-		config.update("interface.focusBorder", themeSettings.focusBorder, true),
-		config.update("editor.fontStyle", themeSettings.fontStyle, true),
-		config.update(
-			"editor.syntaxBrightness",
-			themeSettings.syntaxBrightness,
-			true,
-		),
-		config.update("editor.comments", themeSettings.comments, true),
-		config.update("add.favorite", themeSettings.favorite, true),
-	]);
 };
