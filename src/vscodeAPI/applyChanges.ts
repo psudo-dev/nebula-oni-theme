@@ -12,7 +12,7 @@ import {
 
 export const applyChanges = async (onComplete: () => void) => {
 	const currentSettings = getThemeSettings();
-	const { themeSettings, favoriteSettings } = getRestoreConfig();
+	const { themeSettings, favoriteSettings } = getRestoreConfig()!;
 
 	if (currentSettings.favorite === "OFF") {
 		generateThemes(currentSettings);
