@@ -5,7 +5,7 @@ All notable changes to the **Nebula Oni Theme** extension will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.0.0]
+## [3.0.0] - 2026-06-09
 
 ### Added
 
@@ -33,10 +33,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Properties `constant.character.escape.backslash.regexp` and `keyword.operator.negation.regexp` to `REGEX MAGENTA`
 - Semantic token `type.defaultLibrary` to `schemePalette.class` and added `italic` to it
 - Textmate tokens `storage.type.class.jsdoc` and `punctuation.definition.block.tag`to `schemePalette.class`
-
-### Removed
-
-- Reload Window prompt — VS Code now hot-reloads themes automatically
 
 ## [2.2.4] - 2026-03-06
 
