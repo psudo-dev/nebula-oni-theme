@@ -60,7 +60,7 @@ _<div align="left"> (Main Color: Mint / Background: Purple) </div>_
 
 ![Oni UI Menu](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/win_3.png)
 
-[<div align="right">⬆</div>](#table-of-contents)
+<p align="right"><a href="#table-of-contents">⬆</a></p>
 
 ## Nebula Oni Theme
 
@@ -92,7 +92,7 @@ _<div align="left"> (Main Color: Sakura / Background: Glacial Blue) </div>_
 
 ![Nebula Oni Menu](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/menu.png)
 
-[<div align="right">⬆</div>](#table-of-contents)
+<p align="right"><a href="#table-of-contents">⬆</a></p>
 
 ## Oni UI
 
@@ -108,7 +108,7 @@ I hope you like it and give it a try! For more info, check [Oni UI's page](https
 
 ![Oni UI Background Colors](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/bg_colors.png)
 
-[<div align="right">⬆</div>](#table-of-contents)
+<p align="right"><a href="#table-of-contents">⬆</a></p>
 
 ## Nebula Syntax
 
@@ -136,7 +136,7 @@ There are **four** different color schemes for **Nebula Syntax**. Each one has a
 
 ![Nebula Syntax - Cerberus](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/refs/heads/main/doc/_readme/example_cerberus_html.png)
 
-[<div align="right">⬆</div>](#table-of-contents)
+<p align="right"><a href="#table-of-contents">⬆</a></p>
 
 ## Syntax Brightness
 
@@ -180,7 +180,7 @@ For those that might not be onboard with the **Violet** selection, there is a **
 
 ![Ultra  Violet Highlight](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/highlight_clear.gif)
 
-[<div align="right">⬆</div>](#table-of-contents)
+<p align="right"><a href="#table-of-contents">⬆</a></p>
 
 ### VSCode Native Bracket Pair Colorization <!-- omit in toc -->
 
@@ -200,7 +200,7 @@ _<div align="left"> ( Pegasus / **Cerberus** ) </div>_
 
 ![Side Bar](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/_bracket_cerberus.png)
 
-[<div align="right">⬆</div>](#table-of-contents)
+<p align="right"><a href="#table-of-contents">⬆</a></p>
 
 ### Focus Border <!-- omit in toc -->
 
@@ -210,7 +210,7 @@ _<div align="left"> (Main Color: Aqua / Background: Purple) </div>_
 
 ![Focus Border Example](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/focus_border.gif)
 
-[<div align="right">⬆</div>](#table-of-contents)
+<p align="right"><a href="#table-of-contents">⬆</a></p>
 
 ### Italic <!-- omit in toc -->
 
@@ -224,7 +224,7 @@ There are 4 colors for comments, the standard **grey**, but also **violet**, **m
 
 ![Comments Colors](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/syntax/comments.png)
 
-[<div align="right">⬆</div>](#table-of-contents)
+<p align="right"><a href="#table-of-contents">⬆</a></p>
 
 ### Side Bar and Activity Bar <!-- omit in toc -->
 
@@ -244,7 +244,7 @@ _<div align="left"> (Main Color: Sakura / Background: Glacial Blue) </div>_
 
 ![Side Bar](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/command_palette.gif)
 
-[<div align="right">⬆</div>](#table-of-contents)
+<p align="right"><a href="#table-of-contents">⬆</a></p>
 
 ### Color Information <!-- omit in toc -->
 
@@ -252,7 +252,7 @@ These colors are used across the **mini map**, **editor gutter**, **notification
 
 ![Oni UI - Info Colors](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/info.png)
 
-[<div align="right">⬆</div>](#table-of-contents)
+<p align="right"><a href="#table-of-contents">⬆</a></p>
 
 ### Tabs <!-- omit in toc -->
 
@@ -262,7 +262,7 @@ _<div align="left"> (Main Color: Mint / Background: Dark Grey) </div>_
 
 ![Tab](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/tabs.gif)
 
-[<div align="right">⬆</div>](#table-of-contents)
+<p align="right"><a href="#table-of-contents">⬆</a></p>
 
 ### Panel and Terminal <!-- omit in toc -->
 
@@ -272,7 +272,7 @@ For more information on how to customized it, check [VSCode Customization's page
 
 ![Terminal](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/oni-ui/terminal.png)
 
-[<div align="right">⬆</div>](#table-of-contents)
+<p align="right"><a href="#table-of-contents">⬆</a></p>
 
 ## Extensions
 
@@ -294,13 +294,13 @@ _<div align="left"> ( **Pegasus** / Cerberus ) </div>_
 
 ![Bracket Pair Colorizer Customization](https://raw.githubusercontent.com/psudo-dev/nebula-oni-theme/main/doc/extra/extensions-bracket_indent_pegasus.png)
 
-[<div align="right">⬆</div>](#table-of-contents)
+<p align="right"><a href="#table-of-contents">⬆</a></p>
 
 ## VSCode Customization
 
 If you want more information on how to customize your **Oni UI** and **Nebula Syntax**, I made this [quick guide](https://github.com/psudo-dev/nebula-oni-theme/blob/main/doc/CUSTOMIZATION.md) with the basics to customize the workbench and the syntax.
 
-[<div align="right">⬆</div>](#table-of-contents)
+<p align="right"><a href="#table-of-contents">⬆</a></p>
 
 ## More Info <!-- omit in toc -->
 
@@ -311,11 +311,15 @@ If you want more information on how to customize your **Oni UI** and **Nebula Sy
 
 ## Release History
 
-- [more information](https://github.com/psudo-dev/nebula-oni-theme/releases/)
+**v3.0.0** marks a complete rewrite of the extension from JavaScript to TypeScript using functional programming principles. The refactor was both a learning exercise in TypeScript and functional programming, and an opportunity to make the codebase cleaner, more readable and easier to maintain going forward.
+
+The original JavaScript codebase is preserved in the `legacy-v2` branch for reference.
+
+- [Release History](https://github.com/psudo-dev/nebula-oni-theme/releases/)
 
 ## Issues and Suggestions
 
-- [more information](https://github.com/psudo-dev/nebula-oni-theme/issues/new/choose)
+- [More information](https://github.com/psudo-dev/nebula-oni-theme/issues/new/choose)
 
 ## References and Links
 
@@ -324,7 +328,7 @@ If you want more information on how to customize your **Oni UI** and **Nebula Sy
 - [Syntax Highlight Guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
 - [Semantic Highlight Guide](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-token-classification)
 
-[<div align="right">⬆</div>](#table-of-contents)
+<p align="right"><a href="#table-of-contents">⬆</a></p>
 
 ## Author
 
