@@ -37,7 +37,7 @@ export function activate(context: vscode.ExtensionContext) {
 	if (storedVersion === undefined) {
 		const existingConfig = getRestoreConfig();
 		if (existingConfig) {
-			// < v2 update
+			// < coming from v2 update
 			generateThemes(existingConfig.themeSettings);
 			generateFavorite(existingConfig.favoriteSettings);
 			showUpdateMessage(updateMessage, psudoFontOption);
@@ -47,6 +47,7 @@ export function activate(context: vscode.ExtensionContext) {
 			showInstallMessage(installMessage, psudoFontOption);
 		}
 		context.globalState.update("version", currentVersion);
+		// < updates from v3 onwards
 	} else if (storedVersion !== currentVersion) {
 		const { themeSettings, favoriteSettings } = getRestoreConfig()!;
 		generateThemes(themeSettings);
