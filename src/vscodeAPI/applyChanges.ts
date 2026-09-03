@@ -2,6 +2,7 @@ import { generateFavorite } from "../theme/generateFavorite";
 import { generateThemes } from "../theme/generateThemes";
 import { showReloadPrompt } from "./information";
 import { reloadMessage } from "./messages";
+import { getSanitizedRestoreConfig } from "./sanitizeRestoreConfig";
 import {
 	getRestoreConfig,
 	getThemeSettings,
@@ -11,18 +12,23 @@ import {
 } from "./settings";
 
 export const applyChanges = async (onComplete: () => void) => {
-	const currentSettings = getThemeSettings();
-	const { themeSettings, favoriteSettings } = getRestoreConfig()!;
+	try {
+		const currentSettings = getThemeSettings();
+		const existingConfig = getRestoreConfig();
+		const { themeSettings, favoriteSettings } =
+			await getSanitizedRestoreConfig(existingConfig);
 
-	if (currentSettings.favorite === "OFF") {
-		generateThemes(currentSettings);
-		saveRestoreConfig(currentSettings, favoriteSettings);
-	} else {
-		generateFavorite(currentSettings);
-		await resetFavorite();
-		saveRestoreConfig(themeSettings, currentSettings);
+		if (currentSettings.favorite === "OFF") {
+			generateThemes(currentSettings);
+			await saveRestoreConfig(currentSettings, favoriteSettings);
+		} else {
+			generateFavorite(currentSettings);
+			await resetFavorite();
+			await saveRestoreConfig(themeSettings, currentSettings);
+		}
+		await resetApplyChanges();
+		showReloadPrompt(reloadMessage);
+	} finally {
+		onComplete();
 	}
-	await resetApplyChanges();
-	onComplete();
-	showReloadPrompt(reloadMessage);
 };
