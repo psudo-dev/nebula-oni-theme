@@ -20,12 +20,13 @@ import {
 import { generateThemes } from "../theme/generateThemes";
 import { generateFavorite } from "../theme/generateFavorite";
 import { applyChanges } from "../vscodeAPI/applyChanges";
+import { saveSanitizedRestoreConfig } from "../vscodeAPI/sanitizeRestoreConfig";
 
 // + prevents the listener to misfire
 // + while applyChanges() is still running
 let isApplying = false;
 
-export function activate(context: vscode.ExtensionContext) {
+export async function activate(context: vscode.ExtensionContext) {
 	// ~ extension host tests
 	// > to test fresh install
 	// context.globalState.update("version", undefined);
@@ -33,27 +34,33 @@ export function activate(context: vscode.ExtensionContext) {
 	// context.globalState.update("version", "2.0.0");
 	const currentVersion = context.extension.packageJSON.version;
 	const storedVersion = context.globalState.get<string>("version");
+	const existingConfig = getRestoreConfig();
 
 	if (storedVersion === undefined) {
-		const existingConfig = getRestoreConfig();
 		if (existingConfig) {
 			// < coming from v2 update
-			generateThemes(existingConfig.themeSettings);
-			generateFavorite(existingConfig.favoriteSettings);
+			const { themeSettings, favoriteSettings } =
+				await saveSanitizedRestoreConfig(existingConfig);
+			generateThemes(themeSettings);
+			generateFavorite(favoriteSettings);
 			showUpdateMessage(updateMessage, psudoFontOption);
 		} else {
 			// < fresh install
-			saveRestoreConfig(defaultThemeSettings, defaultFavoriteSettings);
+			await saveRestoreConfig(
+				defaultThemeSettings,
+				defaultFavoriteSettings,
+			);
 			showInstallMessage(installMessage, psudoFontOption);
 		}
-		context.globalState.update("version", currentVersion);
+		await context.globalState.update("version", currentVersion);
 		// < updates from v3 onwards
 	} else if (storedVersion !== currentVersion) {
-		const { themeSettings, favoriteSettings } = getRestoreConfig()!;
+		const { themeSettings, favoriteSettings } =
+			await saveSanitizedRestoreConfig(existingConfig);
 		generateThemes(themeSettings);
 		generateFavorite(favoriteSettings);
 		showUpdateMessage(updateMessage, psudoFontOption);
-		context.globalState.update("version", currentVersion);
+		await context.globalState.update("version", currentVersion);
 	}
 	// ~ extension .vsix tests
 	// > to reset global state (fresh install)

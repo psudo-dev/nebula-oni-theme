@@ -1,36 +1,32 @@
 import * as vscode from "vscode";
-import {
-	Background,
-	Comments,
-	Favorite,
-	FocusBorder,
-	FontStyle,
-	Highlight,
-	Main,
-	RestoreConfiguration,
-	SyntaxBrightness,
-	ThemeSettings,
-} from "../types/settings";
+import { RestoreConfiguration, ThemeSettings } from "../types/settings";
+import { sanitizeThemeSettings } from "./sanitizeRestoreConfig";
+import { defaultThemeSettings } from "./defaults";
 
 export const nebulaOniTheme = () =>
 	vscode.workspace.getConfiguration("nebulaOni");
 
 export const getThemeSettings = (): ThemeSettings => {
 	const config = nebulaOniTheme();
-	return {
-		background: config.get("color.backgroundColor") as Background,
-		main: config.get("color.mainColor") as Main,
-		highlight: config.get(
-			"interface.editorSelectionAndFindMatch",
-		) as Highlight,
-		focusBorder: config.get("interface.focusBorder") as FocusBorder,
-		fontStyle: config.get("editor.fontStyle") as FontStyle,
-		syntaxBrightness: config.get(
-			"editor.syntaxBrightness",
-		) as SyntaxBrightness,
-		comments: config.get("editor.comments") as Comments,
-		favorite: config.get("add.favorite") as Favorite,
+
+	const rawSettings: Partial<ThemeSettings> = {
+		background: config.get("color.backgroundColor"),
+		main: config.get("color.mainColor"),
+		highlight: config.get("interface.editorSelectionAndFindMatch"),
+		focusBorder: config.get("interface.focusBorder"),
+		fontStyle: config.get("editor.fontStyle"),
+		syntaxBrightness: config.get("editor.syntaxBrightness"),
+		comments: config.get("editor.comments"),
+		favorite: config.get("add.favorite"),
 	};
+
+	const [sanitizedSettings] = sanitizeThemeSettings(
+		"menu",
+		rawSettings,
+		defaultThemeSettings,
+	);
+
+	return sanitizedSettings;
 };
 
 export const getApplyChanges = () => {
