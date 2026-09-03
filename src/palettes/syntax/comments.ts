@@ -3,7 +3,7 @@ import { SyntaxBrightness } from "../../types/settings";
 const commentPalettes = {
 	Normal: {
 		"Dark Grey": "#737880",
-		"Light Grey": "#8A9099",
+		"Light Grey": "#989FA9",
 		"Dark Magenta": "#9559B3",
 		"Light Magenta": "#AA66CC",
 		"Dark Forest": "#498C49",
