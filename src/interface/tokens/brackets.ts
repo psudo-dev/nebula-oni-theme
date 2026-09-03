@@ -1,9 +1,9 @@
-import { syntaxNames } from "../../types/settings";
+import { SyntaxNames } from "../../types/settings";
 import { BasePalette } from "../../types/colors";
 import { ThemeInterfaceProperty } from "../../types/theme";
 
 export const buildBrackets = (
-	syntaxName: syntaxNames,
+	syntaxName: SyntaxNames,
 	basePalette: BasePalette,
 ): ThemeInterfaceProperty => {
 	if (syntaxName === "Hourglass" || syntaxName === "Spirograph") {
