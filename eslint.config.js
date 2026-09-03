@@ -16,7 +16,7 @@ export default [
 			"@typescript-eslint": { rules: tseslint.rules },
 		},
 		rules: {
-			"curly": "warn",
+			"curly": ["warn", "multi-line"],
 			"eqeqeq": "warn",
 			"no-throw-literal": "warn",
 			"semi": "off",
