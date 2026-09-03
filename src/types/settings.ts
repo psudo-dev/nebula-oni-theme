@@ -1,45 +1,77 @@
-export type Background =
-	| "Grey"
-	| "Dark Grey"
-	| "Blue"
-	| "Glacial Blue"
-	| "Purple"
-	| "Deep Purple";
+export const backgroundValues = [
+	"Grey",
+	"Dark Grey",
+	"Blue",
+	"Glacial Blue",
+	"Purple",
+	"Deep Purple",
+] as const;
 
-export type Main =
-	| "Bumblebee"
-	| "Lavender"
-	| "Sakura"
-	| "Mint"
-	| "Peach"
-	| "Aqua";
+export type Background = (typeof backgroundValues)[number];
 
-export type Comments =
-	| "Dark Grey"
-	| "Light Grey"
-	| "Dark Magenta"
-	| "Light Magenta"
-	| "Dark Forest"
-	| "Light Forest"
-	| "Dark Violet"
-	| "Light Violet";
+export const mainValues = [
+	"Bumblebee",
+	"Lavender",
+	"Sakura",
+	"Mint",
+	"Peach",
+	"Aqua",
+] as const;
 
-export type Highlight = "Ultra Violet" | "Clear";
+export type Main = (typeof mainValues)[number];
 
-export type Favorite =
-	| "Nebula Oni (Hourglass)"
-	| "Nebula Oni (Pegasus)"
-	| "Nebula Oni (Spirograph)"
-	| "Nebula Oni (Cerberus)"
-	| "OFF";
+export const commentValues = [
+	"Dark Grey",
+	"Light Grey",
+	"Dark Magenta",
+	"Light Magenta",
+	"Dark Forest",
+	"Light Forest",
+	"Dark Violet",
+	"Light Violet",
+] as const;
 
-export type FocusBorder = "ON" | "OFF";
+export type Comments = (typeof commentValues)[number];
 
-export type FontStyle = "Regular" | "Italic";
+export const highlightValues = ["Ultra Violet", "Clear"] as const;
 
-export type SyntaxBrightness = "Normal" | "Dimmed";
+export type Highlight = (typeof highlightValues)[number];
 
-export type SyntaxNames = "Hourglass" | "Pegasus" | "Spirograph" | "Cerberus";
+export const favoriteOffValue = ["OFF"] as const;
+
+export type FavoriteOff = (typeof favoriteOffValue)[number];
+
+export const favoriteSyntaxValues = [
+	"Nebula Oni (Hourglass)",
+	"Nebula Oni (Pegasus)",
+	"Nebula Oni (Spirograph)",
+	"Nebula Oni (Cerberus)",
+] as const;
+
+export type FavoriteSyntax = (typeof favoriteSyntaxValues)[number];
+
+export type Favorite = FavoriteOff | FavoriteSyntax;
+
+export const focusBorderValues = ["ON", "OFF"] as const;
+
+export type FocusBorder = (typeof focusBorderValues)[number];
+
+export const fontStyleValues = ["Regular", "Italic"] as const;
+
+export type FontStyle = (typeof fontStyleValues)[number];
+
+export const syntaxBrightnessValues = ["Normal", "Dimmed"] as const;
+
+export type SyntaxBrightness = (typeof syntaxBrightnessValues)[number];
+
+export const syntaxNameValues = [
+	"Hourglass",
+	"Pegasus",
+	"Spirograph",
+	"Cerberus",
+] as const;
+
+export type SyntaxNames = (typeof syntaxNameValues)[number];
 
 export type ThemeSettings = {
 	background: Background;
@@ -56,3 +88,5 @@ export type RestoreConfiguration = {
 	themeSettings: ThemeSettings;
 	favoriteSettings: ThemeSettings;
 };
+
+export type ThemeType = "theme" | "favorite" | "menu";
