@@ -1,5 +1,5 @@
-import { CommentPalette } from "../../types/colors";
-import { Comments } from "../../types/settings";
+import type { CommentPalette } from "../../types/colors";
+import type { Comments } from "../../types/settings";
 
 export const buildCommentTokens = (
 	commentPalette: CommentPalette,

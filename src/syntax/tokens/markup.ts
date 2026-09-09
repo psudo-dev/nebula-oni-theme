@@ -1,5 +1,5 @@
-import { SyntaxPalette } from "../../types/colors";
-import { TextmateToken } from "../../types/tokens";
+import type { SyntaxPalette } from "../../types/colors";
+import type { TextmateToken } from "../../types/tokens";
 
 export const buildMarkupTokens = (
 	syntaxPalette: SyntaxPalette,

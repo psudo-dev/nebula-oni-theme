@@ -1,5 +1,5 @@
-import { ForegroundPalette, Opacity } from "../../types/colors";
-import { ThemeInterfaceProperty } from "../../types/theme";
+import type { ForegroundPalette, Opacity } from "../../types/colors";
+import type { ThemeInterfaceProperty } from "../../types/theme";
 
 export const buildForeground = (
 	foregroundPalette: ForegroundPalette,

@@ -1,5 +1,5 @@
-import { SyntaxNames, ThemeSettings } from "../types/settings";
-import { ThemeSyntax } from "../types/theme";
+import type { SyntaxNames, ThemeSettings } from "../types/settings";
+import type { ThemeSyntax } from "../types/theme";
 import { buildSemantic } from "./buildSemantic";
 import { buildTextmate } from "./buildTextmate";
 

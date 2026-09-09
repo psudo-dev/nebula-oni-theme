@@ -1,5 +1,5 @@
-import { InfoPalette } from "../../types/colors";
-import { Background } from "../../types/settings";
+import type { InfoPalette } from "../../types/colors";
+import type { Background } from "../../types/settings";
 import { basePalette } from "./base";
 
 export const infoGrey: InfoPalette = {

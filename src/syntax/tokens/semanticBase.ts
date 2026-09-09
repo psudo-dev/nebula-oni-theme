@@ -1,7 +1,7 @@
 import { getSchemePalette } from "../../palettes/syntax/syntaxNames";
-import { SyntaxPalette } from "../../types/colors";
-import { FontStyle, SyntaxNames } from "../../types/settings";
-import { SemanticToken } from "../../types/tokens";
+import type { SyntaxPalette } from "../../types/colors";
+import type { FontStyle, SyntaxNames } from "../../types/settings";
+import type { SemanticToken } from "../../types/tokens";
 
 export const buildSemanticBase = (
 	syntaxName: SyntaxNames,

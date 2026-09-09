@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { ThemeSettings, SyntaxNames } from "../types/settings";
+import type { SyntaxNames, ThemeSettings } from "../types/settings";
 import { buildTheme } from "./buildTheme";
 
 export const generateFavorite = (settings: ThemeSettings): void => {

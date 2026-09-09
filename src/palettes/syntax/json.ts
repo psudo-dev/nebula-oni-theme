@@ -1,5 +1,5 @@
-import { JsonPalette, SyntaxPalette } from "../../types/colors";
-import { SyntaxNames } from "../../types/settings";
+import type { JsonPalette, SyntaxPalette } from "../../types/colors";
+import type { SyntaxNames } from "../../types/settings";
 
 export const getJsonPalette = (
 	syntaxName: SyntaxNames,

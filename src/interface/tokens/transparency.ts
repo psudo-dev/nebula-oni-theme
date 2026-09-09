@@ -1,5 +1,5 @@
-import { BasePalette, Opacity } from "../../types/colors";
-import { ThemeInterfaceProperty } from "../../types/theme";
+import type { BasePalette, Opacity } from "../../types/colors";
+import type { ThemeInterfaceProperty } from "../../types/theme";
 
 export const buildTransparency = (
 	basePalette: BasePalette,

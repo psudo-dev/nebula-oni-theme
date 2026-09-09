@@ -1,4 +1,4 @@
-import { ThemeSettings } from "../types/settings";
+import type { ThemeSettings } from "../types/settings";
 
 export const defaultThemeSettings: ThemeSettings = {
 	background: "Grey",

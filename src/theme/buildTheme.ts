@@ -1,7 +1,7 @@
 import { buildInterface } from "../interface/buildInterface";
 import { buildSyntax } from "../syntax/buildSyntax";
-import { SyntaxNames, ThemeSettings } from "../types/settings";
-import { Theme } from "../types/theme";
+import type { SyntaxNames, ThemeSettings } from "../types/settings";
+import type { Theme } from "../types/theme";
 
 export const buildTheme = (
 	settings: ThemeSettings,

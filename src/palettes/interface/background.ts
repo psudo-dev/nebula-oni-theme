@@ -1,5 +1,5 @@
-import { BackgroundPalette } from "../../types/colors";
-import { Background } from "../../types/settings";
+import type { BackgroundPalette } from "../../types/colors";
+import type { Background } from "../../types/settings";
 
 export const bgGrey: BackgroundPalette = {
 	zero: "#00000000",

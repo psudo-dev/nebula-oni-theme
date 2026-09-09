@@ -1,5 +1,5 @@
-import { SchemePalette, SyntaxPalette } from "../../types/colors";
-import { SyntaxNames } from "../../types/settings";
+import type { SchemePalette, SyntaxPalette } from "../../types/colors";
+import type { SyntaxNames } from "../../types/settings";
 
 export const getSchemePalette = (
 	syntaxPalette: SyntaxPalette,

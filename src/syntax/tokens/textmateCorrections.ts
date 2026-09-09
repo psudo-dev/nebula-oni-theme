@@ -1,6 +1,6 @@
-import { SyntaxPalette } from "../../types/colors";
-import { SyntaxNames } from "../../types/settings";
-import { TextmateToken } from "../../types/tokens";
+import type { SyntaxPalette } from "../../types/colors";
+import type { SyntaxNames } from "../../types/settings";
+import type { TextmateToken } from "../../types/tokens";
 
 export const buildTextmateCorrections = (
 	syntaxName: SyntaxNames,

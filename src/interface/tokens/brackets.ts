@@ -1,6 +1,6 @@
-import { SyntaxNames } from "../../types/settings";
-import { BasePalette } from "../../types/colors";
-import { ThemeInterfaceProperty } from "../../types/theme";
+import type { BasePalette } from "../../types/colors";
+import type { SyntaxNames } from "../../types/settings";
+import type { ThemeInterfaceProperty } from "../../types/theme";
 
 export const buildBrackets = (
 	syntaxName: SyntaxNames,

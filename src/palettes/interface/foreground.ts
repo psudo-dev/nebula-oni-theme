@@ -1,5 +1,5 @@
-import { ForegroundPalette } from "../../types/colors";
-import { Background } from "../../types/settings";
+import type { ForegroundPalette } from "../../types/colors";
+import type { Background } from "../../types/settings";
 
 const foregroundGrey: ForegroundPalette = {
 	foreground: "#B4BBC8",

@@ -1,4 +1,4 @@
-import { SyntaxNames, ThemeSettings } from "../types/settings";
+import type { SyntaxNames, ThemeSettings } from "../types/settings";
 import { writeTheme } from "./writeTheme";
 
 export const generateThemes = (settings: ThemeSettings): void => {

@@ -1,4 +1,4 @@
-import { SyntaxBrightness } from "../../types/settings";
+import type { SyntaxBrightness } from "../../types/settings";
 
 const syntaxPalettes = {
 	Normal: {

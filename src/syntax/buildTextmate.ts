@@ -1,13 +1,13 @@
+import { getCommentPalette } from "../palettes/syntax/comments";
 import { getSyntaxPalette } from "../palettes/syntax/syntax";
-import { SyntaxNames, ThemeSettings } from "../types/settings";
-import { TextmateToken } from "../types/tokens";
+import type { SyntaxNames, ThemeSettings } from "../types/settings";
+import type { TextmateToken } from "../types/tokens";
 import { buildCommentTokens } from "./tokens/comments";
 import { buildJsonTokens } from "./tokens/json";
 import { buildMarkupTokens } from "./tokens/markup";
 import { buildRegexpTokens } from "./tokens/regexp";
 import { buildTextmateBase } from "./tokens/textmateBase";
 import { buildTextmateCorrections } from "./tokens/textmateCorrections";
-import { getCommentPalette } from "../palettes/syntax/comments";
 
 export const buildTextmate = (
 	settings: ThemeSettings,

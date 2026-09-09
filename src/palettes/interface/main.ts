@@ -1,5 +1,5 @@
-import { HexColor, MainPalette } from "../../types/colors";
-import { Main } from "../../types/settings";
+import type { HexColor, MainPalette } from "../../types/colors";
+import type { Main } from "../../types/settings";
 
 const mainBasePalette: Record<string, HexColor> = {
 	yellow: "#FFE14D",

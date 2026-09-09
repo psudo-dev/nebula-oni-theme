@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { SyntaxNames, ThemeSettings } from "../types/settings";
+import type { SyntaxNames, ThemeSettings } from "../types/settings";
 import { buildTheme } from "./buildTheme";
 
 export const writeTheme = (

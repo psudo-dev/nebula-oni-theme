@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
-import { RestoreConfiguration, ThemeSettings } from "../types/settings";
-import { sanitizeThemeSettings } from "./sanitizeRestoreConfig";
+import type { RestoreConfiguration, ThemeSettings } from "../types/settings";
 import { defaultThemeSettings } from "./defaults";
+import { sanitizeThemeSettings } from "./sanitizeRestoreConfig";
 
 export const nebulaOniTheme = () =>
 	vscode.workspace.getConfiguration("nebulaOni");
